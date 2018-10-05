@@ -1,0 +1,59 @@
+{
+  "name": "telepresence-robot",
+  "version": "1.0.0",
+  "homepage": "https://mysterious-mesa-29296.herokuapp.com/",
+  "author": "Sanoj Punchihewa",
+  "description": "Nodejs App with Vuejs and WebRTC video stream with EasyRTC",
+  "main": "server",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "async": "0.2.x",
+    "axios": "^0.16.2",
+    "bcrypt": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.0.0-beta.2",
+    "colors": "*",
+    "connect-mongo": "^2.0.1",
+    "cors": "^2.8.4",
+    "css-loader": "^0.28.7",
+    "express": "^4.10.7",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.2",
+    "node-ssh": "^5.1.2",
+    "nodemailer": "^4.6.7",
+    "path": "^0.12.7",
+    "serve-static": "^1.8.0",
+    "socket.io": "^1.4.5",
+    "ssh2": "^0.6.1",
+    "ssh2-sftp-client": "^3.1.0",
+    "underscore": "1.5.x",
+    "vue": "^2.5.11",
+    "vue-axios": "^2.0.2",
+    "vuetify": "^1.0.18"
+  },
+  "analyze": false,
+  "license": "BSD-2-Clause",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "fs": "0.0.2",
+    "prettier": "^1.9.2",
+    "requirejs": "^2.2.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
