@@ -1,0 +1,64 @@
+﻿Number of Senteces
+23
+
+Example: sentence
+Beside the camp-fire earlier in the evening he and his younger brother, Roger, had listened to the voices of the forest while their Father, John Hunt, told them what they were hearing.
+
+Example: constituency parse
+(ROOT (S (S (NP (NNP Hunt)) (VP (VBD had) (VP (VBN said)))) (, ,) (S (`` `) (NP (PRP It)) (VP (VBZ 's) (PP (IN like) (NP (DT an) (NN orchestra)))) (, ,) ('' ')) (. .)))
+
+Example: dependency parse
+-> said/VBN (root)
+  -> Hunt/NNP (nsubj)
+  -> had/VBD (aux)
+  -> ,/, (punct)
+  -> `/`` (punct)
+  -> orchestra/NN (ccomp)
+    -> It/PRP (nsubj)
+    -> 's/VBZ (cop)
+    -> like/IN (case)
+    -> an/DT (det)
+    -> ,/, (punct)
+    -> '/'' (punct)
+  -> ./. (punct)
+
+
+Example: entity mentions
+[Hunt]
+
+Example: original entity mention
+Hal
+Example: canonical entity mention
+Hal
+
+quote: 1
+?It?s like an orchestra,?
+original speaker of quote
+Hunt
+canonical speaker of quote
+John Hunt
+sentence index of quote: 10
+
+quote: 2
+?Those high violins you hear are being played by the jackals. That crazy trombone - the hyena is playing it. The hippo is on the bass tuba. Doesn?t that wart-hog?s 'arnk-arnk-arnk' sound just like a snare drum? And listen - far away ? you can just hear it, a lion on the 'cello'.?
+original speaker of quote
+Roger
+canonical speaker of quote
+Roger
+sentence index of quote: 11
+
+quote: 3
+?Who?s that with the saxophone??
+original speaker of quote
+Roger
+canonical speaker of quote
+Roger
+sentence index of quote: 16
+
+quote: 4
+?The elephant. He?s good on the trumpet too.?
+original speaker of quote
+Roger
+canonical speaker of quote
+Roger
+sentence index of quote: 18
