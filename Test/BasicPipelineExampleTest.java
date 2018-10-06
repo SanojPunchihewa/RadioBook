@@ -5,6 +5,8 @@ import edu.stanford.nlp.ie.util.*;
 import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.semgraph.*;
 import edu.stanford.nlp.trees.*;
+import org.junit.Assert;
+import org.junit.Test;
 import java.util.*;
 
 
@@ -37,17 +39,19 @@ public class BasicPipelineExampleTest {
     }
 
     public void noOfSentences(){
-        System.out.println("Number of Senteces");
-        System.out.println(document.sentences().size());
-        System.out.println();
+        //System.out.println("Number of Senteces");
+        //System.out.println(document.sentences().size());
+        //System.out.println();
+        Assert.assertEquals(document.sentences().size(), 23);
     }
 
     public void textOfTheFirstSentence(){
         // text of the first sentence
         String sentenceText = document.sentences().get(9).text();
-        System.out.println("Example: sentence");
-        System.out.println(sentenceText);
-        System.out.println();
+        //System.out.println("Example: sentence");
+        //System.out.println(sentenceText);
+       // System.out.println();
+       Assert.assertEquals(sentenceText, "Beside the camp-fire earlier in the evening he and his younger brother, Roger, had listened to the voices of the forest while their Father, John Hunt, told them what they were hearing.");
     }
 
     public void secondSentence(){
@@ -56,32 +60,35 @@ public class BasicPipelineExampleTest {
 
     public void constituencyParseForSecondSent(){
         Tree constituencyParse = sentence.constituencyParse();
-        System.out.println("Example: constituency parse");
-        System.out.println(constituencyParse);
-        System.out.println();
+        //System.out.println("Example: constituency parse");
+        //System.out.println(constituencyParse);
+        //System.out.println();
     }
     
     public void dependencyParseForSencondSent(){
         SemanticGraph dependencyParse = sentence.dependencyParse();
-        System.out.println("Example: dependency parse");
-        System.out.println(dependencyParse);
-        System.out.println();
+        //System.out.println("Example: dependency parse");
+        //System.out.println(dependencyParse);
+        //System.out.println();
     }
 
     public void entityMentionsSecondSent(){
         List<CoreEntityMention> entityMentions = sentence.entityMentions();
-        System.out.println("Example: entity mentions");
-        System.out.println(entityMentions);
-        System.out.println();
+        //System.out.println("Example: entity mentions");
+        //System.out.println(entityMentions);
+        //System.out.println();
+        Assert.assertEquals(entityMentions, "[Hunt]");
     }
 
     public void coreferenceBetweenEntityMentions(){
         CoreEntityMention originalEntityMention = document.sentences().get(0).entityMentions().get(0);
-        System.out.println("Example: original entity mention");
-        System.out.println(originalEntityMention);
-        System.out.println("Example: canonical entity mention");
-        System.out.println(originalEntityMention.canonicalEntityMention().get());
-        System.out.println();
+        //System.out.println("Example: original entity mention");
+       // System.out.println(originalEntityMention);
+        Assert.assertEquals(originalEntityMention, "Hal");
+        //System.out.println("Example: canonical entity mention");
+        //System.out.println(originalEntityMention.canonicalEntityMention().get());
+        //System.out.println();
+        Assert.assertEquals(originalEntityMention.canonicalEntityMention().get(), "Hal");
     }
 
     public void getQuotesInTheDocument(){
