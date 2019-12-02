@@ -1,6 +1,8 @@
 # Intellij
 .idea/
 RadioBook/.idea/
+GenderClassifier\ClassifierPreprocessor\.idea
+GenderClassifier\RNN\.idea
 *.iml
 *.iws
 
@@ -9,3 +11,4 @@ RadioBook/.idea/
 
 # Maven
 NLP/target
+GenderClassifier\ClassifierPreprocessor\target
