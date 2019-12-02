@@ -29,6 +29,6 @@ for i in range(len(predicted_genders)):
     else:
         female_speaker_list.append(speaker_list[i])
 
-female_speakers_file = open("../female_speaker.txt", "w").write(list_to_string(female_speaker_list))
+female_speakers_file = open("../female_speakers.txt", "w").write(list_to_string(female_speaker_list))
 male_speakers_file = open("../male_speakers.txt", "w").write(list_to_string(male_speaker_list))
 
