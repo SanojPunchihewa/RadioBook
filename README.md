@@ -19,6 +19,7 @@ geography, culture and etc, the former approach is somewhat inefficient and impr
 inferred model of a well trained RNN classifier performs comperatively far better accuracy and coverage.
 
 The classsifier algorithm consists of 2 main parts.
+
 **1.  Classifier Preproccesor**(Java with Maven)
 The output from the NLP pipeline comprises of quotes related with corresponding speaker for them and additional attributes, in JSON format. A speaker can be repeated more than once. Thus, these need to preprocessed before input to the classifier.
        - Input - nlp_output.json
