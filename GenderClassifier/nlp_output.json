@@ -1,0 +1,11 @@
+[
+  { "speaker":"Anjana", "quote":"good morning!", "isAttributeTag":false },
+  { "speaker":"John", "quote":"good morning!", "isAttributeTag":false },
+  { "speaker":"Anna", "quote":"Will you read the newspaper for me?", "isAttributeTag":false },
+  { "speaker":"Peter", "quote":"good morning!", "isAttributeTag":false },
+  { "speaker":"David", "quote":"good morning!", "isAttributeTag":false },
+  { "speaker":"Elizabeth", "quote":"Brexit!", "isAttributeTag":false },
+  { "speaker":"Hanna", "quote":"good afternoon!", "isAttributeTag":false },
+  { "speaker":"Peter", "quote":"good morning!", "isAttributeTag":false },
+  { "speaker":"Hanna", "quote":"Will you read the newspaper for me?", "isAttributeTag":false }
+]
