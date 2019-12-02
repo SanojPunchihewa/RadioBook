@@ -31,9 +31,9 @@ The output from the NLP pipeline comprises of quotes related with corresponding 
 
   Compile with maven and run *ClassifierInputPreprocessor.java* with the *nlp_output.json* file in the root directory(GenderClassifier).   Once completed it will generate a *speaker_list.txt* to the root directory.
 
-**2. RNN Classifier**(Python with Pytorch)
+**2. RNN Classifier**(Python with Pytorch)([from Name2Gender](https://github.com/ellisbrown/name2gender/tree/master/rnn "RNN classifier"))
 
-RNN classifier is an opensource Python code from internet modified for our use case. It takes a list of names and outputs the predicted gender set for each name with a certain probabilities. In our case, we have filtered out the predicted gender set to take the most prominent gender with highest probability from the model. RNN classifier has 2 use cases.
+This [RNN classifier](https://github.com/ellisbrown/name2gender/tree/master/rnn "RNN classifier") is an opensource Python code from internet, modified for our use case. It takes a list of names and outputs the predicted gender set for each name with a certain probabilities. In our case, we have filtered out the predicted gender set to take the most prominent gender with highest probability from the model. RNN classifier has 2 use cases.
 - **run_trainer.py** - The python script to train the model
 - **run_predictor.py**
 Once model is trained, this script can be used to predit with the inferred model or an user can directly use the existing inferred model in the repo with this.
