@@ -1,0 +1,6 @@
+JOHN\tMALE
+Hunt\tMALE
+Roger\tMALE
+Hal\tMALE
+PETER\tMALE
+JAMES\tMALE
