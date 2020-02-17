@@ -3,6 +3,9 @@
 RadioBook/.idea/
 GenderClassifier\ClassifierPreprocessor\.idea
 GenderClassifier\RNN\.idea
+GenderClassifier/ClassifierPreprocessor/target/
+GenderClassifier/RNN/__pycache__/
+GenderClassifier/RNN/weights/
 *.iml
 *.iws
 
