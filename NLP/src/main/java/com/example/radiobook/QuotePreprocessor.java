@@ -28,9 +28,8 @@ public class QuotePreprocessor {
     // Classification of quotes
     //
     public Quote[] classify() {
-        String prevSentence = "", currentSentence = "", prevSpeaker = "", currentSpeaker;
-        int prevQuoteLastIdx = 0, prevQuoteLastSentenceIdx = 0, prevSentenceIdx = 0, currentSentenceIdx = 0, quoteStartingIdx, quoteLength = 0;
-        boolean isTag;
+        String currentSentence = "", prevSpeaker = "", currentSpeaker;
+        int prevQuoteLastIdx = 0, lastQuoteSentenceIdx = 0, prevSentenceIdx = 0, currentSentenceIdx = 0, quoteStartingIdx, quoteLength;
         List<CoreQuote> quotes = document.quotes();
         for (CoreQuote quote : quotes) {
             currentSentence = quote.sentences().get(0).text();
@@ -40,31 +39,25 @@ public class QuotePreprocessor {
             currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker?quote.canonicalSpeaker().get():defaultSpeaker);
             quoteLength = quoteStartingIdx + quote.text().length();
 
-            if ((currentSentenceIdx - prevSentenceIdx) == 1 && quoteStartingIdx == 0) {
-                if (quote.sentences().size() > 1) {
-                    int noOfQuoteSentences = quote.sentences().size();
-                    quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx + noOfQuoteSentences - 1, quoteStartingIdx, quoteLength, currentSpeaker, false, true));
-                } else {
-                    quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx, quoteStartingIdx, quoteLength, currentSpeaker, false, true));
-                }
-            } else {
-                quoteList.add(createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, defaultSpeaker, true, false));
-                if (quote.sentences().size() > 1) {
-                    int noOfQuoteSentences = quote.sentences().size();
-                    quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx + noOfQuoteSentences - 1, quoteStartingIdx, quoteLength, currentSpeaker, false, true));
-                } else {
-                    quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx, quoteStartingIdx, quoteLength, currentSpeaker, false, true));
-                }
+            if ((currentSentenceIdx - prevSentenceIdx) != 1 || quoteStartingIdx != 0) {
+                createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, defaultSpeaker, false);
             }
 
-            prevQuoteLastSentenceIdx = currentSentenceIdx + quote.sentences().size() - 1;
+            if (quote.sentences().size() > 1) {
+                int noOfQuoteSentences = quote.sentences().size();
+                createQuote(currentSentenceIdx, currentSentenceIdx + noOfQuoteSentences - 1, quoteStartingIdx, quoteLength, currentSpeaker, true);
+            } else {
+                createQuote(currentSentenceIdx, currentSentenceIdx, quoteStartingIdx, quoteLength, currentSpeaker, true);
+            }
+
+            lastQuoteSentenceIdx = currentSentenceIdx + quote.sentences().size() - 1;
             prevSentenceIdx = currentSentenceIdx;
             prevQuoteLastIdx = quoteStartingIdx + quote.text().length();
-            //prevSpeaker = currentSpeaker;
+            prevSpeaker = currentSpeaker;
         }
         int lastDocumentSentenceIdx = document.sentences().size() - 1;
-        if (prevQuoteLastSentenceIdx < lastDocumentSentenceIdx) {
-            quoteList.add(createQuote(currentSentenceIdx, lastDocumentSentenceIdx, prevQuoteLastIdx, 0, defaultSpeaker, true, false));
+        if (lastQuoteSentenceIdx < lastDocumentSentenceIdx) {
+            createQuote(currentSentenceIdx, lastDocumentSentenceIdx, prevQuoteLastIdx, 0, defaultSpeaker, false);
         }
         return null;
     }
@@ -73,10 +66,9 @@ public class QuotePreprocessor {
     // Sentence :
     // tagStartingIdx:
     // tagEndingIdx:
-    private boolean isQuoteTag(String sentence, int tagStartingIdx, int tagEndingIdx) {
-        String tag = sentence.substring(tagStartingIdx, tagEndingIdx);
-        String[] words = tag.split(TOKENIZER_REGEX);
-        return words.length < lambda;
+    private boolean isQuoteTag(String sentence) {
+        String[] words = sentence.split(TOKENIZER_REGEX);
+        return words.length <= lambda;
     }
 
     // Create a quote
@@ -87,7 +79,7 @@ public class QuotePreprocessor {
     // quote
     // speaker: quote’s speaker
     // tag: is a quote attribution tag
-    private Quote createQuote(int startingSentenceIdx, int endingSentenceIdx, int startingQuoteIdx, int endingQuoteIdx, String speaker, boolean isTag, boolean isQuote) {
+    private void createQuote(int startingSentenceIdx, int endingSentenceIdx, int startingQuoteIdx, int endingQuoteIdx, String speaker, boolean isQuote) {
         //String startingSentence = getSentenceByIndex(startingSentenceIdx);
         String endingSentence = getSentenceByIndex(endingSentenceIdx);
         StringBuffer strBuffer = new StringBuffer();
@@ -102,6 +94,7 @@ public class QuotePreprocessor {
                 }
                 strBuffer.append(tempBuffer.substring(startingQuoteIdx));
             }
+            quoteList.add(new Quote(strBuffer.toString(), speaker, false));
         } else {
             if (startingSentenceIdx == endingSentenceIdx) {
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
@@ -115,12 +108,12 @@ public class QuotePreprocessor {
                 if (endingQuoteIdx > 0)
                     strBuffer.append(endingSentence, 0, endingQuoteIdx);
             }
+            String[] sentences = strBuffer.toString().split("\\.");
+            for(String sentence : sentences) {
+                if(!sentence.isBlank())
+                    quoteList.add(new Quote(sentence, speaker, isQuoteTag(sentence)));
+            }
         }
-
-        if (strBuffer.length() > 0)
-            return new Quote(strBuffer.toString(), speaker, isTag);
-        else
-            return null;
     }
 
     // Returns the starting index of a quote in a sentence
