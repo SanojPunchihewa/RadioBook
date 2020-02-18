@@ -41,23 +41,24 @@ public class QuotePreprocessor {
                 isTag = isQuoteTag(prevSentence, prevQuoteLastIdx, length);
                 currentSpeaker = isTag ? defaultSpeaker : prevSpeaker;
                 // TODO check here
-                createQuote(prevSentenceIdx, prevSentenceIdx, prevQuoteLastIdx, length, currentSpeaker, isTag);
+                quoteList.add(createQuote(prevSentenceIdx, prevSentenceIdx, prevQuoteLastIdx, length, currentSpeaker, isTag));
                 prevQuoteLastIdx = 0;
-                length = prevSentence.length();
+                length = getSentenceByIndex((currentSentenceIdx - 1)).length();
                 // TODO check here
-                createQuote(prevSentenceIdx + 1, currentSentenceIdx - 1, prevQuoteLastIdx, length, defaultSpeaker, false);
+                quoteList.add(createQuote(prevSentenceIdx + 1, currentSentenceIdx - 1, prevQuoteLastIdx, length, defaultSpeaker, false));
                 prevSentenceIdx = currentSentenceIdx;
             }
             isTag = isQuoteTag(currentSentence, prevQuoteLastIdx, quoteIdx);
-            currentSpeaker = quote.speaker().get();
+            currentSpeaker = quote.hasSpeaker ? (quote.speaker().get()) : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
             currentSpeaker = isTag ? currentSpeaker : defaultSpeaker;
             // TODO check here
             quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteIdx, currentSpeaker, isTag));
-            prevQuoteLastIdx = quote.text().length() - 1;
+            prevQuoteLastIdx = quoteIdx + quote.text().length();
             // TODO check here
-            createQuote(currentSentenceIdx, currentSentenceIdx, quoteIdx, prevQuoteLastIdx, currentSpeaker, isTag);
+            quoteList.add(createQuote(currentSentenceIdx, currentSentenceIdx, quoteIdx, prevQuoteLastIdx, currentSpeaker, false));
             prevSpeaker = currentSpeaker;
             prevSentence = currentSentence;
+            //prevSentenceIdx = currentSentenceIdx;
         }
         return null;
     }
@@ -69,7 +70,7 @@ public class QuotePreprocessor {
     private boolean isQuoteTag(String sentence, int tagStartingIdx, int tagEndingIdx) {
         String tag = sentence.substring(tagStartingIdx, tagEndingIdx);
         String[] words = tag.split(TOKENIZER_REGEX);
-        return words.length < lambda;
+        return words.length <= lambda;
     }
 
     // Create a quote
@@ -86,9 +87,9 @@ public class QuotePreprocessor {
         StringBuffer strBuffer = new StringBuffer();
         if (startingSentenceIdx == endingSentenceIdx) {
             strBuffer.append(startingSentence, startingQuoteIdx, endingQuoteIdx);
-        } else {
+        } else if (startingSentenceIdx < endingSentenceIdx) {
             strBuffer.append(startingSentence.substring(startingQuoteIdx));
-            for (int i = startingSentenceIdx + 1; i < endingQuoteIdx; i++) {
+            for (int i = startingSentenceIdx + 1; i < endingSentenceIdx; i++) {
                 strBuffer.append(document.sentences().get(i).text());
             }
             strBuffer.append(endingSentence, 0, endingQuoteIdx);
@@ -101,7 +102,7 @@ public class QuotePreprocessor {
 
     // Returns the starting index of a quote in a sentence
     private int getQuoteStartingIdx(String sentence, String quote) {
-        return sentence.indexOf(quote);
+        return Math.max(sentence.indexOf(quote), 0);
     }
 
     private String getSentenceByIndex(int index) {
@@ -111,5 +112,16 @@ public class QuotePreprocessor {
             return new CoreDocument(annotation).sentences().get(index).text();
         else
             return null;
+    }
+
+    public void printQuotes() {
+        for (Quote quote : quoteList) {
+            if (quote != null) {
+                System.out.println("Quote: " + quote.getQuote());
+                System.out.println("Speaker: " + quote.getSpeaker());
+                System.out.println("IsTag: " + quote.isQuoteAttributionTag());
+                System.out.println();
+            }
+        }
     }
 }
