@@ -4,6 +4,7 @@ import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreQuote;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -110,7 +111,7 @@ public class QuotePreprocessor {
             }
             String[] sentences = strBuffer.toString().split("\\.");
             for(String sentence : sentences) {
-                if(!sentence.isBlank())
+                if(!StringUtils.isBlank(sentence))
                     quoteList.add(new Quote(sentence, speaker, isQuoteTag(sentence)));
             }
         }
