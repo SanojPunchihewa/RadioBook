@@ -37,11 +37,11 @@ public class QuotePreprocessor {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(currentSentence, quote.text());
 
-            currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker?quote.canonicalSpeaker().get():defaultSpeaker);
+            currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
             quoteLength = quoteStartingIdx + quote.text().length();
 
             if ((currentSentenceIdx - prevSentenceIdx) != 1 || quoteStartingIdx != 0) {
-                createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, defaultSpeaker, false);
+                createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, prevSpeaker, false);
             }
 
             if (quote.sentences().size() > 1) {
@@ -68,6 +68,7 @@ public class QuotePreprocessor {
     // tagStartingIdx:
     // tagEndingIdx:
     private boolean isQuoteTag(String sentence) {
+        sentence = StringUtils.strip(sentence);
         String[] words = sentence.split(TOKENIZER_REGEX);
         return words.length <= lambda;
     }
@@ -110,9 +111,13 @@ public class QuotePreprocessor {
                     strBuffer.append(endingSentence, 0, endingQuoteIdx);
             }
             String[] sentences = strBuffer.toString().split("\\.");
-            for(String sentence : sentences) {
-                if(!StringUtils.isBlank(sentence))
-                    quoteList.add(new Quote(sentence, speaker, isQuoteTag(sentence)));
+            boolean isTag = false;
+            for (String sentence : sentences) {
+                if (!StringUtils.isBlank(sentence)) {
+                    isTag = isQuoteTag(sentence);
+                    speaker = isTag ? speaker : defaultSpeaker;
+                    quoteList.add(new Quote(sentence, speaker, isTag));
+                }
             }
         }
     }
