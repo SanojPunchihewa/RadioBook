@@ -75,6 +75,7 @@ public class BasicPipelineExample {
         quotePreprocessor.generateEmotionsMap();
         quotePreprocessor.classify();
         quotePreprocessor.printQuotes();
+        quotePreprocessor.printSpeakerGenders();
 
 //        // get quotes in document
 //        int i = 1;

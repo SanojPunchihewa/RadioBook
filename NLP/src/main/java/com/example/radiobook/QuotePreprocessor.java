@@ -67,7 +67,7 @@ public class QuotePreprocessor {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(quote);
 
-            currentSpeaker = quote.hasSpeaker?quote.speaker().get():(quote.hasCanonicalSpeaker?quote.canonicalSpeaker().get():defaultSpeaker);
+            currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
             speakerMapAnnotator(currentSpeaker, quote);
 
             // if (quote.hasSpeaker && (quote.speakerTokens()!= null) && (quote.speakerTokens().get()!= null)) {
@@ -212,7 +212,7 @@ public class QuotePreprocessor {
     }
 
     private void speakerMapAnnotator(String speaker, CoreQuote quote) {
-        CoreLabel speakerToken = quote.speakerTokens().isPresent()?quote.speakerTokens().get().get(0):(quote.canonicalSpeakerTokens().isPresent()?quote.canonicalSpeakerTokens().get().get(0):null);
+        CoreLabel speakerToken = quote.speakerTokens().isPresent() ? quote.speakerTokens().get().get(0) : (quote.canonicalSpeakerTokens().isPresent() ? quote.canonicalSpeakerTokens().get().get(0) : null);
         Speaker tempSpeaker;
         String gender;
 
@@ -313,7 +313,19 @@ public class QuotePreprocessor {
     }
 
     public void printSpeakerGenders() {
-
+        String gender;
+        for (HashMap.Entry<String, Speaker> speakerEntry : speakerMap.entrySet()) {
+            String speakerName = speakerEntry.getKey();
+            Speaker speaker = speakerEntry.getValue();
+            if (speaker.getUnknownGenderCount() >= (speaker.getFemaleGenderCount() + speaker.getMaleGenderCount())) {
+                gender = UNKNOWN.name();
+            } else if (speaker.getMaleGenderCount() > speaker.getFemaleGenderCount()) {
+                gender = MALE.name();
+            } else {
+                gender = FEMALE.name();
+            }
+            System.out.println(speakerName + ": " + gender);
+        }
     }
 
     public void printQuotes() {
