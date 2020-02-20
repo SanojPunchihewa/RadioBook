@@ -2,10 +2,7 @@ package com.example.radiobook;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
-import edu.stanford.nlp.pipeline.Annotation;
-import edu.stanford.nlp.pipeline.CoreDocument;
-import edu.stanford.nlp.pipeline.CoreQuote;
-import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.pipeline.*;
 import edu.stanford.nlp.util.CoreMap;
 import org.apache.commons.lang3.StringUtils;
 
@@ -35,6 +32,7 @@ public class QuotePreprocessor {
         Storytelling("Storytelling");
 
         private String value;
+
         Emotion(String value) {
             this.value = value;
         }
@@ -68,21 +66,20 @@ public class QuotePreprocessor {
         for (CoreQuote quote : quotes) {
             currentSentence = quote.sentences().get(0).text();
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
-            quoteStartingIdx = getQuoteStartingIdx(currentSentence, quote.text());
+            quoteStartingIdx = getQuoteStartingIdx(quote);
             currentSpeaker = defaultSpeaker;
-            try{
+            try {
                 if (quote.hasSpeaker) {
                     currentSpeaker = quote.speaker().get();
                     speakerMapAnnotator(quote.speakerTokens().get().get(0));
                 } else if (quote.hasCanonicalSpeaker) {
                     currentSpeaker = quote.canonicalSpeaker().get();
                     speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
-                } 
-            }
-            catch (Exception e) {
+                }
+            } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.println("quote’s sentence = "+currentSentence);
+            System.out.println("quote’s sentence = " + currentSentence);
             // if (quote.hasSpeaker && (quote.speakerTokens()!= null) && (quote.speakerTokens().get()!= null)) {
             //     currentSpeaker = quote.speaker().get();
             //     speakerMapAnnotator(quote.speakerTokens().get().get(0));
@@ -153,7 +150,7 @@ public class QuotePreprocessor {
             quoteList.add(new Quote(strBuffer.toString(), speaker, false, Emotion.Neutral.value));
         } else {
             if (startingSentenceIdx == endingSentenceIdx) {
-                System.out.println("endingSentence = "+endingSentence);
+                System.out.println("endingSentence = " + endingSentence);
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
                 StringBuffer tempBuffer = new StringBuffer();
@@ -186,7 +183,7 @@ public class QuotePreprocessor {
                     return UNKNOWN;
                 } else if (malePronounFreq > femalePronounFreq) {
                     return MALE;
-                } else if (femalePronounFreq > malePronounFreq){
+                } else if (femalePronounFreq > malePronounFreq) {
                     return FEMALE;
                 } else {
                     return UNKNOWN;
@@ -205,7 +202,7 @@ public class QuotePreprocessor {
         String[] words = sentence.split(TOKENIZER_REGEX);
         String verb = checkForVerb(sentence);
         isTag = (words.length <= lambda) && (verb != null);
-        QATEmotion = getVerbEmotion(verb);
+        QATEmotion = isTag ? getVerbEmotion(verb) : Emotion.Neutral;
 
         if (isTag) {
             Speaker tempSpeaker;
@@ -228,12 +225,12 @@ public class QuotePreprocessor {
         Speaker tempSpeaker;
         String gender;
 
-        if(speakerToken != null)
+        if (speakerToken != null)
             gender = speakerToken.get(CoreAnnotations.GenderAnnotation.class);
         else
             gender = UNKNOWN.name();
 
-        if(gender == null)
+        if (gender == null)
             gender = UNKNOWN.name();
 
         if (speakerMap.containsKey(speakerToken.value())) {
@@ -266,7 +263,7 @@ public class QuotePreprocessor {
 
         List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
         for (CoreMap sentence : sentences) {
-            for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+            for (CoreLabel token : sentence.get(CoreAnnotations.TokensAnnotation.class)) {
                 String word = token.get(CoreAnnotations.TextAnnotation.class);
                 String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
                 if (pos.contains("V"))
@@ -296,8 +293,12 @@ public class QuotePreprocessor {
     }
 
     // Returns the starting index of a quote in a sentence
-    private int getQuoteStartingIdx(String sentence, String quote) {
-        return Math.max(sentence.indexOf(quote), 0);
+    private int getQuoteStartingIdx(CoreQuote quote) {
+        StringBuffer tempBuffer = new StringBuffer();
+        for (CoreSentence sentence : quote.sentences()) {
+            tempBuffer.append(sentence).append(" ");
+        }
+        return Math.max(tempBuffer.indexOf(quote.text()), 0);
     }
 
     private String getSentenceByIndex(int index) {
