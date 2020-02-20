@@ -144,7 +144,7 @@ public class QuotePreprocessor {
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
                 StringBuffer tempBuffer = new StringBuffer();
-                for (int i = startingSentenceIdx; i < endingSentenceIdx; i++) {
+                for (int i = startingSentenceIdx; i <= endingSentenceIdx; i++) {
                     tempBuffer.append(document.sentences().get(i).text()).append(" ");
                 }
                 strBuffer.append(tempBuffer.substring(startingQuoteIdx));
