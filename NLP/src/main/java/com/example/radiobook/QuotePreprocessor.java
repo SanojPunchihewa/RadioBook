@@ -5,24 +5,51 @@ import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreQuote;
+import edu.stanford.nlp.pipeline.StanfordCoreNLP;
+import edu.stanford.nlp.util.CoreMap;
 import org.apache.commons.lang3.StringUtils;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Properties;
 
 import static com.example.radiobook.Speaker.Gender.*;
 
 public class QuotePreprocessor {
+
+    private enum Emotion {
+        Affection("Affection"),
+        Amusement("Amusement"),
+        Anger("Anger"),
+        Conflict("Conflict"),
+        Determination("Determination"),
+        Excitement("Excitement"),
+        Fear("Fear"),
+        Happiness("Happiness"),
+        Neutral("Neutral"),
+        Sadness("Sadness"),
+        Storytelling("Storytelling");
+
+        private String value;
+        Emotion(String value) {
+            this.value = value;
+        }
+    }
 
     private CoreDocument document;
     private Annotation annotation;
     private int lambda = 3; // lambda an estimation of a phrase about 3 or more words
     private boolean isTag = false;
     private String defaultSpeaker = "narrator";
+    private Emotion QATEmotion;
     private final String TOKENIZER_REGEX = " ";
     public static ArrayList<Quote> quoteList = new ArrayList<>();
     private static HashMap<String, Speaker> speakerMap = new HashMap<>();
+    private static HashMap<String, Emotion> emotionsMap = new HashMap<>();
 
     public QuotePreprocessor(CoreDocument coreDocument) {
         this.document = coreDocument;
@@ -110,7 +137,7 @@ public class QuotePreprocessor {
                 }
                 strBuffer.append(tempBuffer.substring(startingQuoteIdx));
             }
-            quoteList.add(new Quote(strBuffer.toString(), speaker, false));
+            quoteList.add(new Quote(strBuffer.toString(), speaker, false, Emotion.Neutral.value));
         } else {
             if (startingSentenceIdx == endingSentenceIdx) {
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
@@ -129,7 +156,7 @@ public class QuotePreprocessor {
                 if (!StringUtils.isBlank(sentence)) {
                     tagAnnotator(sentence, speaker);
                     speaker = isTag ? speaker : defaultSpeaker;
-                    quoteList.add(new Quote(sentence, speaker, isTag));
+                    quoteList.add(new Quote(sentence, speaker, isTag, QATEmotion.value));
                 }
             }
         }
@@ -162,7 +189,9 @@ public class QuotePreprocessor {
     private void tagAnnotator(String sentence, String speaker) {
         sentence = StringUtils.strip(sentence);
         String[] words = sentence.split(TOKENIZER_REGEX);
-        isTag = words.length <= lambda;
+        String verb = checkForVerb(sentence);
+        isTag = (words.length <= lambda) && (verb != null);
+        QATEmotion = getVerbEmotion(verb);
 
         if (isTag) {
             Speaker tempSpeaker;
@@ -214,6 +243,44 @@ public class QuotePreprocessor {
         System.out.println(speakerToken.value() + ": " + gender);
     }
 
+    private String checkForVerb(String tag) {
+        Properties props = new Properties();
+        props.put("annotators", "tokenize, ssplit, pos");
+        StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
+        Annotation document = new Annotation(tag);
+        pipeline.annotate(document);
+
+        List<CoreMap> sentences = document.get(CoreAnnotations.SentencesAnnotation.class);
+        for (CoreMap sentence : sentences) {
+            for (CoreLabel token: sentence.get(CoreAnnotations.TokensAnnotation.class)) {
+                String word = token.get(CoreAnnotations.TextAnnotation.class);
+                String pos = token.get(CoreAnnotations.PartOfSpeechAnnotation.class);
+                if (pos.contains("V"))
+                    return word;
+            }
+        }
+        return null;
+    }
+
+    private Emotion getVerbEmotion(String verb) {
+        return emotionsMap.getOrDefault(verb.toLowerCase(), Emotion.Neutral);
+    }
+
+    public void generateEmotionsMap() {
+        BufferedReader reader;
+        try {
+            reader = new BufferedReader(new FileReader("emotions.csv"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] tokens = line.split(",");
+                emotionsMap.put(tokens[0], Emotion.valueOf(StringUtils.strip(tokens[1])));
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     // Returns the starting index of a quote in a sentence
     private int getQuoteStartingIdx(String sentence, String quote) {
         return Math.max(sentence.indexOf(quote), 0);
@@ -249,6 +316,7 @@ public class QuotePreprocessor {
                 System.out.println("Speaker: " + quote.getSpeaker());
                 System.out.println("Improvised Gender: " + getGender(quote.getSpeaker()).name());
                 System.out.println("IsTag: " + quote.isQuoteAttributionTag());
+                System.out.println("Emotion: " + quote.getQATEmotion());
                 System.out.println();
             }
         }

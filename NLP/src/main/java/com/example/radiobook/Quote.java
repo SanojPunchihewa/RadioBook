@@ -4,11 +4,13 @@ public class Quote {
     private String quote;
     private String speaker;
     private boolean isQuoteAttributionTag;
+    private String QATEmotion;
 
-    public Quote(String quote, String speaker, boolean isQuoteAttributionTag) {
+    public Quote(String quote, String speaker, boolean isQuoteAttributionTag, String QATEmotion) {
         this.quote = quote;
         this.speaker = speaker;
         this.isQuoteAttributionTag = isQuoteAttributionTag;
+        this.QATEmotion = QATEmotion;
     }
 
     public String getQuote() {
@@ -33,5 +35,13 @@ public class Quote {
 
     public void setQuoteAttributionTag(boolean quoteAttributionTag) {
         isQuoteAttributionTag = quoteAttributionTag;
+    }
+
+    public String getQATEmotion() {
+        return QATEmotion;
+    }
+
+    public void setQATEmotion(String QATEmotion) {
+        this.QATEmotion = QATEmotion;
     }
 }
