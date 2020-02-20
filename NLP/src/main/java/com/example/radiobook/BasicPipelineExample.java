@@ -4,7 +4,9 @@ import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
 import java.util.Properties;
-
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class BasicPipelineExample {
 
@@ -12,10 +14,29 @@ public class BasicPipelineExample {
     //public static String text = "Hal and Roger are brothers. Hal felt his heart sink. He was not ready to tell Roger yet, but shouldn’t he begin to prepare his mind for the bad, news that Smith would not return? ‘Of course,’ and he said lightly, ‘there’s always a chance that we won’t see him again.’";
     //public static String text = "Hal woke with a start. He found himself sitting up in bed, his spine tingling. What had roused him? A cry of some sort. The play of light and shadow in the tent told him that the camp-fire outside was still burning. It was meant to keep off dangerous visitors. Wild animals were all about -yet the sound he had heard did not seem the voice of an animal. Still, he could be mistaken. This was his first night in the African wilds. Beside the camp-fire earlier in the evening he and his younger brother, Roger, had listened to the voices of the forest while their Father, John Hunt, told them what they were hearing. Hunt had said, ‘It’s like an orchestra,’. ‘Those high violins you hear are being played by the jackals. That crazy trombone - the hyena is playing it. The hippo is on the bass tuba. Doesn’t that wart-hog’s 'arnk-arnk-arnk' sound just like a snare drum? And listen - far away … you can just hear it, a lion on the 'cello'.’ ‘Who’s that with the saxophone?’ asked Roger. ‘The elephant. He’s good on the trumpet too.’ A sharp grinding roar made the boys jump. Whatever made it was very close to the camp. It sounded like a rough file being dragged over the edge of a tin roof.";
     //public static String text = "Roger was awake. Hal woke with saying, ‘What will happen to us?’ Hal looked worried. Hunt said ‘Calm down all’.";
-    public static String text = "‘You always look so cool,’ Daisy repeated innocently. She had told him that she loved him, and Tom Buchanan saw. He exclaimed. His mouth opened a little and he looked at Gatsby and then back at Daisy as if he had just recognized her as someone he knew a long time ago. ‘You resemble the advertisement of the man,’ she went on innocently ‘You know the advertisement of the man’";
+    // public static String text = "‘You always look so cool,’ Daisy repeated innocently. She had told him that she loved him, and Tom Buchanan saw. He exclaimed. His mouth opened a little and he looked at Gatsby and then back at Daisy as if he had just recognized her as someone he knew a long time ago. ‘You resemble the advertisement of the man,’ she went on innocently ‘You know the advertisement of the man’";
     //public static String text = "Mary was crying. ‘I want ice cream’, she repeated aloud.";
-
+    public static String text;
     public static void main(String[] args) {
+        
+        // comment this if not used
+        // reading from a file 
+        BufferedReader reader;
+        try {
+            reader = new BufferedReader(new FileReader("chapter1.txt"));
+            StringBuilder sb = new StringBuilder();
+            String line = reader.readLine();
+            while (line != null) {
+                sb.append(line);
+                sb.append(System.lineSeparator());
+                line = reader.readLine();
+            }
+            text = sb.toString();
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         // set up pipeline properties
         Properties props = new Properties();
 
@@ -26,9 +47,9 @@ public class BasicPipelineExample {
         props.setProperty("coref.algorithm", "neural");
         props.setProperty("singleQuotes", "true");
         props.setProperty("allowEmbeddedSame", "false");
-        //props.setProperty("quote.asciiQuotes", "true");
-        //props.setProperty("quote.extractUnclosedQuotes", "true");
-        //props.setProperty("unicodeQuotes", "true");
+        props.setProperty("quote.asciiQuotes", "true");
+        props.setProperty("quote.extractUnclosedQuotes", "true");
+        props.setProperty("unicodeQuotes", "true");
 
         // build pipeline
         StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
