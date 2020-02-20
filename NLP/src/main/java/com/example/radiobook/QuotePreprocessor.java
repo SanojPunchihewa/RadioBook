@@ -71,10 +71,16 @@ public class QuotePreprocessor {
             try {
                 if (quote.hasSpeaker) {
                     currentSpeaker = quote.speaker().get();
-                    speakerMapAnnotator(quote.speakerTokens().get().get(0));
+                    if(quote.speakerTokens().isPresent())
+                        speakerMapAnnotator(quote.speakerTokens().get().get(0));
+                    else
+                        speakerMapAnnotator(null);
                 } else if (quote.hasCanonicalSpeaker) {
                     currentSpeaker = quote.canonicalSpeaker().get();
-                    speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
+                    if(quote.canonicalSpeakerTokens().isPresent())
+                        speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
+                    else
+                        speakerMapAnnotator(null);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
