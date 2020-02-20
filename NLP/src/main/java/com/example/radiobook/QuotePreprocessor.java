@@ -60,32 +60,16 @@ public class QuotePreprocessor {
     // Classification of quotes
     //
     public Quote[] classify() {
-        String currentSentence = "", prevSpeaker = "", currentSpeaker;
+        String prevSpeaker = "", currentSpeaker;
         int prevQuoteLastIdx = 0, lastQuoteSentenceIdx = 0, prevSentenceIdx = 0, currentSentenceIdx = 0, quoteStartingIdx, quoteLength;
         List<CoreQuote> quotes = document.quotes();
         for (CoreQuote quote : quotes) {
-            currentSentence = quote.sentences().get(0).text();
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(quote);
-            currentSpeaker = defaultSpeaker;
-            try {
-                if (quote.hasSpeaker) {
-                    currentSpeaker = quote.speaker().get();
-                    if(quote.speakerTokens().isPresent())
-                        speakerMapAnnotator(quote.speakerTokens().get().get(0));
-                    else
-                        speakerMapAnnotator(null);
-                } else if (quote.hasCanonicalSpeaker) {
-                    currentSpeaker = quote.canonicalSpeaker().get();
-                    if(quote.canonicalSpeakerTokens().isPresent())
-                        speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
-                    else
-                        speakerMapAnnotator(null);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            System.out.println("quote’s sentence = " + currentSentence);
+
+            currentSpeaker = quote.hasSpeaker?quote.speaker().get():(quote.hasCanonicalSpeaker?quote.canonicalSpeaker().get():defaultSpeaker);
+            speakerMapAnnotator(currentSpeaker, quote);
+
             // if (quote.hasSpeaker && (quote.speakerTokens()!= null) && (quote.speakerTokens().get()!= null)) {
             //     currentSpeaker = quote.speaker().get();
             //     speakerMapAnnotator(quote.speakerTokens().get().get(0));
@@ -227,7 +211,8 @@ public class QuotePreprocessor {
         }
     }
 
-    private void speakerMapAnnotator(CoreLabel speakerToken) {
+    private void speakerMapAnnotator(String speaker, CoreQuote quote) {
+        CoreLabel speakerToken = quote.speakerTokens().isPresent()?quote.speakerTokens().get().get(0):(quote.canonicalSpeakerTokens().isPresent()?quote.canonicalSpeakerTokens().get().get(0):null);
         Speaker tempSpeaker;
         String gender;
 
@@ -239,8 +224,8 @@ public class QuotePreprocessor {
         if (gender == null)
             gender = UNKNOWN.name();
 
-        if (speakerMap.containsKey(speakerToken.value())) {
-            tempSpeaker = speakerMap.get(speakerToken.value());
+        if (speakerMap.containsKey(speaker)) {
+            tempSpeaker = speakerMap.get(speaker);
         } else {
             tempSpeaker = new Speaker();
         }
@@ -256,8 +241,8 @@ public class QuotePreprocessor {
                 tempSpeaker.incrementUnknownGenderCount();
                 break;
         }
-        speakerMap.put(speakerToken.value(), tempSpeaker);
-        System.out.println(speakerToken.value() + ": " + gender);
+        speakerMap.put(speaker, tempSpeaker);
+        System.out.println(speaker + ": " + gender);
     }
 
     private String checkForVerb(String tag) {
@@ -304,6 +289,7 @@ public class QuotePreprocessor {
         for (CoreSentence sentence : quote.sentences()) {
             tempBuffer.append(sentence).append(" ");
         }
+        System.out.println("quote’s sentence = " + tempBuffer.toString());
         return Math.max(tempBuffer.indexOf(quote.text()), 0);
     }
 
