@@ -166,8 +166,8 @@ public class QuotePreprocessor {
         Speaker tempSpeaker = speakerMap.get(speaker);
         if (tempSpeaker != null) {
             if (tempSpeaker.getUnknownGenderCount() >= (tempSpeaker.getFemaleGenderCount() + tempSpeaker.getMaleGenderCount())) {
-                float malePronounFreq = (tempSpeaker.getMalePronounCount() / (float) tempSpeaker.getSpeakerCount());
-                float femalePronounFreq = (tempSpeaker.getFemalePronounCount() / (float) tempSpeaker.getSpeakerCount());
+                float malePronounFreq = (tempSpeaker.getMalePronounCount());
+                float femalePronounFreq = (tempSpeaker.getFemalePronounCount());
                 if (malePronounFreq == femalePronounFreq) {
                     return UNKNOWN;
                 } else if (malePronounFreq > femalePronounFreq) {
