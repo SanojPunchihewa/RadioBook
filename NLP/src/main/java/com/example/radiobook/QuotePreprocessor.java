@@ -330,7 +330,9 @@ public class QuotePreprocessor {
             } else {
                 gender = FEMALE.name();
             }
-            System.out.println(speakerName + ": " + gender);
+            //System.out.println(speakerName + ": " + gender);
+		System.out.print(speakerName + "\nUnknownGenderCount = " + speaker.getUnknownGenderCount() + "\nFemaleGenderCount = " + speaker.getFemaleGenderCount() + "\nMaleGenderCount = " + speaker.getMaleGenderCount() +  "\nFemalePronounCount = " + speaker.getFemalePronounCount() + "\nMalePronounCount = " + speaker.getMalePronounCount() + "\nimprovisedGender = " + getGender(speakerName).name());
+		System.out.println();
         }
     }
 
