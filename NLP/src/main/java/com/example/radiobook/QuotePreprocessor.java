@@ -83,6 +83,8 @@ public class QuotePreprocessor {
 
             if ((currentSentenceIdx - prevSentenceIdx) != 1 || quoteStartingIdx != 0) {
                 createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, prevSpeaker, false);
+            } else if ((currentSentenceIdx - prevSentenceIdx) == 1 && quoteStartingIdx == 0) {
+                createQuote(prevSentenceIdx, currentSentenceIdx, prevQuoteLastIdx, quoteStartingIdx, prevSpeaker, false);
             }
 
             if (quote.sentences().size() > 1) {
