@@ -1,22 +1,28 @@
 package com.example.radiobook;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
+import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.pipeline.Annotation;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.CoreQuote;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+
+import static com.example.radiobook.Speaker.Gender.*;
 
 public class QuotePreprocessor {
 
     private CoreDocument document;
     private Annotation annotation;
     private int lambda = 3; // lambda an estimation of a phrase about 3 or more words
+    private boolean isTag = false;
     private String defaultSpeaker = "narrator";
     private final String TOKENIZER_REGEX = " ";
-    private ArrayList<Quote> quoteList = new ArrayList<>();
+    public static ArrayList<Quote> quoteList = new ArrayList<>();
+    private static HashMap<String, Speaker> speakerMap = new HashMap<>();
 
     public QuotePreprocessor(CoreDocument coreDocument) {
         this.document = coreDocument;
@@ -37,7 +43,15 @@ public class QuotePreprocessor {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(currentSentence, quote.text());
 
-            currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
+            if (quote.hasSpeaker) {
+                currentSpeaker = quote.speaker().get();
+                speakerMapAnnotator(quote.speakerTokens().get().get(0));
+            } else if (quote.hasCanonicalSpeaker) {
+                currentSpeaker = quote.canonicalSpeaker().get();
+                speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
+            } else {
+                currentSpeaker = defaultSpeaker;
+            }
             quoteLength = quoteStartingIdx + quote.text().length();
 
             if ((currentSentenceIdx - prevSentenceIdx) != 1 || quoteStartingIdx != 0) {
@@ -111,15 +125,93 @@ public class QuotePreprocessor {
                     strBuffer.append(endingSentence, 0, endingQuoteIdx);
             }
             String[] sentences = strBuffer.toString().split("\\.");
-            boolean isTag = false;
             for (String sentence : sentences) {
                 if (!StringUtils.isBlank(sentence)) {
-                    isTag = isQuoteTag(sentence);
+                    tagAnnotator(sentence, speaker);
                     speaker = isTag ? speaker : defaultSpeaker;
                     quoteList.add(new Quote(sentence, speaker, isTag));
                 }
             }
         }
+    }
+
+    private Speaker.Gender getGender(String speaker) {
+        Speaker tempSpeaker = speakerMap.get(speaker);
+        if (tempSpeaker != null) {
+            if (tempSpeaker.getUnknownGenderCount() >= (tempSpeaker.getFemaleGenderCount() + tempSpeaker.getMaleGenderCount())) {
+                float malePronounFreq = (tempSpeaker.getMalePronounCount() / (float) tempSpeaker.getSpeakerCount());
+                float femalePronounFreq = (tempSpeaker.getFemalePronounCount() / (float) tempSpeaker.getSpeakerCount());
+                if (malePronounFreq == femalePronounFreq) {
+                    return UNKNOWN;
+                } else if (malePronounFreq > femalePronounFreq) {
+                    return MALE;
+                } else if (femalePronounFreq > malePronounFreq){
+                    return FEMALE;
+                } else {
+                    return UNKNOWN;
+                }
+            } else if (tempSpeaker.getMaleGenderCount() > tempSpeaker.getFemaleGenderCount()) {
+                return MALE;
+            } else {
+                return FEMALE;
+            }
+        }
+        return UNKNOWN;
+    }
+
+    private void tagAnnotator(String sentence, String speaker) {
+        sentence = StringUtils.strip(sentence);
+        String[] words = sentence.split(TOKENIZER_REGEX);
+        isTag = words.length <= lambda;
+
+        if (isTag) {
+            Speaker tempSpeaker;
+            if (speakerMap.containsKey(speaker)) {
+                tempSpeaker = speakerMap.get(speaker);
+            } else {
+                tempSpeaker = new Speaker();
+            }
+
+            if (StringUtils.lowerCase(sentence).contains("he")) {
+                tempSpeaker.incrementMalePronounCount();
+            } else if (StringUtils.lowerCase(sentence).contains("she")) {
+                tempSpeaker.incrementFemalePronounCount();
+            }
+            speakerMap.put(speaker, tempSpeaker);
+        }
+    }
+
+    private void speakerMapAnnotator(CoreLabel speakerToken) {
+        Speaker tempSpeaker;
+        String gender;
+
+        if(speakerToken != null)
+            gender = speakerToken.get(CoreAnnotations.GenderAnnotation.class);
+        else
+            gender = UNKNOWN.name();
+
+        if(gender == null)
+            gender = UNKNOWN.name();
+
+        if (speakerMap.containsKey(speakerToken.value())) {
+            tempSpeaker = speakerMap.get(speakerToken.value());
+        } else {
+            tempSpeaker = new Speaker();
+        }
+        tempSpeaker.incrementSpeakerCount();
+        switch (gender) {
+            case "Female":
+                tempSpeaker.incrementFemaleGenderCount();
+                break;
+            case "Male":
+                tempSpeaker.incrementMaleGenderCount();
+                break;
+            default:
+                tempSpeaker.incrementUnknownGenderCount();
+                break;
+        }
+        speakerMap.put(speakerToken.value(), tempSpeaker);
+        System.out.println(speakerToken.value() + ": " + gender);
     }
 
     // Returns the starting index of a quote in a sentence
@@ -136,11 +228,26 @@ public class QuotePreprocessor {
             return null;
     }
 
+    private Speaker.Gender getPronounGender(String pronoun) {
+        if (StringUtils.lowerCase(pronoun).equals("he")) {
+            return MALE;
+        } else if (StringUtils.lowerCase(pronoun).equals("she")) {
+            return FEMALE;
+        } else {
+            return UNKNOWN;
+        }
+    }
+
+    public void printSpeakerGenders() {
+
+    }
+
     public void printQuotes() {
         for (Quote quote : quoteList) {
             if (quote != null) {
                 System.out.println("Quote: " + quote.getQuote());
                 System.out.println("Speaker: " + quote.getSpeaker());
+                System.out.println("Improvised Gender: " + getGender(quote.getSpeaker()).name());
                 System.out.println("IsTag: " + quote.isQuoteAttributionTag());
                 System.out.println();
             }
