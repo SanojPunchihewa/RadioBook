@@ -97,7 +97,7 @@ public class QuotePreprocessor {
             prevQuoteLastIdx = quoteStartingIdx + quote.text().length();
             prevSpeaker = currentSpeaker;
         }
-        int lastDocumentSentenceIdx = document.sentences().size() - 1;
+        int lastDocumentSentenceIdx = document.sentences().size();
         if (lastQuoteSentenceIdx < lastDocumentSentenceIdx) {
             createQuote(currentSentenceIdx, lastDocumentSentenceIdx, prevQuoteLastIdx, 0, defaultSpeaker, false);
         }
@@ -124,11 +124,12 @@ public class QuotePreprocessor {
     // tag: is a quote attribution tag
     private void createQuote(int startingSentenceIdx, int endingSentenceIdx, int startingQuoteIdx, int endingQuoteIdx, String speaker, boolean isQuote) {
         //String startingSentence = getSentenceByIndex(startingSentenceIdx);
-        String endingSentence = getSentenceByIndex(endingSentenceIdx);
+        String endingSentence;
         StringBuffer strBuffer = new StringBuffer();
 
         if (isQuote) {
             if (startingSentenceIdx == endingSentenceIdx) {
+                endingSentence = getSentenceByIndex(endingSentenceIdx);
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
                 StringBuffer tempBuffer = new StringBuffer();
@@ -140,17 +141,20 @@ public class QuotePreprocessor {
             quoteList.add(new Quote(strBuffer.toString(), speaker, false, Emotion.Neutral.value));
         } else {
             if (startingSentenceIdx == endingSentenceIdx) {
+                endingSentence = getSentenceByIndex(endingSentenceIdx);
                 System.out.println("endingSentence = " + endingSentence);
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
                 StringBuffer tempBuffer = new StringBuffer();
-                for (int i = startingSentenceIdx; i <= endingSentenceIdx; i++) {
+                for (int i = startingSentenceIdx; i < endingSentenceIdx; i++) {
                     tempBuffer.append(document.sentences().get(i).text()).append(" ");
                 }
                 strBuffer.append(tempBuffer.substring(startingQuoteIdx));
 
-                if (endingQuoteIdx > 0)
+                if (endingQuoteIdx > 0) {
+                    endingSentence = getSentenceByIndex(endingSentenceIdx);
                     strBuffer.append(endingSentence, 0, endingQuoteIdx);
+                }
             }
             String[] sentences = strBuffer.toString().split("\\.");
             for (String sentence : sentences) {
