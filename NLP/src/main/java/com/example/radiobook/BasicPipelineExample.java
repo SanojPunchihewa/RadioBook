@@ -23,7 +23,7 @@ public class BasicPipelineExample {
         // reading from a file 
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader("chapter1.txt"));
+            reader = new BufferedReader(new FileReader("story_books/HANS_IN_LUCK_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
             StringBuilder sb = new StringBuilder();
             String line = reader.readLine();
             while (line != null) {

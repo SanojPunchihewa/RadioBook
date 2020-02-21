@@ -66,19 +66,11 @@ public class QuotePreprocessor {
         for (CoreQuote quote : quotes) {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(quote);
+            System.out.println("currentSentenceIdx = "+currentSentenceIdx);
 
             currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
             speakerMapAnnotator(currentSpeaker, quote);
 
-            // if (quote.hasSpeaker && (quote.speakerTokens()!= null) && (quote.speakerTokens().get()!= null)) {
-            //     currentSpeaker = quote.speaker().get();
-            //     speakerMapAnnotator(quote.speakerTokens().get().get(0));
-            // } else if (quote.hasCanonicalSpeaker && (quote.canonicalSpeakerTokens()!=null)) {
-            //     currentSpeaker = quote.canonicalSpeaker().get();
-            //     speakerMapAnnotator(quote.canonicalSpeakerTokens().get().get(0));
-            // } else {
-            //     currentSpeaker = defaultSpeaker;
-            // }
             quoteLength = quoteStartingIdx + quote.text().length();
 
             if ((currentSentenceIdx - prevSentenceIdx) != 1 || quoteStartingIdx != 0) {

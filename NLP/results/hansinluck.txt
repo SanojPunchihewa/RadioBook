@@ -1,0 +1,60 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RadioBook 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RadioBook ---
+[INFO] Deleting /home/e14302/RadioBook/NLP/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RadioBook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/e14302/RadioBook/NLP/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ RadioBook ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/e14302/RadioBook/NLP/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
+Number of Sentences
+123
+
+quote’s sentence = However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, ‘When you want to go very fast, smack your lips loudly together, and cry “Jip! ”’
+
+Hans was delighted as he sat on the horse, drew himself up, squared his elbows, turned out his toes, cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
+
+ ‘No care and no sorrow,
+  A fig for the morrow! 
+currentSentenceIdx = 20
+narrator: UNKNOWN
+quote’s sentence = At last he said, ‘Master, my time is up; I must go home and see my poor mother once more: so pray pay me my wages and let me go.’ 
+currentSentenceIdx = 5
+Hans: MALE
+[WARNING] 
+java.lang.StringIndexOutOfBoundsException: String index out of range: -6
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuffer.substring(StringBuffer.java:480)
+	at java.lang.StringBuffer.substring(StringBuffer.java:462)
+	at com.example.radiobook.QuotePreprocessor.createQuote(QuotePreprocessor.java:146)
+	at com.example.radiobook.QuotePreprocessor.classify(QuotePreprocessor.java:77)
+	at com.example.radiobook.BasicPipelineExample.main(BasicPipelineExample.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:50 min
+[INFO] Finished at: 2020-02-21T05:03:16+00:00
+[INFO] Final Memory: 4190M/13103M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project RadioBook: An exception occured while executing the Java class. String index out of range: -6 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

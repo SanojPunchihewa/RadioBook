@@ -1,0 +1,734 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RadioBook 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RadioBook ---
+[INFO] Deleting /home/e14302/RadioBook/NLP/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RadioBook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/e14302/RadioBook/NLP/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ RadioBook ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/e14302/RadioBook/NLP/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
+Number of Sentences
+116
+
+quote’s sentence = ‘This old volcano must be as high as the moon,’ he complained. 
+his: MALE
+quote’s sentence = ‘Aren’t we nearly at the top?’ 
+Roger: UNKNOWN
+quote’s sentence = ‘Afraid not,’ Hal replied. 
+Hal: UNKNOWN
+quote’s sentence = ‘We may be half way there.’ 
+Roger: UNKNOWN
+quote’s sentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it. 
+his: UNKNOWN
+quote’s sentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it. The hardest part is ahead.’ 
+his: UNKNOWN
+endingSentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it.
+quote’s sentence = ‘Snap out of it,’ said Hal, but he said it only to himself. 
+Hal: UNKNOWN
+quote’s sentence = ‘Ghosts!’ 
+Roger: MALE
+quote’s sentence = Both of them had some advice ready for him, but before they could speak Roger said: ‘Up there,’ and pointed up the steep slope. 
+Roger: UNKNOWN
+quote’s sentence = ‘What’s the matter with you blokes?’ 
+Roger: UNKNOWN
+quote’s sentence = ‘Up there!’ 
+Roger: UNKNOWN
+quote’s sentence = He cupped his hands around his mouth and yelled, ‘Hello-o-o-o!’ 
+his: UNKNOWN
+quote’s sentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’ 
+his: UNKNOWN
+quote’s sentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’ 
+his: UNKNOWN
+endingSentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’
+quote’s sentence = ‘Komban wo,’ said the oldest of the three, and ran on in Japanese. 
+his: UNKNOWN
+quote’s sentence = Then, as his torch caught the faces of the newcomers, he said, ‘Ah, I think you speak English. I too speak English. I teacher of English in Nagoya Middle School. These are two of our students, Kobo and Machida. They no speak good like me. My name Toguri.’ 
+his: MALE
+Quote: It was very dark
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  A heavy blanket of fog hid the stars
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The fog was so thick that the three mountain climbers could hardly see each other even with the help of their electric torches
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The fog was cold, the wind was cold, every bone in Hal’s body was cold
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  It was necessary to climb the volcano at night, for it would have been too hot a trip under the broiling sun
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But Hal, shivering, thought he would almost rather be too hot than too cold
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He had given his sweater to his younger brother, Roger, but he still had his trench coat and this he zipped up to the chin
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Roger puffed and panted along beside him
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The boy was usually merry and mischievous, but after three hours of stiff climbing he had very little fun left in him
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘This old volcano must be as high as the moon,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Aren’t we nearly at the top?’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Afraid not,’
+Speaker: Hal
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘We may be half way there.’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Roger groaned
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘Save your breath, boys,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the third member of the party, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘you’ll need it. The hardest part is ahead.’ 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  And Dr Dan Adams, volcanologist, scrambled up the face of a cliff as easily as if it had been a flight of stairs
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Ignoring his own advice to save breath, he burst into song
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The song rose over the shriek of the wind and the rumbling of the volcano
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hal wished he wouldn’t sing
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  There was something wild about it, something not quite right
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Perhaps it was meant to be a cheerful song, but it made a chill run down Hal’s spine
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The night suddenly seemed full of strange, terrible faces swimming by in the flying fog
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Snap out of it,’
+Speaker: Hal
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hal, but he said it only to himself
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He must keep a grip on his nerves
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  There was nothing the matter with the song
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Why shouldn’t the man sing if he wanted to? It would sound all right in the daytime
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Perhaps it was Just weird because of the night, the fog, the screaming wind, the muttering mountain, the quaking of the earth beneath, the fall of ash and cinders upon steel helmets, the occasional flash of light far above when the crater threw up its column of fire … the unreality of the whole tiling
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  That must be why the song seemed so strange, more like the cry of a wild loon than the voice of a man
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The doctor was no wild loon
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He was a sober scientist
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He was the American Museum’s expert on volcanoes
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He had studied volcanoes all over the world
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He had gone down into the craters, analysed the gases, measured the lava flow, charted the eruptions, written learned reports
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Volcanoes to him were just figures and facts
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He was cool, mathematical, scientific, a brilliant scholar
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hal thought how lucky he and Roger were to be chosen as his assistants
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  They knew nothing about volcanoes - but they had powerful young bodies and they had already had a few months’ experience on expeditions in the Amazon valley and among Pacific islands
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Now summer vacation was almost over and they would ordinarily have been thinking about getting back to school
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But since they were both below the average age of their classes their father, John Hunt, the famous naturalist and animal collector, had allowed them a year off from their studies to get a practical education on expeditions for him and his scientific friends
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  So here they were, half way up an exploding Japanese volcano in the dead of night with a man singing like a wild loon
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Whang! A cinder the size of a hen’s egg struck Hal’s helmet and bounced away
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Luckily these cinders, which had been white-hot when thrown up by the volcano, were cold after they had fallen through a mile of chill fog
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hal almost wished they were hot
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The cold wind blew the damp fog straight through his clothes; he could wring the water out of his coat
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Now and then they climbed out of the fog into clear air
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But their torches showed another fog bank above them and presently they were in it
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  So they climbed from cloud to cloud
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  And all this time there was a nice warm fire near by
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Inside the mountain
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hal put his hand on the ground
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He could feel the warmth
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  A terrific fire with a temperature ten times the boiling point of water was burning under his feet while he shivered and shook with the cold
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He couldn’t wait to get to the edge of the crater where he could enjoy the heat from this gigantic furnace
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Suddenly the mountain shook itself like a wet dog and sent up a spout of flame
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then a new shower of cinders fell
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Falling on steel helmets they were harmless enough, but when they struck shoulders or backs they bruised the flesh
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  And one never knew when something bigger might fall
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Mt Asama had been known to throw out rocks as big as motor cars
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  That wasn’t likely to happen just now
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Asama was not in violent eruption
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  If she had been, they wouldn’t be climbing her
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  She was just in one of her muttering moods
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  That didn’t mean that she was quite safe
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  In fact, only a few days earlier two climbers had been killed by a shower of rocks, and a month ago a man was trapped between two streams of lava and burned to death
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Ashes and cinders were pouring down upon roofs twenty miles away and earthquakes had tumbled several houses in the near-by town of Karuizawa
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But this was not much compared with what Asama could do when she really got angry
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  In one eruption she had buried forty-eight villages a hundred feet deep under a river of boiling lava
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  That is twice as deep as Pompeii was buried
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But then, Asama is twice the height of Vesuvius and can be twice as violent
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Now she seemed to be slowly building up in preparation for another terrific eruption
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  It might come in a year, a month, a day
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Who could tell? If anybody could tell, a trained volcanologist could
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Perhaps Dr Dan Adams could solve the mystery of Asama
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Suddenly Roger stopped dead in his tracks
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Ghosts!’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  he cried
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: true
+Emotion: Sadness
+
+Quote:  Hal and the doctor stopped and looked at Roger
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Was the kid cracking up? Both of them had some advice ready for him, but before they could speak Roger said: 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Up there,’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  and pointed up the steep slope
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  They looked but could see nothing
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The fog closed in around them like a gigantic mosquito net
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  It swept swiftly across the ground, not in a solid mass, but in ripples or shivers before the wind
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The doctor’s wild singing had stopped but the wind was singing just as wild a tune and the roar of the volcano, the flashes of fire, the rain of rocks, the atmosphere of suspense and danger, were hard on the nerves
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The boy couldn’t be blamed for beginning to imagine things
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘What’s the matter with you blokes?’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Roger said disrespectfully
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘Up there!’
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  They looked again
+Speaker: Roger
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote:  Now they saw what Roger’s keen eyes had picked out in the fog
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Far up the slope, three lights seemed to be doing a ghostly dance
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Were they fireballs from the volcano? Were they the glowing parts of a stream of lava that was sweeping down upon them and would soon bury them in its blazing depths? ‘Evidently we’re not alone on the mountain/ said the doctor
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He cupped his hands around his mouth and yelled, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Hello-o-o-o!’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The lights above stopped moving
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The three climbers listened
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But no human voice rose over the scream of the wind and roar of the volcano
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The doctor called again
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  This time there was an answering cry from above
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Come on,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the doctor, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘we’re going to have company.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  And they lost no time climbing up around the lava boulders and over slippery ash until they came to the three lights, which they found were held by three young Japanese climbers
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Komban wo,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the oldest of the three, and ran on in Japanese
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then, as his torch caught the faces of the newcomers, he said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Ah, I think you speak English. I too speak English. I teacher of English in Nagoya Middle School. These are two of our students, Kobo and Machida. They no speak good like me. My name Toguri.’ 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The doctor introduced himself and his two companions and everyone shook hands, all equally delighted to have company on the climb to the crater’s mouth
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Now the night and the mystery, the fog and the cold, the wailing wind and thundering mountain, did not seem quite so nerve-racking
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:32 min
+[INFO] Finished at: 2020-02-20T16:29:20+00:00
+[INFO] Final Memory: 4166M/12321M
+[INFO] ------------------------------------------------------------------------

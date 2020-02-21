@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RadioBook 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RadioBook ---
+[INFO] Deleting /home/e14302/RadioBook/NLP/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RadioBook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/e14302/RadioBook/NLP/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ RadioBook ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/e14302/RadioBook/NLP/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
+Number of Sentences
+79
+
+quote’s sentence = When you come to the king, and he asks for the beautiful princess, you must say, “Here she is!” 
+narrator: UNKNOWN
+quote’s sentence = Everyone agreed that it was worth more than all the wealth of the kingdom: but the king said, ‘One feather is of no use to me, I must have the whole bird.’ 
+king: UNKNOWN
+[WARNING] 
+java.lang.StringIndexOutOfBoundsException: String index out of range: -95
+	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
+	at java.lang.StringBuffer.substring(StringBuffer.java:480)
+	at java.lang.StringBuffer.substring(StringBuffer.java:462)
+	at com.example.radiobook.QuotePreprocessor.createQuote(QuotePreprocessor.java:154)
+	at com.example.radiobook.QuotePreprocessor.classify(QuotePreprocessor.java:85)
+	at com.example.radiobook.BasicPipelineExample.main(BasicPipelineExample.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 03:37 min
+[INFO] Finished at: 2020-02-21T04:39:32+00:00
+[INFO] Final Memory: 4191M/13918M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project RadioBook: An exception occured while executing the Java class. String index out of range: -95 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
