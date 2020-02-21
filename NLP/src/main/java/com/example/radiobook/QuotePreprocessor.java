@@ -66,7 +66,7 @@ public class QuotePreprocessor {
         for (CoreQuote quote : quotes) {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(quote);
-            System.out.println("currentSentenceIdx = "+currentSentenceIdx);
+            System.out.println("currentSentenceIdx = " + currentSentenceIdx);
 
             currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
             speakerMapAnnotator(currentSpeaker, quote);
@@ -323,8 +323,8 @@ public class QuotePreprocessor {
                 gender = FEMALE.name();
             }
             //System.out.println(speakerName + ": " + gender);
-		System.out.print(speakerName + "\nUnknownGenderCount = " + speaker.getUnknownGenderCount() + "\nFemaleGenderCount = " + speaker.getFemaleGenderCount() + "\nMaleGenderCount = " + speaker.getMaleGenderCount() +  "\nFemalePronounCount = " + speaker.getFemalePronounCount() + "\nMalePronounCount = " + speaker.getMalePronounCount() + "\nimprovisedGender = " + getGender(speakerName).name());
-		System.out.println();
+            System.out.print(speakerName + "\nUnknownGenderCount = " + speaker.getUnknownGenderCount() + "\nFemaleGenderCount = " + speaker.getFemaleGenderCount() + "\nMaleGenderCount = " + speaker.getMaleGenderCount() + "\nFemalePronounCount = " + speaker.getFemalePronounCount() + "\nMalePronounCount = " + speaker.getMalePronounCount() + "\nimprovisedGender = " + getGender(speakerName).name());
+            System.out.println();
         }
     }
 
