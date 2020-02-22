@@ -1,0 +1,1692 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RadioBook 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RadioBook ---
+[INFO] Deleting /home/e14302/RadioBook/NLP/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RadioBook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/e14302/RadioBook/NLP/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ RadioBook ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/e14302/RadioBook/NLP/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
+Number of Sentences
+200
+
+quote’s sentence = “TOM!” 
+currentSentenceIdx = 0
+her: UNKNOWN
+endingSentence = “TOM!”
+quote’s sentence = “TOM!” 
+currentSentenceIdx = 2
+her: UNKNOWN
+quote’s sentence = “What's gone with that boy,  I wonder? You TOM!” 
+currentSentenceIdx = 4
+her: UNKNOWN
+quote’s sentence = She seldom or
+never looked _through_ them for so small a thing as a boy; they were
+her state pair, the pride of her heart, and were built for “style,” not
+service--she could have seen through a pair of stove-lids just as well. 
+currentSentenceIdx = 8
+her: UNKNOWN
+quote’s sentence = She looked perplexed for a moment, and then said, not fiercely, but
+still loud enough for the furniture to hear:
+
+“Well, I lay if I get hold of you I'll--”
+
+She did not finish, for by this time she was bending down and punching
+under the bed with the broom, and so she needed breath to punctuate the
+punches with. 
+currentSentenceIdx = 9
+She: FEMALE
+quote’s sentence = “I never did see the beat of that boy!” 
+currentSentenceIdx = 11
+She: FEMALE
+quote’s sentence = She went to the open door and stood in it and looked out among the
+tomato vines and “jimpson” weeds that constituted the garden. 
+currentSentenceIdx = 12
+Tom: UNKNOWN
+quote’s sentence = So
+she lifted up her voice at an angle calculated for distance and shouted:
+
+“Y-o-u-u TOM!” 
+currentSentenceIdx = 14
+Tom: UNKNOWN
+quote’s sentence = “There! I might 'a' thought of that closet. What you been doing in
+there?” 
+currentSentenceIdx = 16
+Tom: UNKNOWN
+quote’s sentence = “Nothing.” 
+currentSentenceIdx = 19
+his: UNKNOWN
+quote’s sentence = “Nothing! Look at your hands. And look at your mouth. What _is_ that
+truck?” 
+currentSentenceIdx = 20
+his: UNKNOWN
+quote’s sentence = “I don't know, aunt.” 
+currentSentenceIdx = 24
+his: UNKNOWN
+quote’s sentence = “Well, I know. It's jam--that's what it is. Forty times I've said if you
+didn't let that jam alone I'd skin you. Hand me that switch.” 
+currentSentenceIdx = 25
+Polly: UNKNOWN
+quote’s sentence = The switch hovered in the air--the peril was desperate--
+
+“My! Look behind you, aunt!” 
+currentSentenceIdx = 29
+his: UNKNOWN
+quote’s sentence = “Hang the boy, can't I never learn anything? Ain't he played me tricks
+enough like that for me to be looking out for him by this time? But old
+fools is the biggest fools there is. Can't learn an old dog new tricks,
+as the saying is. But my goodness, he never plays them alike, two days,
+and how is a body to know what's coming? He 'pears to know just how long
+he can torment me before I get my dander up, and he knows if he can make
+out to put me off for a minute or make me laugh, it's all down again and
+I can't hit him a lick. I ain't doing my duty by that boy, and that's
+the Lord's truth, goodness knows. Spare the rod and spile the child,
+as the Good Book says. I'm a laying up sin and suffering for us both,
+I know. He's full of the Old Scratch, but laws-a-me! he's my own
+dead sister's boy, poor thing, and I ain't got the heart to lash him,
+somehow. Every time I let him off, my conscience does hurt me so, and
+every time I hit him my old heart most breaks. Well-a-well, man that is
+born of woman is of few days and full of trouble, as the Scripture
+says, and I reckon it's so. He'll play hookey this evening, * and [*
+Southwestern for “afternoon”] I'll just be obleeged to make him work,
+tomorrow, to punish him. It's mighty hard to make him work Saturdays,
+when all the boys is having holiday, but he hates work more than he
+hates anything else, and I've _got_ to do some of my duty by him, or
+I'll be the ruination of the child.” 
+currentSentenceIdx = 34
+Tom: UNKNOWN
+quote’s sentence = Said she:
+
+“Tom, it was middling warm in school, warn't it?” 
+currentSentenceIdx = 54
+Tom: UNKNOWN
+quote’s sentence = “Yes'm.” 
+currentSentenceIdx = 55
+Tom: UNKNOWN
+quote’s sentence = “Powerful warm, warn't it?” 
+currentSentenceIdx = 56
+Tom: UNKNOWN
+quote’s sentence = “Yes'm.” 
+currentSentenceIdx = 57
+Tom: UNKNOWN
+quote’s sentence = “Didn't you want to go in a-swimming, Tom?” 
+currentSentenceIdx = 58
+Tom: UNKNOWN
+quote’s sentence = So he said:
+
+“No'm--well, not very much.” 
+currentSentenceIdx = 61
+her: MALE
+quote’s sentence = The old lady reached out her hand and felt Tom's shirt, and said:
+
+“But you ain't too warm now, though.” 
+currentSentenceIdx = 62
+her: UNKNOWN
+quote’s sentence = So he forestalled what might be the next move:
+
+“Some of us pumped on our heads--mine's damp yet. See?” 
+currentSentenceIdx = 65
+Polly: UNKNOWN
+quote’s sentence = Then she had a new
+inspiration:
+
+“Tom, you didn't have to undo your shirt collar where I sewed it, to
+pump on your head, did you? Unbutton your jacket!” 
+currentSentenceIdx = 68
+Tom: UNKNOWN
+quote’s sentence = “Bother! Well, go 'long with you. I'd made sure you'd played hookey
+and been a-swimming. But I forgive ye, Tom. I reckon you're a kind of a
+singed cat, as the saying is--better'n you look. _This_ time.” 
+currentSentenceIdx = 73
+His: UNKNOWN
+quote’s sentence = But Sidney said:
+
+“Well, now, if I didn't think you sewed his collar with white thread,
+but it's black.” 
+currentSentenceIdx = 80
+Sidney: UNKNOWN
+quote’s sentence = “Why, I did sew it with white! Tom!” 
+currentSentenceIdx = 81
+his: UNKNOWN
+quote’s sentence = As he went out at the door he said:
+
+“Siddy, I'll lick you for that.” 
+currentSentenceIdx = 84
+Tom: MALE
+quote’s sentence = He said:
+
+“She'd never noticed if it hadn't been for Sid. Confound it! sometimes
+she sews it with white, and sometimes she sews it with black. I wish to
+gee-miny she'd stick to one or t'other--I can't keep the run of 'em. But
+I bet you I'll lam Sid for that. I'll learn him!” 
+currentSentenceIdx = 86
+He: MALE
+quote’s sentence = Finally Tom said:
+
+“I can lick you!” 
+currentSentenceIdx = 114
+Tom: UNKNOWN
+quote’s sentence = “I'd like to see you try it.” 
+currentSentenceIdx = 115
+his: UNKNOWN
+quote’s sentence = “Well, I can do it.” 
+currentSentenceIdx = 116
+Tom: UNKNOWN
+quote’s sentence = “No you can't, either.” 
+currentSentenceIdx = 117
+his: UNKNOWN
+quote’s sentence = “Yes I can.” 
+currentSentenceIdx = 118
+Tom: UNKNOWN
+quote’s sentence = “No you can't.” 
+currentSentenceIdx = 119
+his: UNKNOWN
+quote’s sentence = “I can.” 
+currentSentenceIdx = 120
+Tom: UNKNOWN
+quote’s sentence = “You can't.” 
+currentSentenceIdx = 121
+his: UNKNOWN
+quote’s sentence = “Can!” 
+currentSentenceIdx = 122
+Tom: UNKNOWN
+quote’s sentence = “Can't!” 
+currentSentenceIdx = 123
+Tom: UNKNOWN
+quote’s sentence = Then Tom said:
+
+“What's your name?” 
+currentSentenceIdx = 125
+Tom: UNKNOWN
+quote’s sentence = “'Tisn't any of your business, maybe.” 
+currentSentenceIdx = 126
+his: UNKNOWN
+quote’s sentence = “Well I 'low I'll _make_ it my business.” 
+currentSentenceIdx = 127
+Tom: UNKNOWN
+quote’s sentence = “Well why don't you?” 
+currentSentenceIdx = 128
+his: UNKNOWN
+quote’s sentence = “If you say much, I will.” 
+currentSentenceIdx = 129
+Tom: UNKNOWN
+quote’s sentence = “Much--much--_much_. There now.” 
+currentSentenceIdx = 130
+his: UNKNOWN
+quote’s sentence = “Oh, you think you're mighty smart, _don't_ you? I could lick you with
+one hand tied behind me, if I wanted to.” 
+currentSentenceIdx = 132
+his: UNKNOWN
+quote’s sentence = “Well why don't you _do_ it? You _say_ you can do it.” 
+currentSentenceIdx = 134
+his: UNKNOWN
+quote’s sentence = “Well I _will_, if you fool with me.” 
+currentSentenceIdx = 136
+his: UNKNOWN
+quote’s sentence = “Oh yes--I've seen whole families in the same fix.” 
+currentSentenceIdx = 137
+his: UNKNOWN
+quote’s sentence = “Smarty! You think you're _some_, now, _don't_ you? Oh, what a hat!” 
+currentSentenceIdx = 138
+his: UNKNOWN
+quote’s sentence = “You can lump that hat if you don't like it. I dare you to knock it
+off--and anybody that'll take a dare will suck eggs.” 
+currentSentenceIdx = 141
+his: UNKNOWN
+quote’s sentence = “You're a liar!” 
+currentSentenceIdx = 143
+his: UNKNOWN
+quote’s sentence = “You're another.” 
+currentSentenceIdx = 144
+his: UNKNOWN
+quote’s sentence = “You're a fighting liar and dasn't take it up.” 
+currentSentenceIdx = 145
+his: UNKNOWN
+quote’s sentence = “Aw--take a walk!” 
+currentSentenceIdx = 146
+his: UNKNOWN
+quote’s sentence = “Say--if you give me much more of your sass I'll take and bounce a rock
+off'n your head.” 
+currentSentenceIdx = 147
+his: UNKNOWN
+quote’s sentence = “Oh, of _course_ you will.” 
+currentSentenceIdx = 148
+his: UNKNOWN
+quote’s sentence = “Well I _will_.” 
+currentSentenceIdx = 149
+his: UNKNOWN
+quote’s sentence = “Well why don't you _do_ it then? What do you keep _saying_ you will
+for? Why don't you _do_ it? It's because you're afraid.” 
+currentSentenceIdx = 150
+his: UNKNOWN
+quote’s sentence = “I _ain't_ afraid.” 
+currentSentenceIdx = 154
+his: UNKNOWN
+quote’s sentence = “You are.” 
+currentSentenceIdx = 155
+his: UNKNOWN
+quote’s sentence = “I ain't.” 
+currentSentenceIdx = 156
+his: UNKNOWN
+quote’s sentence = “You are.” 
+currentSentenceIdx = 157
+his: UNKNOWN
+quote’s sentence = Tom said:
+
+“Get away from here!” 
+currentSentenceIdx = 160
+Tom: UNKNOWN
+quote’s sentence = “Go away yourself!” 
+currentSentenceIdx = 161
+his: UNKNOWN
+quote’s sentence = “I won't.” 
+currentSentenceIdx = 162
+Tom: UNKNOWN
+quote’s sentence = “I won't either.” 
+currentSentenceIdx = 163
+his: UNKNOWN
+quote’s sentence = After struggling till both were hot and
+flushed, each relaxed his strain with watchful caution, and Tom said:
+
+“You're a coward and a pup. I'll tell my big brother on you, and he can
+thrash you with his little finger, and I'll make him do it, too.” 
+currentSentenceIdx = 166
+Tom: UNKNOWN
+quote’s sentence = “What do I care for your big brother? I've got a brother that's bigger
+than he is--and what's more, he can throw him over that fence, too.” 
+currentSentenceIdx = 168
+Tom: UNKNOWN
+quote’s sentence = “That's a lie.” 
+currentSentenceIdx = 171
+Tom: UNKNOWN
+quote’s sentence = “_Your_ saying so don't make it so.” 
+currentSentenceIdx = 172
+him: UNKNOWN
+quote’s sentence = Tom drew a line in the dust with his big toe, and said:
+
+“I dare you to step over that, and I'll lick you till you can't stand
+up. Anybody that'll take a dare will steal sheep.” 
+currentSentenceIdx = 173
+Tom: UNKNOWN
+quote’s sentence = The new boy stepped over promptly, and said:
+
+“Now you said you'd do it, now let's see you do it.” 
+currentSentenceIdx = 175
+his: UNKNOWN
+quote’s sentence = “Don't you crowd me now; you better look out.” 
+currentSentenceIdx = 176
+his: UNKNOWN
+quote’s sentence = “Well, you _said_ you'd do it--why don't you do it?” 
+currentSentenceIdx = 177
+his: UNKNOWN
+quote’s sentence = “By jingo! for two cents I _will_ do it.” 
+currentSentenceIdx = 178
+his: UNKNOWN
+quote’s sentence = “Holler 'nuff!” 
+currentSentenceIdx = 184
+his: UNKNOWN
+quote’s sentence = “Holler 'nuff!” 
+currentSentenceIdx = 188
+his: UNKNOWN
+quote’s sentence = At last the stranger got out a smothered “'Nuff!” 
+currentSentenceIdx = 190
+his: UNKNOWN
+quote’s sentence = and Tom let him up and
+said:
+
+“Now that'll learn you. Better look out who you're fooling with next
+time.” 
+currentSentenceIdx = 191
+Tom: UNKNOWN
+quote’s sentence = The new boy went off brushing the dust from his clothes, sobbing,
+snuffling, and occasionally looking back and shaking his head and
+threatening what he would do to Tom the “next time he caught him out.” 
+currentSentenceIdx = 193
+Tom: UNKNOWN
+quote’s sentence = So he went away; but
+he said he “'lowed” to “lay” for that boy. 
+currentSentenceIdx = 198
+he: MALE
+quote’s sentence = So he went away; but
+he said he “'lowed” to “lay” for that boy. 
+currentSentenceIdx = 198
+he: MALE
+endingSentence = So he went away; but
+he said he “'lowed” to “lay” for that boy.
+Quote: “TOM!”
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  No answer
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “TOM!”
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  No answer
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “What's gone with that boy,  I wonder? You TOM!” 
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  No answer
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The old lady pulled her spectacles down and looked over them about the
+room; then she put them up and looked out under them
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  She seldom or
+never looked _through_ them for so small a thing as a boy; they were
+her state pair, the pride of her heart, and were built for 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “style,”
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  not
+service--she could have seen through a pair of stove-lids just as well
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  She looked perplexed for a moment, and then said, not fiercely, but
+still loud enough for the furniture to hear:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well, I lay if I get hold of you I'll--”
+Speaker: She
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: 
+
+She did not finish, for by this time she was bending down and punching
+under the bed with the broom, and so she needed breath to punctuate the
+punches with
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  She resurrected nothing but the cat
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I never did see the beat of that boy!”
+Speaker: She
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  She went to the open door and stood in it and looked out among the
+tomato vines and 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “jimpson”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  weeds that constituted the garden
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  No Tom
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So
+she lifted up her voice at an angle calculated for distance and shouted:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Y-o-u-u TOM!”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  There was a slight noise behind her and she turned just in time to seize
+a small boy by the slack of his roundabout and arrest his flight
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “There! I might 'a' thought of that closet. What you been doing in
+there?” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Nothing.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Nothing! Look at your hands. And look at your mouth. What _is_ that
+truck?” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I don't know, aunt.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well, I know. It's jam--that's what it is. Forty times I've said if you
+didn't let that jam alone I'd skin you. Hand me that switch.” 
+Speaker: Polly
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The switch hovered in the air--the peril was desperate--
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “My! Look behind you, aunt!” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The old lady whirled round, and snatched her skirts out of danger
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The lad fled on the instant, scrambled up the high board-fence, and
+disappeared over it
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  His aunt Polly stood surprised a moment, and then broke into a gentle
+laugh
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Hang the boy, can't I never learn anything? Ain't he played me tricks
+enough like that for me to be looking out for him by this time? But old
+fools is the biggest fools there is. Can't learn an old dog new tricks,
+as the saying is. But my goodness, he never plays them alike, two days,
+and how is a body to know what's coming? He 'pears to know just how long
+he can torment me before I get my dander up, and he knows if he can make
+out to put me off for a minute or make me laugh, it's all down again and
+I can't hit him a lick. I ain't doing my duty by that boy, and that's
+the Lord's truth, goodness knows. Spare the rod and spile the child,
+as the Good Book says. I'm a laying up sin and suffering for us both,
+I know. He's full of the Old Scratch, but laws-a-me! he's my own
+dead sister's boy, poor thing, and I ain't got the heart to lash him,
+somehow. Every time I let him off, my conscience does hurt me so, and
+every time I hit him my old heart most breaks. Well-a-well, man that is
+born of woman is of few days and full of trouble, as the Scripture
+says, and I reckon it's so. He'll play hookey this evening, * and [*
+Southwestern for “afternoon”] I'll just be obleeged to make him work,
+tomorrow, to punish him. It's mighty hard to make him work Saturdays,
+when all the boys is having holiday, but he hates work more than he
+hates anything else, and I've _got_ to do some of my duty by him, or
+I'll be the ruination of the child.” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom did play hookey, and he had a very good time
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He got back home
+barely in season to help Jim, the small colored boy, saw next-day's wood
+and split the kindlings before supper--at least he was there in time
+to tell his adventures to Jim while Jim did three-fourths of the work
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom's younger brother (or rather half-brother) Sid was already through
+with his part of the work (picking up chips), for he was a quiet boy,
+and had no adventurous, trouble-some ways
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  While Tom was eating his supper, and stealing sugar as opportunity
+offered, Aunt Polly asked him questions that were full of guile, and
+very deep--for she wanted to trap him into damaging revealments
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Like
+many other simple-hearted souls, it was her pet vanity to believe she
+was endowed with a talent for dark and mysterious diplomacy, and she
+loved to contemplate her most transparent devices as marvels of low
+cunning
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Said she:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Tom, it was middling warm in school, warn't it?”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Yes'm.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Powerful warm, warn't it?”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Yes'm.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Didn't you want to go in a-swimming, Tom?”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  A bit of a scare shot through Tom--a touch of uncomfortable suspicion
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He
+searched Aunt Polly's face, but it told him nothing
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So he said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “No'm--well, not very much.”
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The old lady reached out her hand and felt Tom's shirt, and said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “But you ain't too warm now, though.”
+Speaker: her
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  And it flattered her to reflect
+that she had discovered that the shirt was dry without anybody knowing
+that that was what she had in her mind
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  But in spite of her, Tom knew
+where the wind lay, now
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So he forestalled what might be the next move:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Some of us pumped on our heads--mine's damp yet. See?” 
+Speaker: Polly
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Aunt Polly was vexed to think she had overlooked that bit of
+circumstantial evidence, and missed a trick
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then she had a new
+inspiration:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Tom, you didn't have to undo your shirt collar where I sewed it, to
+pump on your head, did you? Unbutton your jacket!” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The trouble vanished out of Tom's face
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He opened his jacket
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  His shirt
+collar was securely sewed
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Bother! Well, go 'long with you. I'd made sure you'd played hookey
+and been a-swimming. But I forgive ye, Tom. I reckon you're a kind of a
+singed cat, as the saying is--better'n you look. _This_ time.” 
+Speaker: His
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  She was half sorry her sagacity had miscarried, and half glad that Tom
+had stumbled into obedient conduct for once
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  But Sidney said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “Well, now, if I didn't think you sewed his collar with white thread,
+but it's black.”
+Speaker: Sidney
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Why, I did sew it with white! Tom!” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  But Tom did not wait for the rest
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  As he went out at the door he said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Siddy, I'll lick you for that.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  In a safe place Tom examined two large needles which were thrust into
+the lapels of his jacket, and had thread bound about them--one needle
+carried white thread and the other black
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “She'd never noticed if it hadn't been for Sid. Confound it! sometimes
+she sews it with white, and sometimes she sews it with black. I wish to
+gee-miny she'd stick to one or t'other--I can't keep the run of 'em. But
+I bet you I'll lam Sid for that. I'll learn him!” 
+Speaker: He
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  He was not the Model Boy of the village
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He knew the model boy very well
+though--and loathed him
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Within two minutes, or even less, he had forgotten all his troubles
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Not
+because his troubles were one whit less heavy and bitter to him than a
+man's are to a man, but because a new and powerful interest bore
+them down and drove them out of his mind for the time--just as men's
+misfortunes are forgotten in the excitement of new enterprises
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  This new
+interest was a valued novelty in whistling, which he had just acquired
+from a negro, and he was suffering to practise it un-disturbed
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  It
+consisted in a peculiar bird-like turn, a sort of liquid warble,
+produced by touching the tongue to the roof of the mouth at short
+intervals in the midst of the music--the reader probably remembers how to
+do it, if he has ever been a boy
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Diligence and attention soon gave him
+the knack of it, and he strode down the street with his mouth full of
+harmony and his soul full of gratitude
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He felt much as an astronomer
+feels who has discovered a new planet--no doubt, as far as strong, deep,
+unalloyed pleasure is concerned, the advantage was with the boy, not the
+astronomer
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The summer evenings were long
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  It was not dark, yet
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Presently Tom
+checked his whistle
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  A stranger was before him--a boy a shade larger
+than himself
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  A new-comer of any age or either sex was an im-pressive
+curiosity in the poor little shabby village of St
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Petersburg
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  This boy
+was well dressed, too--well dressed on a week-day
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  This was simply as
+astounding
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  His cap was a dainty thing, his close-buttoned blue cloth
+roundabout was new and natty, and so were his pantaloons
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He had shoes
+on--and it was only Friday
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He even wore a necktie, a bright bit of
+ribbon
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He had a citified air about him that ate into Tom's vitals
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The
+more Tom stared at the splendid marvel, the higher he turned up his nose
+at his finery and the shabbier and shabbier his own outfit seemed to
+him to grow
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Neither boy spoke
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote:  If one moved, the other moved--but only
+sidewise, in a circle; they kept face to face and eye to eye all the
+time
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Finally Tom said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “I can lick you!”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “I'd like to see you try it.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well, I can do it.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “No you can't, either.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Yes I can.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “No you can't.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I can.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “You can't.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Can!”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Can't!”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  An uncomfortable pause
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then Tom said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “What's your name?”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “'Tisn't any of your business, maybe.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well I 'low I'll _make_ it my business.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well why don't you?”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “If you say much, I will.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Much--much--_much_. There now.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Oh, you think you're mighty smart, _don't_ you? I could lick you with
+one hand tied behind me, if I wanted to.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well why don't you _do_ it? You _say_ you can do it.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well I _will_, if you fool with me.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Oh yes--I've seen whole families in the same fix.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Smarty! You think you're _some_, now, _don't_ you? Oh, what a hat!” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You can lump that hat if you don't like it. I dare you to knock it
+off--and anybody that'll take a dare will suck eggs.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You're a liar!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You're another.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You're a fighting liar and dasn't take it up.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Aw--take a walk!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Say--if you give me much more of your sass I'll take and bounce a rock
+off'n your head.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Oh, of _course_ you will.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well I _will_.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well why don't you _do_ it then? What do you keep _saying_ you will
+for? Why don't you _do_ it? It's because you're afraid.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I _ain't_ afraid.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You are.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I ain't.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You are.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Another pause, and more eying and sidling around each other
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Presently
+they were shoulder to shoulder
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: “Get away from here!”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “Go away yourself!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I won't.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “I won't either.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So they stood, each with a foot placed at an angle as a brace, and both
+shoving with might and main, and glowering at each other with hate
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  But
+neither could get an advantage
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  After struggling till both were hot and
+flushed, each relaxed his strain with watchful caution, and Tom said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “You're a coward and a pup. I'll tell my big brother on you, and he can
+thrash you with his little finger, and I'll make him do it, too.” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “What do I care for your big brother? I've got a brother that's bigger
+than he is--and what's more, he can throw him over that fence, too.” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  [Both brothers were imaginary
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ] 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “That's a lie.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: “_Your_ saying so don't make it so.”
+Speaker: him
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom drew a line in the dust with his big toe, and said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “I dare you to step over that, and I'll lick you till you can't stand
+up. Anybody that'll take a dare will steal sheep.” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The new boy stepped over promptly, and said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Now you said you'd do it, now let's see you do it.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Don't you crowd me now; you better look out.”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Well, you _said_ you'd do it--why don't you do it?”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “By jingo! for two cents I _will_ do it.” 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The new boy took two broad coppers out of his pocket and held them out
+with derision
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom struck them to the ground
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  In an instant both boys
+were rolling and tumbling in the dirt, gripped together like cats; and
+for the space of a minute they tugged and tore at each other's hair and
+clothes, punched and scratched each other's nose, and covered themselves
+with dust and glory
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Presently the confusion took form, and through the
+fog of battle Tom appeared, seated astride the new boy, and pounding him
+with his fists
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Holler 'nuff!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said he
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote:  The boy only struggled to free himself
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He was crying--mainly from rage
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Holler 'nuff!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  --and the pounding went on
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  At last the stranger got out a smothered 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “'Nuff!”
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  and Tom let him up and
+said:
+
+
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “Now that'll learn you. Better look out who you're fooling with next
+time.” 
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The new boy went off brushing the dust from his clothes, sobbing,
+snuffling, and occasionally looking back and shaking his head and
+threatening what he would do to Tom the 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “next time he caught him out.”
+Speaker: Tom
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  To which Tom responded with jeers, and started off in high feather, and
+as soon as his back was turned the new boy snatched up a stone, threw it
+and hit him between the shoulders and then turned tail and ran like
+an antelope
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Tom chased the traitor home, and thus found out where he
+lived
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He then held a position at the gate for some time, daring the
+enemy to come outside, but the enemy only made faces at him through the
+window and declined
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  At last the enemy's mother appeared, and called Tom
+a bad, vicious, vulgar child, and ordered him away
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So he went away; but
+he said he 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “'lowed”
+Speaker: he
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  to 
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: “lay”
+Speaker: he
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  for that boy
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  He got home pretty late that night, and when he climbed cautiously in
+at the window, he uncovered an ambuscade, in the person of his aunt; and
+when she saw the state his clothes were in her resolution to turn his
+Saturday holiday into captivity at hard labor became adamantine in its
+firmness
+Speaker: narrator
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+She
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+Polly
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+Tom
+UnknownGenderCount = 28
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+his
+UnknownGenderCount = 39
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 1
+improvisedGender = MALE
+narrator
+UnknownGenderCount = 0
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 4
+improvisedGender = MALE
+His
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+her
+UnknownGenderCount = 6
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+Sidney
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+He
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+him
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+he
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 02:12 min
+[INFO] Finished at: 2020-02-21T16:57:20+00:00
+[INFO] Final Memory: 4190M/15629M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,613 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building RadioBook 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ RadioBook ---
+[INFO] Deleting /home/e14302/RadioBook/NLP/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ RadioBook ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/e14302/RadioBook/NLP/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ RadioBook ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /home/e14302/RadioBook/NLP/target/classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
+Number of Sentences
+53
+
+quote’s sentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’ 
+currentSentenceIdx = 1
+his: MALE
+quote’s sentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’ 
+currentSentenceIdx = 1
+his: MALE
+endingSentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’
+quote’s sentence = ‘What makes you pant so, my friend?’ 
+currentSentenceIdx = 3
+him: UNKNOWN
+quote’s sentence = ‘Alas!’ 
+currentSentenceIdx = 5
+him: UNKNOWN
+quote’s sentence = said the dog, ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’ 
+currentSentenceIdx = 6
+narrator: UNKNOWN
+quote’s sentence = ‘Hark ye!’ 
+currentSentenceIdx = 7
+him: UNKNOWN
+quote’s sentence = said the ass, ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’ 
+currentSentenceIdx = 8
+him: UNKNOWN
+quote’s sentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you? 
+currentSentenceIdx = 11
+his: MALE
+quote’s sentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you? You look quite out of spirits!’ 
+currentSentenceIdx = 11
+his: MALE
+endingSentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you?
+quote’s sentence = ‘Ah, me!’ 
+currentSentenceIdx = 13
+Chanticleer: UNKNOWN
+quote’s sentence = said the cat, ‘how can one be in good spirits when one’s life is in danger? Because I am beginning to grow old, and had rather lie at my ease by the fire than run about the house after the mice, my mistress laid hold of me, and was going to drown me; and though I have been lucky enough to get away from her, I do not know what I am to live upon.’ 
+currentSentenceIdx = 14
+Chanticleer: UNKNOWN
+quote’s sentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’ 
+currentSentenceIdx = 16
+his: MALE
+quote’s sentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’ 
+currentSentenceIdx = 16
+his: MALE
+endingSentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’
+quote’s sentence = ‘Bravo!’ 
+currentSentenceIdx = 19
+him: UNKNOWN
+quote’s sentence = said the ass; ‘upon my word, you make a famous noise; pray what is all this about?’ 
+currentSentenceIdx = 20
+him: UNKNOWN
+quote’s sentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’ 
+currentSentenceIdx = 21
+him: UNKNOWN
+quote’s sentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’ 
+currentSentenceIdx = 21
+him: UNKNOWN
+endingSentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’
+quote’s sentence = ‘Heaven forbid!’ 
+currentSentenceIdx = 22
+him: UNKNOWN
+quote’s sentence = said the ass, ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off! Besides, who knows? If we care to sing in tune, we may get up some kind of a concert; so come along with us.’ 
+currentSentenceIdx = 23
+him: UNKNOWN
+quote’s sentence = ‘With all my heart,’ said the cock: so they all four went on jollily together. 
+currentSentenceIdx = 26
+him: UNKNOWN
+quote’s sentence = In doing this, he saw afar off something bright and shining and calling to his companions said, ‘There must be a house no great way off, for I see a light.’ 
+currentSentenceIdx = 29
+his: MALE
+quote’s sentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’ 
+currentSentenceIdx = 30
+his: MALE
+quote’s sentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’ 
+currentSentenceIdx = 30
+his: MALE
+endingSentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’
+quote’s sentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’ 
+currentSentenceIdx = 31
+his: MALE
+quote’s sentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’ 
+currentSentenceIdx = 31
+Chanticleer: UNKNOWN
+endingSentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’
+quote’s sentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’ 
+currentSentenceIdx = 34
+Chanticleer: UNKNOWN
+quote’s sentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’ 
+currentSentenceIdx = 34
+Chanticleer: UNKNOWN
+endingSentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’
+quote’s sentence = ‘What do I see?’ 
+currentSentenceIdx = 35
+Chanticleer: UNKNOWN
+quote’s sentence = ‘Why, I see a table spread with all kinds of good things, and robbers sitting round it making merry.’ 
+currentSentenceIdx = 37
+him: UNKNOWN
+quote’s sentence = ‘That would be a noble lodging for us,’ said the cock. 
+currentSentenceIdx = 38
+him: UNKNOWN
+quote’s sentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan. 
+currentSentenceIdx = 39
+him: UNKNOWN
+quote’s sentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan. 
+currentSentenceIdx = 39
+him: UNKNOWN
+endingSentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan.
+quote’s sentence = At this the robber ran back as fast as he could to his comrades, and told the captain how a horrid witch had got into the house, and had spat at him and scratched his face with her long bony fingers; how a man with a knife in his hand had hidden himself behind the door, and stabbed him in the leg; how a black monster stood in the yard and struck him with a club, and how the devil had sat upon the top of the house and cried out, ‘Throw the rascal up here!’ 
+currentSentenceIdx = 51
+him: UNKNOWN
+Quote: An honest farmer had once an ass that had been a faithful servant to him a great many years, but was now growing old and every day more and more unfit for work
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘For there,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  thought he, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I may turn musician.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  After he had travelled a little way, he spied a dog lying by the roadside and panting as if he were tired
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘What makes you pant so, my friend?’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘Alas!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the dog, 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Hark ye!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The dog said he was willing, and they jogged on together
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  They had not gone far before they saw a cat sitting in the middle of the road and making a most rueful face
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Pray, my good lady,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘what’s the matter with you? You look quite out of spirits!’ 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Ah, me!’
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the cat, 
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘how can one be in good spirits when one’s life is in danger? Because I am beginning to grow old, and had rather lie at my ease by the fire than run about the house after the mice, my mistress laid hold of me, and was going to drown me; and though I have been lucky enough to get away from her, I do not know what I am to live upon.’ 
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Oh,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  The cat was pleased with the thought, and joined the party
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Soon afterwards, as they were passing by a farmyard, they saw a cock perched upon a gate, and screaming out with all his might and main
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Bravo!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass; 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘upon my word, you make a famous noise; pray what is all this about?’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Why,’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the cock, 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Heaven forbid!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off! Besides, who knows? If we care to sing in tune, we may get up some kind of a concert; so come along with us.’ 
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘With all my heart,’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the cock: so they all four went on jollily together
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  They could not, however, reach the great city the first day; so when night came on, they went into a wood to sleep
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The ass and the dog laid themselves down under a great tree, and the cat climbed up into the branches; while the cock, thinking that the higher he sat the safer he should be, flew up to the very top of the tree, and then, according to his custom, before he went to sleep, looked out on all sides of him to see that everything was well
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  In doing this, he saw afar off something bright and shining and calling to his companions said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘There must be a house no great way off, for I see a light.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘If that be the case,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘we had better change our quarters, for our lodging is not the best in the world!’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Besides,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  added the dog, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I should not be the worse for a bone or two, or a bit of meat.’
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  So they walked off together towards the spot where Chanticleer had seen the light, and as they drew near it became larger and brighter, till they at last came close to a house in which a gang of robbers lived
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The ass, being the tallest of the company, marched up to the window and peeped in
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Well, Donkey,’
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Chanticleer, 
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘what do you see?’
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘What do I see?’
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  replied the ass
+Speaker: Chanticleer
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘Why, I see a table spread with all kinds of good things, and robbers sitting round it making merry.’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘That would be a noble lodging for us,’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the cock
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘Yes,’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the ass, 
+Speaker: him
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘if we could only get in’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The ass placed himself upright on his hind legs, with his forefeet resting against the window; the dog got upon his back; the cat scrambled up to the dog’s shoulders, and the cock flew up and sat upon the cat’s head
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  When all was ready a signal was given, and they began their music
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The ass brayed, the dog barked, the cat mewed, and the cock screamed; and then they all broke through the window at once, and came tumbling into the room, amongst the broken glass, with a most hideous clatter! The robbers, who had been not a little frightened by the opening concert, had now no doubt that some frightful hobgoblin had broken in upon them, and scampered away as fast as they could
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The coast once clear, our travellers soon sat down and dispatched what the robbers had left, with as much eagerness as if they had not expected to eat again for a month
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  As soon as they had satisfied themselves, they put out the lights, and each once more sought out a resting-place to his own liking
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The donkey laid himself down upon a heap of straw in the yard, the dog stretched himself upon a mat behind the door, the cat rolled herself up on the hearth before the warm ashes, and the cock perched upon a beam on the top of the house; and, as they were all rather tired with their journey, they soon fell asleep
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But about midnight, when the robbers saw from afar that the lights were out and that all seemed quiet, they began to think that they had been in too great a hurry to run away; and one of them, who was bolder than the rest, went to see what was going on
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Finding everything still, he marched into the kitchen, and groped about till he found a match in order to light a candle; and then, espying the glittering fiery eyes of the cat, he mistook them for live coals, and held the match to them to light it
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But the cat, not understanding this joke, sprang at his face, and spat, and scratched at him
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  This frightened him dreadfully, and away he ran to the back door; but there the dog jumped up and bit him in the leg; and as he was crossing over the yard the ass kicked him; and the cock, who had been awakened by the noise, crowed with all his might
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  At this the robber ran back as fast as he could to his comrades, and told the captain how a horrid witch had got into the house, and had spat at him and scratched his face with her long bony fingers; how a man with a knife in his hand had hidden himself behind the door, and stabbed him in the leg; how a black monster stood in the yard and struck him with a club, and how the devil had sat upon the top of the house and cried out, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Throw the rascal up here!’
+Speaker: him
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  After this the robbers never dared to go back to the house; but the musicians were so pleased with their quarters that they took up their abode there; and there they are, I dare say, at this very day
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+his
+UnknownGenderCount = 10
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 5
+improvisedGender = MALE
+narrator
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+Chanticleer
+UnknownGenderCount = 6
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 2
+improvisedGender = MALE
+him
+UnknownGenderCount = 16
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 8
+improvisedGender = MALE
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:43 min
+[INFO] Finished at: 2020-02-21T16:25:57+00:00
+[INFO] Final Memory: 4169M/12456M
+[INFO] ------------------------------------------------------------------------
