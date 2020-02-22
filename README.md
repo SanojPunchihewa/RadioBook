@@ -23,10 +23,10 @@ mvn clean compile  exec:java -Dexec.mainClass="TTS"
 ## Preprocessing
 
 ### Regex Commands to find
-- **Exclamation marks which are end of sentence identifiers** !’ [a-z]
-- **Exclamation marks which are end of sentence identifiers** \?’ [a-z]
-- **Quotes inside double qoutation marks (to escape quotes inside quotes)** (["'])(?:(?=(\\?))\2.)*?\1
-- **Quotes inside single qoutation marks (to escape quotes inside quotes)** (['])(?:(?=(\\?))\2.)*?\1
+- **Exclamation marks which are not end of sentence identifiers** !’ [a-z]
+- **Question marks which are not end of sentence identifiers** \\?’ [a-z]
+- **Quotes inside double qoutation marks (to escape quotes inside quotes)** (["'])(?:(?=(\\\\?))\2.)*?\1
+- **Quotes inside single qoutation marks (to escape quotes inside quotes)** (['])(?:(?=(\\\\?))\2.)*?\1
 
 
 ## Gender Classifier
