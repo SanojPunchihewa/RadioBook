@@ -20,6 +20,9 @@ mvn clean compile  exec:java -Dexec.mainClass="TTS"
 ```
 
 ------------
+## Preprocessing
+
+**1. Escaping exclamation marks !’ [a-z]**
 
 
 ## Gender Classifier
