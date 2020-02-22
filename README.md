@@ -3,13 +3,30 @@
 ## How to build and Run
 ```
 git clone https://github.com/SanojPunchihewa/RadioBook.git
+```
+### NLP part
+```
 cd RadioBook/NLP
 mvn clean compile
 export MAVEN_OPTS="-Xmx14000m"
 mvn exec:java -Dexec.mainClass="com.example.radiobook.BasicPipelineExample"
 ```
+### TTS part
+```
+cd RadioBook/TTS
+mvn clean compile
+export MAVEN_OPTS="-Xmx14000m"
+mvn clean compile  exec:java -Dexec.mainClass="TTS"
+```
 
 ------------
+## Preprocessing
+
+### Regex Commands to find
+- **Exclamation marks which are not end of sentence identifiers** !’ [a-z]
+- **Question marks which are not end of sentence identifiers** \\?’ [a-z]
+- **Quotes inside double qoutation marks (to escape quotes inside quotes)** (["'])(?:(?=(\\\\?))\2.)*?\1
+- **Quotes inside single qoutation marks (to escape quotes inside quotes)** (['])(?:(?=(\\\\?))\2.)*?\1
 
 
 ## Gender Classifier

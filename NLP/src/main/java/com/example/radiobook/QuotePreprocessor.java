@@ -46,6 +46,7 @@ public class QuotePreprocessor {
     private Emotion QATEmotion;
     private final String TOKENIZER_REGEX = " ";
     public static ArrayList<Quote> quoteList = new ArrayList<>();
+    public static ArrayList<Speaker> sortedSpeakerList = new ArrayList<>();
     private static HashMap<String, Speaker> speakerMap = new HashMap<>();
     private static HashMap<String, Emotion> emotionsMap = new HashMap<>();
 
@@ -66,6 +67,7 @@ public class QuotePreprocessor {
         for (CoreQuote quote : quotes) {
             currentSentenceIdx = quote.sentences().get(0).coreMap().get(CoreAnnotations.SentenceIndexAnnotation.class);
             quoteStartingIdx = getQuoteStartingIdx(quote);
+            System.out.println();
             System.out.println("currentSentenceIdx = " + currentSentenceIdx);
 
             currentSpeaker = quote.hasSpeaker ? quote.speaker().get() : (quote.hasCanonicalSpeaker ? quote.canonicalSpeaker().get() : defaultSpeaker);
@@ -120,26 +122,28 @@ public class QuotePreprocessor {
         //String startingSentence = getSentenceByIndex(startingSentenceIdx);
         String endingSentence;
         StringBuffer strBuffer = new StringBuffer();
-
+        StringBuffer tempBuffer = new StringBuffer();
+        String originalSentence = null;
         if (isQuote) {
             if (startingSentenceIdx == endingSentenceIdx) {
                 endingSentence = getSentenceByIndex(endingSentenceIdx);
+                originalSentence = endingSentence;
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
-                StringBuffer tempBuffer = new StringBuffer();
                 for (int i = startingSentenceIdx; i <= endingSentenceIdx; i++) {
-                    tempBuffer.append(document.sentences().get(i).text()).append(" ");
+                    tempBuffer.append(document.sentences().get(i).text()).append(" "); // ending quote parts not handled
                 }
+                originalSentence = tempBuffer.toString();
                 strBuffer.append(tempBuffer.substring(startingQuoteIdx));
             }
-            quoteList.add(new Quote(strBuffer.toString(), speaker, false, Emotion.Neutral.value));
+            quoteList.add(new Quote(strBuffer.toString(), speaker, false, Emotion.Neutral.value, originalSentence));
         } else {
             if (startingSentenceIdx == endingSentenceIdx) {
                 endingSentence = getSentenceByIndex(endingSentenceIdx);
                 System.out.println("endingSentence = " + endingSentence);
                 strBuffer.append(endingSentence, startingQuoteIdx, endingQuoteIdx);
             } else {
-                StringBuffer tempBuffer = new StringBuffer();
+                tempBuffer = new StringBuffer();
                 for (int i = startingSentenceIdx; i < endingSentenceIdx; i++) {
                     tempBuffer.append(document.sentences().get(i).text()).append(" ");
                 }
@@ -155,7 +159,7 @@ public class QuotePreprocessor {
                 if (!StringUtils.isBlank(sentence)) {
                     tagAnnotator(sentence, speaker);
                     speaker = isTag ? speaker : defaultSpeaker;
-                    quoteList.add(new Quote(sentence, speaker, isTag, QATEmotion.value));
+                    quoteList.add(new Quote(sentence, speaker, isTag, QATEmotion.value, null));
                 }
             }
         }
@@ -281,6 +285,24 @@ public class QuotePreprocessor {
         }
     }
 
+    public void polishIsTagSpeaker() {
+        Quote prevQuote = null, currentQuote, nextQuote = null;
+        for (int i = 0; i < quoteList.size(); i++) {
+            prevQuote = (i > 0) ? quoteList.get(i - 1) : null;
+            currentQuote = quoteList.get(i);
+            nextQuote = (i < (quoteList.size()-1)) ? quoteList.get(i + 1) : null;
+            if (currentQuote.isQuoteAttributionTag()) {
+                if (prevQuote != null && (prevQuote.getOriginalQuoteSentence() != null) && prevQuote.getOriginalQuoteSentence().contains(StringUtils.strip(currentQuote.getQuote()))) {
+                    currentQuote.setSpeaker(prevQuote.getSpeaker());
+                    prevQuote.setQATEmotion(currentQuote.getQATEmotion());
+                } else if (nextQuote != null && (nextQuote.getOriginalQuoteSentence() != null) && nextQuote.getOriginalQuoteSentence().contains(StringUtils.strip(currentQuote.getQuote()))) {
+                    currentQuote.setSpeaker(nextQuote.getSpeaker());
+                    nextQuote.setQATEmotion(currentQuote.getQATEmotion());
+                }
+            }
+        }
+    }
+
     // Returns the starting index of a quote in a sentence
     private int getQuoteStartingIdx(CoreQuote quote) {
         StringBuffer tempBuffer = new StringBuffer();
@@ -312,6 +334,16 @@ public class QuotePreprocessor {
 
     public void printSpeakerGenders() {
         String gender;
+//        Collections.sort(speakerMap.values(), new Comparator<Speaker>() {
+//            @Override
+//            public int compare(Speaker t, Speaker t1) {
+//                if(t.getSpeakerCount() > t1.getSpeakerCount())
+//                    return 0;
+//                else
+//                    return 1;
+//            }
+//        });
+
         for (HashMap.Entry<String, Speaker> speakerEntry : speakerMap.entrySet()) {
             String speakerName = speakerEntry.getKey();
             Speaker speaker = speakerEntry.getValue();
