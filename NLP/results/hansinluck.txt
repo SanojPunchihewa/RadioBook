@@ -17,44 +17,1061 @@
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
 Number of Sentences
-123
+122
 
-quote’s sentence = However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, ‘When you want to go very fast, smack your lips loudly together, and cry “Jip! ”’
-
-Hans was delighted as he sat on the horse, drew himself up, squared his elbows, turned out his toes, cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
-
- ‘No care and no sorrow,
-  A fig for the morrow! 
-currentSentenceIdx = 20
-narrator: UNKNOWN
 quote’s sentence = At last he said, ‘Master, my time is up; I must go home and see my poor mother once more: so pray pay me my wages and let me go.’ 
 currentSentenceIdx = 5
 Hans: MALE
-[WARNING] 
-java.lang.StringIndexOutOfBoundsException: String index out of range: -6
-	at java.lang.AbstractStringBuilder.substring(AbstractStringBuilder.java:935)
-	at java.lang.StringBuffer.substring(StringBuffer.java:480)
-	at java.lang.StringBuffer.substring(StringBuffer.java:462)
-	at com.example.radiobook.QuotePreprocessor.createQuote(QuotePreprocessor.java:146)
-	at com.example.radiobook.QuotePreprocessor.classify(QuotePreprocessor.java:77)
-	at com.example.radiobook.BasicPipelineExample.main(BasicPipelineExample.java:76)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
-	at java.lang.Thread.run(Thread.java:748)
+quote’s sentence = And the master said, ‘You have been a faithful and good servant, Hans, so your pay shall be handsome.’ 
+currentSentenceIdx = 6
+narrator: UNKNOWN
+quote’s sentence = ‘Ah!’ 
+currentSentenceIdx = 10
+Hans: UNKNOWN
+quote’s sentence = said Hans aloud, ‘what a fine thing it is to ride on horseback! There he sits as easy and happy as if he was at home, in the chair by his fireside; he trips against no stones, saves shoe-leather, and gets on he hardly knows how.’ 
+currentSentenceIdx = 11
+Hans: UNKNOWN
+quote’s sentence = Hans did not speak so softly but the horseman heard it all, and said, ‘Well, friend, why do you go on foot then?’ 
+currentSentenceIdx = 13
+Hans: UNKNOWN
+quote’s sentence = ‘Ah!’ 
+currentSentenceIdx = 14
+Hans: MALE
+quote’s sentence = said he, ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’ 
+currentSentenceIdx = 15
+Hans: MALE
+quote’s sentence = ‘What do you say of making an exchange?’ 
+currentSentenceIdx = 16
+Hans: UNKNOWN
+quote’s sentence = ‘I will give you my horse, and you shall give me the silver; which will save you a great deal of trouble in carrying such a heavy load about with you.’ 
+currentSentenceIdx = 18
+Hans: UNKNOWN
+quote’s sentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’ 
+currentSentenceIdx = 19
+Hans: UNKNOWN
+quote’s sentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’ 
+currentSentenceIdx = 19
+Hans: UNKNOWN
+endingSentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’
+quote’s sentence = However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, ‘When you want to go very fast, smack your lips loudly together, and cry Jip!’ 
+currentSentenceIdx = 20
+Hans: UNKNOWN
+quote’s sentence = Hans was delighted as he sat on the horse, drew himself up, squared his elbows, turned out his toes, cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
+
+ ‘No care and no sorrow,
+  A fig for the morrow! We’ll laugh and be merry,
+  Sing neigh down derry!’ 
+currentSentenceIdx = 21
+narrator: UNKNOWN
+quote’s sentence = After a time he thought he should like to go a little faster, so he smacked his lips and cried ‘Jip!’ 
+currentSentenceIdx = 23
+Hans: MALE
+quote’s sentence = Hans soon came to himself, and got upon his legs again, sadly vexed, and said to the shepherd, ‘This riding is no joke, when a man has the luck to get upon a beast like this that stumbles and flings him off as if it would break his neck. However, I’m off now once for all: I like your cow now a great deal better than this smart beast that played me this trick, and has spoiled my best coat, you see, in this puddle; which, by the by, smells not very like a nosegay. One can walk along at one’s leisure behind that cow—keep good company, and have milk, butter, and cheese, every day, into the bargain. What would I give to have such a prize!’ 
+currentSentenceIdx = 26
+Hans: UNKNOWN
+quote’s sentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’ 
+currentSentenceIdx = 30
+her: UNKNOWN
+quote’s sentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’ 
+currentSentenceIdx = 30
+Hans: UNKNOWN
+endingSentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’
+quote’s sentence = ‘Done!’ 
+currentSentenceIdx = 31
+Hans: UNKNOWN
+quote’s sentence = ‘What a noble heart that good man has!’ 
+currentSentenceIdx = 33
+he: MALE
+quote’s sentence = ‘If I have only a piece of bread (and I certainly shall always be able to get that), I can, whenever I like, eat my butter and cheese with it; and when I am thirsty I can milk my cow and drink the milk: and what can I wish for more?’ 
+currentSentenceIdx = 37
+Hans: UNKNOWN
+quote’s sentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had. 
+currentSentenceIdx = 41
+Hans: MALE
+quote’s sentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had. 
+currentSentenceIdx = 41
+Hans: MALE
+endingSentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had.
+quote’s sentence = ‘What is the matter with you, my man?’ 
+currentSentenceIdx = 46
+Hans: UNKNOWN
+quote’s sentence = Then the butcher gave him a flask of ale, saying, ‘There, drink and refresh yourself; your cow will give you no milk: don’t you see she is an old beast, good for nothing but the slaughter-house?’ 
+currentSentenceIdx = 49
+Hans: UNKNOWN
+quote’s sentence = ‘Alas, alas!’ 
+currentSentenceIdx = 50
+Hans: UNKNOWN
+quote’s sentence = said Hans, ‘who would have thought it? What a shame to take my horse, and give me only a dry cow! If I kill her, what will she be good for? I hate cow-beef; it is not tender enough for me. If it were a pig now—like that fat gentleman you are driving along at his ease—one could do something with it; it would at any rate make sausages.’ 
+currentSentenceIdx = 51
+Hans: UNKNOWN
+quote’s sentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. 
+currentSentenceIdx = 56
+her: UNKNOWN
+quote’s sentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. To please you I will change, and give you my fine fat pig for the cow.’ 
+currentSentenceIdx = 56
+her: UNKNOWN
+endingSentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing.
+quote’s sentence = ‘Heaven reward you for your kindness and self-denial!’ 
+currentSentenceIdx = 58
+Hans: UNKNOWN
+quote’s sentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old. 
+currentSentenceIdx = 65
+he: MALE
+quote’s sentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old. Whoever roasts and eats it will find plenty of fat upon it, it has lived so well!’ 
+currentSentenceIdx = 65
+her: MALE
+endingSentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old.
+quote’s sentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’ 
+currentSentenceIdx = 67
+Hans: UNKNOWN
+quote’s sentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’ 
+currentSentenceIdx = 67
+Hans: UNKNOWN
+endingSentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’
+quote’s sentence = ‘Hark ye!’ 
+currentSentenceIdx = 69
+his: MALE
+quote’s sentence = said he, ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. Your pig may get you into a scrape. In the village I just came from, the squire has had a pig stolen out of his sty. I was dreadfully afraid when I saw you that you had got the squire’s pig. If you have, and they catch you, it will be a bad job for you. The least they will do will be to throw you into the horse-pond. Can you swim?’ 
+currentSentenceIdx = 70
+her: MALE
+quote’s sentence = ‘Good man,’ cried he, ‘pray get me out of this scrape. 
+currentSentenceIdx = 78
+Hans: MALE
+quote’s sentence = ‘Good man,’ cried he, ‘pray get me out of this scrape. I know nothing of where the pig was either bred or born; but he may have been the squire’s for aught I can tell: you know this country better than I do, take my pig and give me the goose.’ 
+currentSentenceIdx = 78
+Hans: MALE
+endingSentence = ‘Good man,’ cried he, ‘pray get me out of this scrape.
+quote’s sentence = ‘I ought to have something into the bargain,’ said the countryman; ‘give a fat goose for a pig, indeed! 
+currentSentenceIdx = 80
+narrator: UNKNOWN
+quote’s sentence = ‘Tis not everyone would do so much for you as that. However, I will not be hard upon you, as you are in trouble.’ 
+currentSentenceIdx = 81
+narrator: UNKNOWN
+quote’s sentence = ‘After all,’ thought he, ‘that chap is pretty well taken in. 
+currentSentenceIdx = 84
+Hans: MALE
+quote’s sentence = ‘After all,’ thought he, ‘that chap is pretty well taken in. I don’t care whose pig it is, but wherever it came from it has been a very good friend to me. I have much the best of the bargain. First there will be a capital roast; then the fat will find me in goose-grease for six months; and then there are all the beautiful white feathers. I will put them into my pillow, and then I am sure I shall sleep soundly without rocking. How happy my mother will be! Talk of a pig, indeed! Give me a fine fat goose.’ 
+currentSentenceIdx = 84
+Hans: MALE
+endingSentence = ‘After all,’ thought he, ‘that chap is pretty well taken in.
+quote’s sentence = As he came to the next village, he saw a scissor-grinder with his wheel, working and singing,
+
+ ‘O’er hill and o’er dale
+  So happy I roam,
+  Work light and live well,
+  All the world is my home;
+  Then who so blythe, so merry as I?’ 
+currentSentenceIdx = 92
+his: UNKNOWN
+quote’s sentence = Hans stood looking on for a while, and at last said, ‘You must be well off, master grinder! you seem so happy at your work.’ 
+currentSentenceIdx = 93
+Hans: UNKNOWN
+quote’s sentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’ 
+currentSentenceIdx = 95
+Hans: UNKNOWN
+quote’s sentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’ 
+currentSentenceIdx = 95
+Hans: UNKNOWN
+endingSentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’
+quote’s sentence = ‘I did not buy it, I gave a pig for it.’ 
+currentSentenceIdx = 96
+his: UNKNOWN
+quote’s sentence = ‘And where did you get the pig?’ 
+currentSentenceIdx = 97
+Hans: UNKNOWN
+quote’s sentence = ‘I gave a cow for it.’ 
+currentSentenceIdx = 98
+his: UNKNOWN
+quote’s sentence = ‘And the cow?’ 
+currentSentenceIdx = 99
+his: UNKNOWN
+quote’s sentence = ‘I gave a horse for it.’ 
+currentSentenceIdx = 100
+his: UNKNOWN
+quote’s sentence = ‘And the horse?’ 
+currentSentenceIdx = 101
+his: UNKNOWN
+quote’s sentence = ‘I gave a lump of silver as big as my head for it.’ 
+currentSentenceIdx = 102
+his: UNKNOWN
+quote’s sentence = ‘And the silver?’ 
+currentSentenceIdx = 103
+his: UNKNOWN
+quote’s sentence = ‘Oh! I worked hard for that seven long years.’ 
+currentSentenceIdx = 104
+his: UNKNOWN
+quote’s sentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’ 
+currentSentenceIdx = 106
+his: UNKNOWN
+quote’s sentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’ 
+currentSentenceIdx = 106
+his: UNKNOWN
+endingSentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’
+quote’s sentence = ‘Very true: but how is that to be managed?’ 
+currentSentenceIdx = 107
+his: UNKNOWN
+quote’s sentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. 
+currentSentenceIdx = 108
+his: UNKNOWN
+quote’s sentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. Here is one that is but little the worse for wear: I would not ask more than the value of your goose for it—will you buy?’ 
+currentSentenceIdx = 108
+Hans: UNKNOWN
+endingSentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself.
+quote’s sentence = ‘How can you ask?’ 
+currentSentenceIdx = 110
+Hans: UNKNOWN
+quote’s sentence = said Hans; ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more? there’s the goose.’ 
+currentSentenceIdx = 111
+Hans: UNKNOWN
+quote’s sentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’ 
+currentSentenceIdx = 113
+his: UNKNOWN
+quote’s sentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’ 
+currentSentenceIdx = 113
+his: UNKNOWN
+endingSentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’
+quote’s sentence = Hans took the stone, and went his way with a light heart: his eyes sparkled for joy, and he said to himself, ‘Surely I must have been born in a lucky hour; everything I could want or wish for comes of itself. People are so kind; they seem really to think I do them a favour in letting them make me rich, and giving me good bargains.’ 
+currentSentenceIdx = 114
+Hans: MALE
+quote’s sentence = ‘How happy am I!’ 
+currentSentenceIdx = 120
+Hans: MALE
+quote’s sentence = cried he; ‘nobody was ever so lucky as I.’ Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was. 
+currentSentenceIdx = 121
+narrator: UNKNOWN
+Quote: Some men are born to good luck: all they do or try to do comes right—all that falls to them is so much gain—all their geese are swans—all their cards are trumps—toss them which way you will, they will always, like poor puss, alight upon their legs, and only move on so much the faster
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The world may very likely not always think of them as they think of themselves, but what care they for the world? what can it know about the matter? One of these lucky beings was neighbour Hans
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Seven long years he had worked hard for his master
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  At last he said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Master, my time is up; I must go home and see my poor mother once more: so pray pay me my wages and let me go.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  And the master said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘You have been a faithful and good servant, Hans, so your pay shall be handsome.’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then he gave him a lump of silver as big as his head
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans took out his pocket-handkerchief, put the piece of silver into it, threw it over his shoulder, and jogged off on his road homewards
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  As he went lazily on, dragging one foot after another, a man came in sight, trotting gaily along on a capital horse
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Ah!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans aloud, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘what a fine thing it is to ride on horseback! There he sits as easy and happy as if he was at home, in the chair by his fireside; he trips against no stones, saves shoe-leather, and gets on he hardly knows how.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans did not speak so softly but the horseman heard it all, and said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Well, friend, why do you go on foot then?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Ah!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said he, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘What do you say of making an exchange?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the horseman
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I will give you my horse, and you shall give me the silver; which will save you a great deal of trouble in carrying such a heavy load about with you.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘With all my heart,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans: 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘When you want to go very fast, smack your lips loudly together, and cry Jip!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: Hans was delighted as he sat on the horse, drew himself up, squared his elbows, turned out his toes, cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
+
+ ‘No care and no sorrow,
+  A fig for the morrow! We’ll laugh and be merry,
+  Sing neigh down derry!’ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
+
+ ‘No care and no sorrow,
+  A fig for the morrow! We’ll laugh and be merry,
+  Sing neigh down derry!’ After a time he thought he should like to go a little faster, so he smacked his lips and cried 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Jip!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Away went the horse full gallop; and before Hans knew what he was about, he was thrown off, and lay on his back by the road-side
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  His horse would have ran off, if a shepherd who was coming by, driving a cow, had not stopped it
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans soon came to himself, and got upon his legs again, sadly vexed, and said to the shepherd, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘This riding is no joke, when a man has the luck to get upon a beast like this that stumbles and flings him off as if it would break his neck. However, I’m off now once for all: I like your cow now a great deal better than this smart beast that played me this trick, and has spoiled my best coat, you see, in this puddle; which, by the by, smells not very like a nosegay. One can walk along at one’s leisure behind that cow—keep good company, and have milk, butter, and cheese, every day, into the bargain. What would I give to have such a prize!’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Well,’
+Speaker: her
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the shepherd, 
+Speaker: her
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Done!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans, merrily
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘What a noble heart that good man has!’
+Speaker: he
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  thought he
+Speaker: he
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote:  Then the shepherd jumped upon the horse, wished Hans and the cow good morning, and away he rode
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans brushed his coat, wiped his face and hands, rested a while, and then drove off his cow quietly, and thought his bargain a very lucky one
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘If I have only a piece of bread (and I certainly shall always be able to get that), I can, whenever I like, eat my butter and cheese with it; and when I am thirsty I can milk my cow and drink the milk: and what can I wish for more?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  When he came to an inn, he halted, ate up all his bread, and gave away his last penny for a glass of beer
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  When he had rested himself he set off again, driving his cow towards his mother’s village
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But the heat grew greater as soon as noon came on, till at last, as he found himself on a wide heath that would take him more than an hour to cross, he began to be so hot and parched that his tongue clave to the roof of his mouth
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I can find a cure for this,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  thought he; 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘now I will milk my cow and quench my thirst’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: : so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Who would have thought that this cow, which was to bring him milk and butter and cheese, was all that time utterly dry? Hans had not thought of looking to that
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  While he was trying his luck in milking, and managing the matter very clumsily, the uneasy beast began to think him very troublesome; and at last gave him such a kick on the head as knocked him down; and there he lay a long while senseless
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Luckily a butcher soon came by, driving a pig in a wheelbarrow
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘What is the matter with you, my man?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the butcher, as he helped him up
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans told him what had happened, how he was dry, and wanted to milk his cow, but found the cow was dry too
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then the butcher gave him a flask of ale, saying, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘There, drink and refresh yourself; your cow will give you no milk: don’t you see she is an old beast, good for nothing but the slaughter-house?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Alas, alas!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘who would have thought it? What a shame to take my horse, and give me only a dry cow! If I kill her, what will she be good for? I hate cow-beef; it is not tender enough for me. If it were a pig now—like that fat gentleman you are driving along at his ease—one could do something with it; it would at any rate make sausages.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Well,’
+Speaker: her
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the butcher, 
+Speaker: her
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. To please you I will change, and give you my fine fat pig for the cow.’ 
+Speaker: her
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Heaven reward you for your kindness and self-denial!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans, as he gave the butcher the cow; and taking the pig off the wheel-barrow, drove it away, holding it by the string that was tied to its leg
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  So on he jogged, and all seemed now to go right with him: he had met with some misfortunes, to be sure; but he was now well repaid for all
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  How could it be otherwise with such a travelling companion as he had at last got? The next man he met was a countryman carrying a fine white goose
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The countryman stopped to ask what was o’clock; this led to further chat; and Hans told him all his luck, how he had so many good bargains, and how all the world went gay and smiling with him
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The countryman then began to tell his tale, and said he was going to take the goose to a christening
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Feel,’
+Speaker: he
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said he, 
+Speaker: he
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘how heavy it is, and yet it is only eight weeks old. Whoever roasts and eats it will find plenty of fat upon it, it has lived so well!’ 
+Speaker: her
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘You’re right,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans, as he weighed it in his hand; 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘but if you talk of fat, my pig is no trifle.’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Meantime the countryman began to look grave, and shook his head
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Hark ye!’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said he, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. Your pig may get you into a scrape. In the village I just came from, the squire has had a pig stolen out of his sty. I was dreadfully afraid when I saw you that you had got the squire’s pig. If you have, and they catch you, it will be a bad job for you. The least they will do will be to throw you into the horse-pond. Can you swim?’ 
+Speaker: her
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Poor Hans was sadly frightened
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Good man,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  cried he, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Sadness
+
+Quote: ‘pray get me out of this scrape. I know nothing of where the pig was either bred or born; but he may have been the squire’s for aught I can tell: you know this country better than I do, take my pig and give me the goose.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I ought to have something into the bargain,’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the countryman; ‘give a fat goose for a pig, indeed! 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Tis not everyone would do so much for you as that. However, I will not be hard upon you, as you are in trouble.’ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then he took the string in his hand, and drove off the pig by a side path; while Hans went on the way homewards free from care
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘After all,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  thought he, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘that chap is pretty well taken in. I don’t care whose pig it is, but wherever it came from it has been a very good friend to me. I have much the best of the bargain. First there will be a capital roast; then the fat will find me in goose-grease for six months; and then there are all the beautiful white feathers. I will put them into my pillow, and then I am sure I shall sleep soundly without rocking. How happy my mother will be! Talk of a pig, indeed! Give me a fine fat goose.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  As he came to the next village, he saw a scissor-grinder with his wheel, working and singing,
+
+ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘O’er hill and o’er dale
+  So happy I roam,
+  Work light and live well,
+  All the world is my home;
+  Then who so blythe, so merry as I?’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans stood looking on for a while, and at last said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘You must be well off, master grinder! you seem so happy at your work.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Yes,’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the other, 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I did not buy it, I gave a pig for it.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘And where did you get the pig?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I gave a cow for it.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘And the cow?’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I gave a horse for it.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘And the horse?’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I gave a lump of silver as big as my head for it.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘And the silver?’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Oh! I worked hard for that seven long years.’ 
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘You have thriven well in the world hitherto,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the grinder, 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Very true: but how is that to be managed?’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘How Why, you must turn grinder like myself,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the other; 
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘you only want a grindstone; the rest will come of itself. Here is one that is but little the worse for wear: I would not ask more than the value of your goose for it—will you buy?’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘How can you ask?’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said Hans; 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
+Quote: ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more? there’s the goose.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Now,’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the grinder, as he gave him a common rough stone that lay by his side, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’
+Speaker: his
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Hans took the stone, and went his way with a light heart: his eyes sparkled for joy, and he said to himself, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Surely I must have been born in a lucky hour; everything I could want or wish for comes of itself. People are so kind; they seem really to think I do them a favour in letting them make me rich, and giving me good bargains.’ 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  Meantime he began to be tired, and hungry too, for he had given away his last penny in his joy at getting the cow
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  At last he could go no farther, for the stone tired him sadly: and he dragged himself to the side of a river, that he might take a drink of water, and rest a while
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  So he laid the stone carefully by his side on the bank: but, as he stooped down to drink, he forgot it, pushed it a little, and down it rolled, plump into the stream
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  For a while he watched it sinking in the deep clear water; then sprang up and danced for joy, and again fell upon his knees and thanked Heaven, with tears in his eyes, for its kindness in taking away his only plague, the ugly heavy stone
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘How happy am I!’
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  cried he; 
+Speaker: Hans
+Improvised Gender: MALE
+IsTag: true
+Emotion: Sadness
+
+Quote: ‘nobody was ever so lucky as I.’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+narrator
+UnknownGenderCount = 5
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+his
+UnknownGenderCount = 16
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 3
+improvisedGender = MALE
+her
+UnknownGenderCount = 5
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 2
+improvisedGender = MALE
+Hans
+UnknownGenderCount = 38
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 7
+improvisedGender = MALE
+he
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 2
+improvisedGender = MALE
 [INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
+[INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:50 min
-[INFO] Finished at: 2020-02-21T05:03:16+00:00
-[INFO] Final Memory: 4190M/13103M
+[INFO] Total time: 02:49 min
+[INFO] Finished at: 2020-02-21T15:18:33+00:00
+[INFO] Final Memory: 4176M/12617M
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:1.6.0:java (default-cli) on project RadioBook: An exception occured while executing the Java class. String index out of range: -6 -> [Help 1]
-[ERROR] 
-[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
-[ERROR] Re-run Maven using the -X switch to enable full debug logging.
-[ERROR] 
-[ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
