@@ -3,10 +3,20 @@
 ## How to build and Run
 ```
 git clone https://github.com/SanojPunchihewa/RadioBook.git
+```
+### NLP part
+```
 cd RadioBook/NLP
 mvn clean compile
 export MAVEN_OPTS="-Xmx14000m"
 mvn exec:java -Dexec.mainClass="com.example.radiobook.BasicPipelineExample"
+```
+### TTS part
+```
+cd RadioBook/TTS
+mvn clean compile
+export MAVEN_OPTS="-Xmx14000m"
+mvn clean compile  exec:java -Dexec.mainClass="TTS"
 ```
 
 ------------
