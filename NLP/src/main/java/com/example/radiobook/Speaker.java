@@ -1,6 +1,6 @@
 package com.example.radiobook;
 
-public class Speaker {
+public class Speaker{
 
     enum Gender {
         UNKNOWN,
@@ -62,4 +62,5 @@ public class Speaker {
     public int getMaleGenderCount() {
         return maleGenderCount;
     }
+
 }

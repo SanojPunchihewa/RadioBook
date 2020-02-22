@@ -17,115 +17,159 @@
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
 Number of Sentences
-53
+46
 
 quote’s sentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’ 
+
 currentSentenceIdx = 1
 his: MALE
 quote’s sentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’ 
+
 currentSentenceIdx = 1
 his: MALE
 endingSentence = His master therefore was tired of keeping him and began to think of putting an end to him; but the ass, who saw that some mischief was in the wind, took himself slyly off, and began his journey towards the great city, ‘For there,’ thought he, ‘I may turn musician.’
-quote’s sentence = ‘What makes you pant so, my friend?’ 
+quote’s sentence = ‘What makes you pant so, my friend’ said the ass. 
+
 currentSentenceIdx = 3
 him: UNKNOWN
-quote’s sentence = ‘Alas!’ 
+quote’s sentence = ‘Alas’ said the dog, ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’ 
+
+currentSentenceIdx = 4
+him: UNKNOWN
+quote’s sentence = ‘Alas’ said the dog, ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’ 
+
+currentSentenceIdx = 4
+narrator: UNKNOWN
+endingSentence = ‘Alas’ said the dog, ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’
+quote’s sentence = ‘Hark ye’ said the ass, ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’ 
+
 currentSentenceIdx = 5
 him: UNKNOWN
-quote’s sentence = said the dog, ‘my master was going to knock me on the head, because I am old and weak, and can no longer make myself useful to him in hunting; so I ran away; but what can I do to earn my livelihood?’ 
-currentSentenceIdx = 6
-narrator: UNKNOWN
-quote’s sentence = ‘Hark ye!’ 
-currentSentenceIdx = 7
+quote’s sentence = ‘Hark ye’ said the ass, ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’ 
+
+currentSentenceIdx = 5
 him: UNKNOWN
-quote’s sentence = said the ass, ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’ 
-currentSentenceIdx = 8
-him: UNKNOWN
+endingSentence = ‘Hark ye’ said the ass, ‘I am going to the great city to turn musician: suppose you go with me, and try what you can do in the same way?’
 quote’s sentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you? 
-currentSentenceIdx = 11
+
+currentSentenceIdx = 8
 his: MALE
 quote’s sentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you? You look quite out of spirits!’ 
-currentSentenceIdx = 11
+
+currentSentenceIdx = 8
 his: MALE
 endingSentence = ‘Pray, my good lady,’ said the ass, ‘what’s the matter with you?
-quote’s sentence = ‘Ah, me!’ 
-currentSentenceIdx = 13
+quote’s sentence = ‘Ah, me’ said the cat, ‘how can one be in good spirits when one’s life is in danger? 
+
+currentSentenceIdx = 10
 Chanticleer: UNKNOWN
-quote’s sentence = said the cat, ‘how can one be in good spirits when one’s life is in danger? Because I am beginning to grow old, and had rather lie at my ease by the fire than run about the house after the mice, my mistress laid hold of me, and was going to drown me; and though I have been lucky enough to get away from her, I do not know what I am to live upon.’ 
-currentSentenceIdx = 14
+quote’s sentence = ‘Ah, me’ said the cat, ‘how can one be in good spirits when one’s life is in danger? Because I am beginning to grow old, and had rather lie at my ease by the fire than run about the house after the mice, my mistress laid hold of me, and was going to drown me; and though I have been lucky enough to get away from her, I do not know what I am to live upon.’ 
+
+currentSentenceIdx = 10
 Chanticleer: UNKNOWN
+endingSentence = ‘Ah, me’ said the cat, ‘how can one be in good spirits when one’s life is in danger?
 quote’s sentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’ 
-currentSentenceIdx = 16
+
+currentSentenceIdx = 12
 his: MALE
 quote’s sentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’ 
-currentSentenceIdx = 16
+
+currentSentenceIdx = 12
 his: MALE
 endingSentence = ‘Oh,’ said the ass, ‘by all means go with us to the great city; you are a good night singer, and may make your fortune as a musician.’
-quote’s sentence = ‘Bravo!’ 
-currentSentenceIdx = 19
+quote’s sentence = ‘Bravo’ said the ass; ‘upon my word, you make a famous noise; pray what is all this about?’ 
+
+currentSentenceIdx = 15
 him: UNKNOWN
-quote’s sentence = said the ass; ‘upon my word, you make a famous noise; pray what is all this about?’ 
-currentSentenceIdx = 20
+quote’s sentence = ‘Bravo’ said the ass; ‘upon my word, you make a famous noise; pray what is all this about?’ 
+
+currentSentenceIdx = 15
+him: UNKNOWN
+endingSentence = ‘Bravo’ said the ass; ‘upon my word, you make a famous noise; pray what is all this about?’
+quote’s sentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’ 
+
+currentSentenceIdx = 16
 him: UNKNOWN
 quote’s sentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’ 
-currentSentenceIdx = 21
-him: UNKNOWN
-quote’s sentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’ 
-currentSentenceIdx = 21
+
+currentSentenceIdx = 16
 him: UNKNOWN
 endingSentence = ‘Why,’ said the cock, ‘I was just now saying that we should have fine weather for our washing-day, and yet my mistress and the cook don’t thank me for my pains, but threaten to cut off my head tomorrow, and make broth of me for the guests that are coming on Sunday!’
-quote’s sentence = ‘Heaven forbid!’ 
-currentSentenceIdx = 22
+quote’s sentence = ‘Heaven forbid’ said the ass, ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off! 
+
+currentSentenceIdx = 17
 him: UNKNOWN
-quote’s sentence = said the ass, ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off! Besides, who knows? If we care to sing in tune, we may get up some kind of a concert; so come along with us.’ 
-currentSentenceIdx = 23
+quote’s sentence = ‘Heaven forbid’ said the ass, ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off! Besides, who knows? If we care to sing in tune, we may get up some kind of a concert; so come along with us.’ 
+
+currentSentenceIdx = 17
 him: UNKNOWN
+endingSentence = ‘Heaven forbid’ said the ass, ‘come with us Master Chanticleer; it will be better, at any rate, than staying here to have your head cut off!
 quote’s sentence = ‘With all my heart,’ said the cock: so they all four went on jollily together. 
-currentSentenceIdx = 26
+
+currentSentenceIdx = 20
 him: UNKNOWN
 quote’s sentence = In doing this, he saw afar off something bright and shining and calling to his companions said, ‘There must be a house no great way off, for I see a light.’ 
-currentSentenceIdx = 29
+
+currentSentenceIdx = 23
 his: MALE
 quote’s sentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’ 
-currentSentenceIdx = 30
+
+currentSentenceIdx = 24
 his: MALE
 quote’s sentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’ 
-currentSentenceIdx = 30
+
+currentSentenceIdx = 24
 his: MALE
 endingSentence = ‘If that be the case,’ said the ass, ‘we had better change our quarters, for our lodging is not the best in the world!’
 quote’s sentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’ 
-currentSentenceIdx = 31
+
+currentSentenceIdx = 25
 his: MALE
 quote’s sentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’ 
-currentSentenceIdx = 31
+
+currentSentenceIdx = 25
 Chanticleer: UNKNOWN
 endingSentence = ‘Besides,’ added the dog, ‘I should not be the worse for a bone or two, or a bit of meat.’
 quote’s sentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’ 
-currentSentenceIdx = 34
+
+currentSentenceIdx = 28
 Chanticleer: UNKNOWN
 quote’s sentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’ 
-currentSentenceIdx = 34
+
+currentSentenceIdx = 28
 Chanticleer: UNKNOWN
 endingSentence = ‘Well, Donkey,’ said Chanticleer, ‘what do you see?’
-quote’s sentence = ‘What do I see?’ 
-currentSentenceIdx = 35
+quote’s sentence = ‘What do I see’ replied the ass. 
+
+currentSentenceIdx = 29
 Chanticleer: UNKNOWN
 quote’s sentence = ‘Why, I see a table spread with all kinds of good things, and robbers sitting round it making merry.’ 
-currentSentenceIdx = 37
+
+currentSentenceIdx = 30
 him: UNKNOWN
 quote’s sentence = ‘That would be a noble lodging for us,’ said the cock. 
-currentSentenceIdx = 38
+
+currentSentenceIdx = 31
 him: UNKNOWN
 quote’s sentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan. 
-currentSentenceIdx = 39
+
+currentSentenceIdx = 32
 him: UNKNOWN
 quote’s sentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan. 
-currentSentenceIdx = 39
+
+currentSentenceIdx = 32
 him: UNKNOWN
 endingSentence = ‘Yes,’ said the ass, ‘if we could only get in’; so they consulted together how they should contrive to get the robbers out; and at last they hit upon a plan.
 quote’s sentence = At this the robber ran back as fast as he could to his comrades, and told the captain how a horrid witch had got into the house, and had spat at him and scratched his face with her long bony fingers; how a man with a knife in his hand had hidden himself behind the door, and stabbed him in the leg; how a black monster stood in the yard and struck him with a club, and how the devil had sat upon the top of the house and cried out, ‘Throw the rascal up here!’ 
-currentSentenceIdx = 51
+
+currentSentenceIdx = 44
 him: UNKNOWN
+totaltags = 16
+falsetags = 0
+tagsbeforequote0
+tagsafterquote16
+
+
 Quote: An honest farmer had once an ass that had been a faithful servant to him a great many years, but was now growing old and every day more and more unfit for work
 Speaker: narrator
 Improvised Gender: UNKNOWN
@@ -162,7 +206,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What makes you pant so, my friend?’
+Quote: ‘What makes you pant so, my friend’
 Speaker: him
 Improvised Gender: MALE
 IsTag: false
@@ -174,7 +218,7 @@ Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘Alas!’
+Quote: ‘Alas’
 Speaker: him
 Improvised Gender: MALE
 IsTag: false
@@ -192,7 +236,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Hark ye!’
+Quote: ‘Hark ye’
 Speaker: him
 Improvised Gender: MALE
 IsTag: false
@@ -240,7 +284,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Ah, me!’
+Quote: ‘Ah, me’
 Speaker: Chanticleer
 Improvised Gender: MALE
 IsTag: false
@@ -288,7 +332,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Bravo!’
+Quote: ‘Bravo’
 Speaker: him
 Improvised Gender: MALE
 IsTag: false
@@ -324,7 +368,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Heaven forbid!’
+Quote: ‘Heaven forbid’
 Speaker: him
 Improvised Gender: MALE
 IsTag: false
@@ -444,7 +488,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What do I see?’
+Quote: ‘What do I see’
 Speaker: Chanticleer
 Improvised Gender: MALE
 IsTag: false
@@ -577,37 +621,45 @@ IsTag: false
 Emotion: Neutral
 
 his
+QuoteCount = 10
 UnknownGenderCount = 10
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 5
 improvisedGender = MALE
+
 narrator
+QuoteCount = 1
 UnknownGenderCount = 1
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 0
 improvisedGender = UNKNOWN
+
 Chanticleer
+QuoteCount = 6
 UnknownGenderCount = 6
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 2
 improvisedGender = MALE
+
 him
+QuoteCount = 16
 UnknownGenderCount = 16
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 8
 improvisedGender = MALE
+
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:43 min
-[INFO] Finished at: 2020-02-21T16:25:57+00:00
-[INFO] Final Memory: 4169M/12456M
+[INFO] Total time: 02:03 min
+[INFO] Finished at: 2020-02-22T14:11:42+00:00
+[INFO] Final Memory: 4167M/12146M
 [INFO] ------------------------------------------------------------------------

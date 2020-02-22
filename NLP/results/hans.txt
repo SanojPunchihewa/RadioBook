@@ -17,141 +17,186 @@
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
 Number of Sentences
-122
+111
 
 quote’s sentence = At last he said, ‘Master, my time is up; I must go home and see my poor mother once more: so pray pay me my wages and let me go.’ 
+
 currentSentenceIdx = 5
 Hans: MALE
 quote’s sentence = And the master said, ‘You have been a faithful and good servant, Hans, so your pay shall be handsome.’ 
+
 currentSentenceIdx = 6
 narrator: UNKNOWN
-quote’s sentence = ‘Ah!’ 
+quote’s sentence = ‘Ah’ said Hans aloud, ‘what a fine thing it is to ride on horseback! 
+
 currentSentenceIdx = 10
 Hans: UNKNOWN
-quote’s sentence = said Hans aloud, ‘what a fine thing it is to ride on horseback! There he sits as easy and happy as if he was at home, in the chair by his fireside; he trips against no stones, saves shoe-leather, and gets on he hardly knows how.’ 
-currentSentenceIdx = 11
+quote’s sentence = ‘Ah’ said Hans aloud, ‘what a fine thing it is to ride on horseback! There he sits as easy and happy as if he was at home, in the chair by his fireside; he trips against no stones, saves shoe-leather, and gets on he hardly knows how.’ 
+
+currentSentenceIdx = 10
 Hans: UNKNOWN
+endingSentence = ‘Ah’ said Hans aloud, ‘what a fine thing it is to ride on horseback!
 quote’s sentence = Hans did not speak so softly but the horseman heard it all, and said, ‘Well, friend, why do you go on foot then?’ 
-currentSentenceIdx = 13
+
+currentSentenceIdx = 12
 Hans: UNKNOWN
-quote’s sentence = ‘Ah!’ 
+quote’s sentence = ‘Ah’ said he, ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’ 
+
+currentSentenceIdx = 13
+Hans: MALE
+quote’s sentence = ‘Ah’ said he, ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’ 
+
+currentSentenceIdx = 13
+Hans: MALE
+endingSentence = ‘Ah’ said he, ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’
+quote’s sentence = ‘What do you say of making an exchange’ said the horseman. 
+
 currentSentenceIdx = 14
-Hans: MALE
-quote’s sentence = said he, ‘I have this load to carry: to be sure it is silver, but it is so heavy that I can’t hold up my head, and you must know it hurts my shoulder sadly.’ 
-currentSentenceIdx = 15
-Hans: MALE
-quote’s sentence = ‘What do you say of making an exchange?’ 
-currentSentenceIdx = 16
 Hans: UNKNOWN
 quote’s sentence = ‘I will give you my horse, and you shall give me the silver; which will save you a great deal of trouble in carrying such a heavy load about with you.’ 
-currentSentenceIdx = 18
+
+currentSentenceIdx = 15
 Hans: UNKNOWN
 quote’s sentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’ 
-currentSentenceIdx = 19
+
+currentSentenceIdx = 16
 Hans: UNKNOWN
 quote’s sentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’ 
-currentSentenceIdx = 19
+
+currentSentenceIdx = 16
 Hans: UNKNOWN
 endingSentence = ‘With all my heart,’ said Hans: ‘but as you are so kind to me, I must tell you one thing—you will have a weary task to draw that silver about with you.’
-quote’s sentence = However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, ‘When you want to go very fast, smack your lips loudly together, and cry Jip!’ 
-currentSentenceIdx = 20
+quote’s sentence = However, the horseman got off, took the silver, helped Hans up, gave him the bridle into one hand and the whip into the other, and said, ‘When you want to go very fast, smack your lips loudly together, and cry ‘Jip!’’ 
+
+currentSentenceIdx = 17
 Hans: UNKNOWN
 quote’s sentence = Hans was delighted as he sat on the horse, drew himself up, squared his elbows, turned out his toes, cracked his whip, and rode merrily off, one minute whistling a merry tune, and another singing,
 
  ‘No care and no sorrow,
   A fig for the morrow! We’ll laugh and be merry,
   Sing neigh down derry!’ 
-currentSentenceIdx = 21
+
+currentSentenceIdx = 18
 narrator: UNKNOWN
 quote’s sentence = After a time he thought he should like to go a little faster, so he smacked his lips and cried ‘Jip!’ 
-currentSentenceIdx = 23
+
+currentSentenceIdx = 20
 Hans: MALE
 quote’s sentence = Hans soon came to himself, and got upon his legs again, sadly vexed, and said to the shepherd, ‘This riding is no joke, when a man has the luck to get upon a beast like this that stumbles and flings him off as if it would break his neck. However, I’m off now once for all: I like your cow now a great deal better than this smart beast that played me this trick, and has spoiled my best coat, you see, in this puddle; which, by the by, smells not very like a nosegay. One can walk along at one’s leisure behind that cow—keep good company, and have milk, butter, and cheese, every day, into the bargain. What would I give to have such a prize!’ 
-currentSentenceIdx = 26
+
+currentSentenceIdx = 23
 Hans: UNKNOWN
 quote’s sentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’ 
-currentSentenceIdx = 30
+
+currentSentenceIdx = 27
 her: UNKNOWN
 quote’s sentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’ 
-currentSentenceIdx = 30
+
+currentSentenceIdx = 27
 Hans: UNKNOWN
 endingSentence = ‘Well,’ said the shepherd, ‘if you are so fond of her, I will change my cow for your horse; I like to do good to my neighbours, even though I lose by it myself.’
-quote’s sentence = ‘Done!’ 
-currentSentenceIdx = 31
+quote’s sentence = ‘Done’ said Hans, merrily. 
+
+currentSentenceIdx = 28
 Hans: UNKNOWN
-quote’s sentence = ‘What a noble heart that good man has!’ 
-currentSentenceIdx = 33
+quote’s sentence = ‘What a noble heart that good man has’ thought he. 
+
+currentSentenceIdx = 29
 he: MALE
 quote’s sentence = ‘If I have only a piece of bread (and I certainly shall always be able to get that), I can, whenever I like, eat my butter and cheese with it; and when I am thirsty I can milk my cow and drink the milk: and what can I wish for more?’ 
-currentSentenceIdx = 37
+
+currentSentenceIdx = 32
 Hans: UNKNOWN
 quote’s sentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had. 
-currentSentenceIdx = 41
+
+currentSentenceIdx = 36
 Hans: MALE
 quote’s sentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had. 
-currentSentenceIdx = 41
+
+currentSentenceIdx = 36
 Hans: MALE
 endingSentence = ‘I can find a cure for this,’ thought he; ‘now I will milk my cow and quench my thirst’: so he tied her to the stump of a tree, and held his leathern cap to milk into; but not a drop was to be had.
-quote’s sentence = ‘What is the matter with you, my man?’ 
-currentSentenceIdx = 46
+quote’s sentence = ‘What is the matter with you, my man’ said the butcher, as he helped him up. 
+
+currentSentenceIdx = 41
 Hans: UNKNOWN
 quote’s sentence = Then the butcher gave him a flask of ale, saying, ‘There, drink and refresh yourself; your cow will give you no milk: don’t you see she is an old beast, good for nothing but the slaughter-house?’ 
-currentSentenceIdx = 49
+
+currentSentenceIdx = 43
 Hans: UNKNOWN
-quote’s sentence = ‘Alas, alas!’ 
-currentSentenceIdx = 50
+quote’s sentence = ‘Alas, alas’ said Hans, ‘who would have thought it? 
+
+currentSentenceIdx = 44
 Hans: UNKNOWN
-quote’s sentence = said Hans, ‘who would have thought it? What a shame to take my horse, and give me only a dry cow! If I kill her, what will she be good for? I hate cow-beef; it is not tender enough for me. If it were a pig now—like that fat gentleman you are driving along at his ease—one could do something with it; it would at any rate make sausages.’ 
-currentSentenceIdx = 51
+quote’s sentence = ‘Alas, alas’ said Hans, ‘who would have thought it? What a shame to take my horse, and give me only a dry cow! If I kill her, what will she be good for? I hate cow-beef; it is not tender enough for me. If it were a pig now—like that fat gentleman you are driving along at his ease—one could do something with it; it would at any rate make sausages.’ 
+
+currentSentenceIdx = 44
 Hans: UNKNOWN
+endingSentence = ‘Alas, alas’ said Hans, ‘who would have thought it?
 quote’s sentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. 
-currentSentenceIdx = 56
+
+currentSentenceIdx = 49
 her: UNKNOWN
 quote’s sentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. To please you I will change, and give you my fine fat pig for the cow.’ 
-currentSentenceIdx = 56
+
+currentSentenceIdx = 49
 her: UNKNOWN
 endingSentence = ‘Well,’ said the butcher, ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing.
-quote’s sentence = ‘Heaven reward you for your kindness and self-denial!’ 
-currentSentenceIdx = 58
+quote’s sentence = ‘Heaven reward you for your kindness and self-denial’ said Hans, as he gave the butcher the cow; and taking the pig off the wheel-barrow, drove it away, holding it by the string that was tied to its leg. 
+
+currentSentenceIdx = 51
 Hans: UNKNOWN
 quote’s sentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old. 
-currentSentenceIdx = 65
+
+currentSentenceIdx = 57
 he: MALE
 quote’s sentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old. Whoever roasts and eats it will find plenty of fat upon it, it has lived so well!’ 
-currentSentenceIdx = 65
+
+currentSentenceIdx = 57
 her: MALE
 endingSentence = ‘Feel,’ said he, ‘how heavy it is, and yet it is only eight weeks old.
 quote’s sentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’ 
-currentSentenceIdx = 67
+
+currentSentenceIdx = 59
 Hans: UNKNOWN
 quote’s sentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’ 
-currentSentenceIdx = 67
+
+currentSentenceIdx = 59
 Hans: UNKNOWN
 endingSentence = ‘You’re right,’ said Hans, as he weighed it in his hand; ‘but if you talk of fat, my pig is no trifle.’
-quote’s sentence = ‘Hark ye!’ 
-currentSentenceIdx = 69
+quote’s sentence = ‘Hark ye’ said he, ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. 
+
+currentSentenceIdx = 61
 his: MALE
-quote’s sentence = said he, ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. Your pig may get you into a scrape. In the village I just came from, the squire has had a pig stolen out of his sty. I was dreadfully afraid when I saw you that you had got the squire’s pig. If you have, and they catch you, it will be a bad job for you. The least they will do will be to throw you into the horse-pond. Can you swim?’ 
-currentSentenceIdx = 70
+quote’s sentence = ‘Hark ye’ said he, ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. Your pig may get you into a scrape. In the village I just came from, the squire has had a pig stolen out of his sty. I was dreadfully afraid when I saw you that you had got the squire’s pig. If you have, and they catch you, it will be a bad job for you. The least they will do will be to throw you into the horse-pond. Can you swim?’ 
+
+currentSentenceIdx = 61
 her: MALE
+endingSentence = ‘Hark ye’ said he, ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn.
 quote’s sentence = ‘Good man,’ cried he, ‘pray get me out of this scrape. 
-currentSentenceIdx = 78
+
+currentSentenceIdx = 69
 Hans: MALE
 quote’s sentence = ‘Good man,’ cried he, ‘pray get me out of this scrape. I know nothing of where the pig was either bred or born; but he may have been the squire’s for aught I can tell: you know this country better than I do, take my pig and give me the goose.’ 
-currentSentenceIdx = 78
+
+currentSentenceIdx = 69
 Hans: MALE
 endingSentence = ‘Good man,’ cried he, ‘pray get me out of this scrape.
 quote’s sentence = ‘I ought to have something into the bargain,’ said the countryman; ‘give a fat goose for a pig, indeed! 
-currentSentenceIdx = 80
+
+currentSentenceIdx = 71
 narrator: UNKNOWN
 quote’s sentence = ‘Tis not everyone would do so much for you as that. However, I will not be hard upon you, as you are in trouble.’ 
-currentSentenceIdx = 81
+
+currentSentenceIdx = 72
 narrator: UNKNOWN
 quote’s sentence = ‘After all,’ thought he, ‘that chap is pretty well taken in. 
-currentSentenceIdx = 84
+
+currentSentenceIdx = 75
 Hans: MALE
 quote’s sentence = ‘After all,’ thought he, ‘that chap is pretty well taken in. I don’t care whose pig it is, but wherever it came from it has been a very good friend to me. I have much the best of the bargain. First there will be a capital roast; then the fat will find me in goose-grease for six months; and then there are all the beautiful white feathers. I will put them into my pillow, and then I am sure I shall sleep soundly without rocking. How happy my mother will be! Talk of a pig, indeed! Give me a fine fat goose.’ 
-currentSentenceIdx = 84
+
+currentSentenceIdx = 75
 Hans: MALE
 endingSentence = ‘After all,’ thought he, ‘that chap is pretty well taken in.
 quote’s sentence = As he came to the next village, he saw a scissor-grinder with his wheel, working and singing,
@@ -161,84 +206,117 @@ quote’s sentence = As he came to the next village, he saw a scissor-grinder wi
   Work light and live well,
   All the world is my home;
   Then who so blythe, so merry as I?’ 
-currentSentenceIdx = 92
+
+currentSentenceIdx = 83
 his: UNKNOWN
 quote’s sentence = Hans stood looking on for a while, and at last said, ‘You must be well off, master grinder! you seem so happy at your work.’ 
-currentSentenceIdx = 93
+
+currentSentenceIdx = 84
 Hans: UNKNOWN
 quote’s sentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’ 
-currentSentenceIdx = 95
+
+currentSentenceIdx = 86
 Hans: UNKNOWN
 quote’s sentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’ 
-currentSentenceIdx = 95
+
+currentSentenceIdx = 86
 Hans: UNKNOWN
 endingSentence = ‘Yes,’ said the other, ‘mine is a golden trade; a good grinder never puts his hand into his pocket without finding money in it—but where did you get that beautiful goose?’
 quote’s sentence = ‘I did not buy it, I gave a pig for it.’ 
-currentSentenceIdx = 96
+
+currentSentenceIdx = 87
 his: UNKNOWN
 quote’s sentence = ‘And where did you get the pig?’ 
-currentSentenceIdx = 97
+
+currentSentenceIdx = 88
 Hans: UNKNOWN
 quote’s sentence = ‘I gave a cow for it.’ 
-currentSentenceIdx = 98
+
+currentSentenceIdx = 89
 his: UNKNOWN
 quote’s sentence = ‘And the cow?’ 
-currentSentenceIdx = 99
+
+currentSentenceIdx = 90
 his: UNKNOWN
 quote’s sentence = ‘I gave a horse for it.’ 
-currentSentenceIdx = 100
+
+currentSentenceIdx = 91
 his: UNKNOWN
 quote’s sentence = ‘And the horse?’ 
-currentSentenceIdx = 101
+
+currentSentenceIdx = 92
 his: UNKNOWN
 quote’s sentence = ‘I gave a lump of silver as big as my head for it.’ 
-currentSentenceIdx = 102
+
+currentSentenceIdx = 93
 his: UNKNOWN
 quote’s sentence = ‘And the silver?’ 
-currentSentenceIdx = 103
+
+currentSentenceIdx = 94
 his: UNKNOWN
 quote’s sentence = ‘Oh! I worked hard for that seven long years.’ 
-currentSentenceIdx = 104
+
+currentSentenceIdx = 95
 his: UNKNOWN
 quote’s sentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’ 
-currentSentenceIdx = 106
+
+currentSentenceIdx = 97
 his: UNKNOWN
 quote’s sentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’ 
-currentSentenceIdx = 106
+
+currentSentenceIdx = 97
 his: UNKNOWN
 endingSentence = ‘You have thriven well in the world hitherto,’ said the grinder, ‘now if you could find money in your pocket whenever you put your hand in it, your fortune would be made.’
 quote’s sentence = ‘Very true: but how is that to be managed?’ 
-currentSentenceIdx = 107
+
+currentSentenceIdx = 98
 his: UNKNOWN
-quote’s sentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. 
-currentSentenceIdx = 108
+quote’s sentence = ‘How, Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. 
+
+currentSentenceIdx = 99
 his: UNKNOWN
-quote’s sentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. Here is one that is but little the worse for wear: I would not ask more than the value of your goose for it—will you buy?’ 
-currentSentenceIdx = 108
+quote’s sentence = ‘How, Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself. Here is one that is but little the worse for wear: I would not ask more than the value of your goose for it—will you buy?’ 
+
+currentSentenceIdx = 99
 Hans: UNKNOWN
-endingSentence = ‘How Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself.
-quote’s sentence = ‘How can you ask?’ 
-currentSentenceIdx = 110
+endingSentence = ‘How, Why, you must turn grinder like myself,’ said the other; ‘you only want a grindstone; the rest will come of itself.
+quote’s sentence = ‘How can you ask’ said Hans; ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more? 
+
+currentSentenceIdx = 101
 Hans: UNKNOWN
-quote’s sentence = said Hans; ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more? there’s the goose.’ 
-currentSentenceIdx = 111
+quote’s sentence = ‘How can you ask’ said Hans; ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more? there’s the goose.’ 
+
+currentSentenceIdx = 101
 Hans: UNKNOWN
+endingSentence = ‘How can you ask’ said Hans; ‘I should be the happiest man in the world, if I could have money whenever I put my hand in my pocket: what could I want more?
 quote’s sentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’ 
-currentSentenceIdx = 113
+
+currentSentenceIdx = 103
 his: UNKNOWN
 quote’s sentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’ 
-currentSentenceIdx = 113
+
+currentSentenceIdx = 103
 his: UNKNOWN
 endingSentence = ‘Now,’ said the grinder, as he gave him a common rough stone that lay by his side, ‘this is a most capital stone; do but work it well enough, and you can make an old nail cut with it.’
 quote’s sentence = Hans took the stone, and went his way with a light heart: his eyes sparkled for joy, and he said to himself, ‘Surely I must have been born in a lucky hour; everything I could want or wish for comes of itself. People are so kind; they seem really to think I do them a favour in letting them make me rich, and giving me good bargains.’ 
-currentSentenceIdx = 114
+
+currentSentenceIdx = 104
 Hans: MALE
-quote’s sentence = ‘How happy am I!’ 
-currentSentenceIdx = 120
+quote’s sentence = ‘How happy am I’ cried he; ‘nobody was ever so lucky as I.’ Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was. 
+
+currentSentenceIdx = 110
 Hans: MALE
-quote’s sentence = cried he; ‘nobody was ever so lucky as I.’ Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was. 
-currentSentenceIdx = 121
-narrator: UNKNOWN
+quote’s sentence = ‘How happy am I’ cried he; ‘nobody was ever so lucky as I.’ Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was. 
+
+currentSentenceIdx = 110
+Hans: MALE
+endingSentence = ‘How happy am I’ cried he; ‘nobody was ever so lucky as I.’ Then up he got with a light heart, free from all his troubles, and walked on till he reached his mother’s house, and told her how very easy the road to good luck was.
+totaltags = 19
+falsetags = 0
+tagsbeforequote0
+tagsafterquote19
+
+
 Quote: Some men are born to good luck: all they do or try to do comes right—all that falls to them is so much gain—all their geese are swans—all their cards are trumps—toss them which way you will, they will always, like poor puss, alight upon their legs, and only move on so much the faster
 Speaker: narrator
 Improvised Gender: UNKNOWN
@@ -299,7 +377,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Ah!’
+Quote: ‘Ah’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -329,7 +407,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Ah!’
+Quote: ‘Ah’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -347,7 +425,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What do you say of making an exchange?’
+Quote: ‘What do you say of making an exchange’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -389,7 +467,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘When you want to go very fast, smack your lips loudly together, and cry Jip!’
+Quote: ‘When you want to go very fast, smack your lips loudly together, and cry ‘Jip!’’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -463,7 +541,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Done!’
+Quote: ‘Done’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -475,7 +553,7 @@ Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘What a noble heart that good man has!’
+Quote: ‘What a noble heart that good man has’
 Speaker: he
 Improvised Gender: MALE
 IsTag: false
@@ -565,7 +643,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What is the matter with you, my man?’
+Quote: ‘What is the matter with you, my man’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -595,7 +673,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Alas, alas!’
+Quote: ‘Alas, alas’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -631,7 +709,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Heaven reward you for your kindness and self-denial!’
+Quote: ‘Heaven reward you for your kindness and self-denial’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -709,7 +787,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Hark ye!’
+Quote: ‘Hark ye’
 Speaker: his
 Improvised Gender: MALE
 IsTag: false
@@ -737,13 +815,13 @@ Quote: ‘Good man,’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
-Emotion: Neutral
+Emotion: Fear
 
 Quote:  cried he, 
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: true
-Emotion: Sadness
+Emotion: Fear
 
 Quote: ‘pray get me out of this scrape. I know nothing of where the pig was either bred or born; but he may have been the squire’s for aught I can tell: you know this country better than I do, take my pig and give me the goose.’ 
 Speaker: Hans
@@ -919,7 +997,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘How Why, you must turn grinder like myself,’
+Quote: ‘How, Why, you must turn grinder like myself,’
 Speaker: his
 Improvised Gender: MALE
 IsTag: false
@@ -937,7 +1015,7 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘How can you ask?’
+Quote: ‘How can you ask’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
@@ -1009,21 +1087,21 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘How happy am I!’
+Quote: ‘How happy am I’
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: false
-Emotion: Neutral
+Emotion: Fear
 
 Quote:  cried he; 
 Speaker: Hans
 Improvised Gender: MALE
 IsTag: true
-Emotion: Sadness
+Emotion: Fear
 
 Quote: ‘nobody was ever so lucky as I.’
-Speaker: narrator
-Improvised Gender: UNKNOWN
+Speaker: Hans
+Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
@@ -1034,44 +1112,54 @@ IsTag: false
 Emotion: Neutral
 
 narrator
-UnknownGenderCount = 5
+QuoteCount = 4
+UnknownGenderCount = 4
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 0
 improvisedGender = UNKNOWN
+
 his
+QuoteCount = 16
 UnknownGenderCount = 16
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 3
 improvisedGender = MALE
+
 her
+QuoteCount = 5
 UnknownGenderCount = 5
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 2
 improvisedGender = MALE
+
 Hans
-UnknownGenderCount = 38
+QuoteCount = 39
+UnknownGenderCount = 39
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 7
 improvisedGender = MALE
+
 he
+QuoteCount = 2
 UnknownGenderCount = 2
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 2
 improvisedGender = MALE
+
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:49 min
-[INFO] Finished at: 2020-02-21T15:18:33+00:00
-[INFO] Final Memory: 4176M/12617M
+[INFO] Total time: 02:10 min
+[INFO] Finished at: 2020-02-22T13:46:41+00:00
+[INFO] Final Memory: 4158M/13142M
 [INFO] ------------------------------------------------------------------------

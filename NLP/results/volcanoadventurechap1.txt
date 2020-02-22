@@ -20,39 +20,77 @@ Number of Sentences
 116
 
 quote’s sentence = ‘This old volcano must be as high as the moon,’ he complained. 
+
+currentSentenceIdx = 9
 his: MALE
 quote’s sentence = ‘Aren’t we nearly at the top?’ 
+
+currentSentenceIdx = 10
 Roger: UNKNOWN
 quote’s sentence = ‘Afraid not,’ Hal replied. 
+
+currentSentenceIdx = 11
 Hal: UNKNOWN
 quote’s sentence = ‘We may be half way there.’ 
+
+currentSentenceIdx = 12
 Roger: UNKNOWN
 quote’s sentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it. 
+
+currentSentenceIdx = 14
 his: UNKNOWN
 quote’s sentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it. The hardest part is ahead.’ 
+
+currentSentenceIdx = 14
 his: UNKNOWN
 endingSentence = ‘Save your breath, boys,’ said the third member of the party, ‘you’ll need it.
 quote’s sentence = ‘Snap out of it,’ said Hal, but he said it only to himself. 
+
+currentSentenceIdx = 23
 Hal: UNKNOWN
 quote’s sentence = ‘Ghosts!’ 
+
+currentSentenceIdx = 79
 Roger: MALE
 quote’s sentence = Both of them had some advice ready for him, but before they could speak Roger said: ‘Up there,’ and pointed up the steep slope. 
+
+currentSentenceIdx = 83
 Roger: UNKNOWN
 quote’s sentence = ‘What’s the matter with you blokes?’ 
+
+currentSentenceIdx = 89
 Roger: UNKNOWN
 quote’s sentence = ‘Up there!’ 
+
+currentSentenceIdx = 91
 Roger: UNKNOWN
 quote’s sentence = He cupped his hands around his mouth and yelled, ‘Hello-o-o-o!’ 
+
+currentSentenceIdx = 98
 his: UNKNOWN
 quote’s sentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’ 
+
+currentSentenceIdx = 104
 his: UNKNOWN
 quote’s sentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’ 
+
+currentSentenceIdx = 104
 his: UNKNOWN
 endingSentence = ‘Come on,’ said the doctor, ‘we’re going to have company.’
 quote’s sentence = ‘Komban wo,’ said the oldest of the three, and ran on in Japanese. 
+
+currentSentenceIdx = 106
 his: UNKNOWN
 quote’s sentence = Then, as his torch caught the faces of the newcomers, he said, ‘Ah, I think you speak English. I too speak English. I teacher of English in Nagoya Middle School. These are two of our students, Kobo and Machida. They no speak good like me. My name Toguri.’ 
+
+currentSentenceIdx = 107
 his: MALE
+totaltags = 7
+falsetags = 4
+tagsbeforequote0
+tagsafterquote3
+
+
 Quote: It was very dark
 Speaker: narrator
 Improvised Gender: UNKNOWN
@@ -113,6 +151,12 @@ Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
+Quote:  he complained
+Speaker: his
+Improvised Gender: MALE
+IsTag: true
+Emotion: Neutral
+
 Quote: ‘Aren’t we nearly at the top?’
 Speaker: Roger
 Improvised Gender: MALE
@@ -125,6 +169,12 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
+Quote:  Hal replied
+Speaker: Hal
+Improvised Gender: UNKNOWN
+IsTag: true
+Emotion: Neutral
+
 Quote: ‘We may be half way there.’
 Speaker: Roger
 Improvised Gender: MALE
@@ -134,7 +184,7 @@ Emotion: Neutral
 Quote:  Roger groaned
 Speaker: Roger
 Improvised Gender: MALE
-IsTag: true
+IsTag: false
 Emotion: Neutral
 
 Quote: ‘Save your breath, boys,’
@@ -524,8 +574,8 @@ Emotion: Neutral
 Quote:  he cried
 Speaker: Roger
 Improvised Gender: MALE
-IsTag: true
-Emotion: Sadness
+IsTag: false
+Emotion: Fear
 
 Quote:  Hal and the doctor stopped and looked at Roger
 Speaker: narrator
@@ -590,7 +640,7 @@ Emotion: Neutral
 Quote:  Roger said disrespectfully
 Speaker: Roger
 Improvised Gender: MALE
-IsTag: true
+IsTag: false
 Emotion: Neutral
 
 Quote: ‘Up there!’
@@ -602,7 +652,7 @@ Emotion: Neutral
 Quote:  They looked again
 Speaker: Roger
 Improvised Gender: MALE
-IsTag: true
+IsTag: false
 Emotion: Neutral
 
 Quote:  Now they saw what Roger’s keen eyes had picked out in the fog
@@ -725,10 +775,43 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
+Quote:  And what made Hal and Roger especially happy was that the doctor did not sing any more in that weird, blood-curdling way of his but talked reasonably and cheerfully as the six climbed on up the shaking mountain
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Roger
+QuoteCount = 6
+UnknownGenderCount = 6
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 2
+improvisedGender = MALE
+
+Hal
+QuoteCount = 2
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+
+his
+QuoteCount = 8
+UnknownGenderCount = 8
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 2
+improvisedGender = MALE
+
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:32 min
-[INFO] Finished at: 2020-02-20T16:29:20+00:00
-[INFO] Final Memory: 4166M/12321M
+[INFO] Total time: 01:53 min
+[INFO] Finished at: 2020-02-22T14:15:00+00:00
+[INFO] Final Memory: 4157M/11310M
 [INFO] ------------------------------------------------------------------------

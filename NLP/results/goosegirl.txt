@@ -17,981 +17,404 @@
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
 Number of Sentences
-139
+94
 
-quote’s sentence = But the fish said, ‘Pray let me live! I am not a real fish; I am an enchanted prince: put me in the water again, and let me go!’ 
-currentSentenceIdx = 2
-narrator: UNKNOWN
-quote’s sentence = ‘Oh, ho!’ 
-currentSentenceIdx = 4
-narrator: UNKNOWN
-quote’s sentence = said the man, ‘you need not make so many words about the matter; I will have nothing to do with a fish that can talk: so swim away, sir, as soon as you please!’ 
-currentSentenceIdx = 5
-narrator: UNKNOWN
-quote’s sentence = ‘Did not you ask it for anything?’ 
-currentSentenceIdx = 8
-narrator: UNKNOWN
-quote’s sentence = said the wife, ‘we live very wretchedly here, in this nasty dirty pigsty; do go back and tell the fish we want a snug little cottage.’ 
-currentSentenceIdx = 9
-narrator: UNKNOWN
-quote’s sentence = And he stood at the water’s edge, and said:
+quote’s sentence = When the time came for them to set out, the fairy went into her bed-chamber, and took a little knife, and cut off a lock of her hair, and gave it to the princess, and said, ‘Take care of it, dear child; for it is a charm that may be of use to you on the road.’ 
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 11
-her: MALE
-quote’s sentence = Then the fish came swimming to him, and said, ‘Well, what is her will? What does your wife want?’ 
-currentSentenceIdx = 14
-him: UNKNOWN
-quote’s sentence = ‘Ah!’ 
-currentSentenceIdx = 16
-him: UNKNOWN
-quote’s sentence = said the fisherman, ‘she says that when I had caught you, I ought to have asked you for something before I let you go; she does not like living any longer in the pigsty, and wants a snug little cottage.’ 
-currentSentenceIdx = 17
-fisherman: UNKNOWN
-quote’s sentence = ‘Go home, then,’ said the fish; ‘she is in the cottage already!’ 
-currentSentenceIdx = 18
-narrator: UNKNOWN
-quote’s sentence = ‘Go home, then,’ said the fish; ‘she is in the cottage already!’ 
-currentSentenceIdx = 18
-his: UNKNOWN
-endingSentence = ‘Go home, then,’ said the fish; ‘she is in the cottage already!’
-quote’s sentence = ‘Come in, come in!’ 
-currentSentenceIdx = 20
-his: FEMALE
-quote’s sentence = said she; ‘is not this much better than the filthy pigsty we had?’ 
-currentSentenceIdx = 21
-him: FEMALE
-quote’s sentence = ‘Ah!’ 
-currentSentenceIdx = 23
-him: UNKNOWN
-quote’s sentence = said the fisherman, ‘how happily we shall live now!’ 
-currentSentenceIdx = 24
-him: UNKNOWN
-quote’s sentence = ‘We will try to do so, at least,’ said his wife. 
-currentSentenceIdx = 25
-him: UNKNOWN
-quote’s sentence = Everything went right for a week or two, and then Dame Ilsabill said, ‘Husband, there is not near room enough for us in this cottage; the courtyard and the garden are a great deal too small; I should like to have a large stone castle to live in: go to the fish again and tell him to give us a castle.’ 
-currentSentenceIdx = 26
-Dame Ilsabill: UNKNOWN
-quote’s sentence = ‘Wife,’ said the fisherman, ‘I don’t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in.’ 
-currentSentenceIdx = 27
-him: UNKNOWN
-quote’s sentence = ‘Wife,’ said the fisherman, ‘I don’t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in.’ 
-currentSentenceIdx = 27
-fisherman: UNKNOWN
-endingSentence = ‘Wife,’ said the fisherman, ‘I don’t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in.’
-quote’s sentence = ‘Nonsense!’ 
-currentSentenceIdx = 28
-narrator: UNKNOWN
-quote’s sentence = said the wife; ‘he will do it very willingly, I know; go along and try!’ 
-currentSentenceIdx = 29
-him: UNKNOWN
-quote’s sentence = The fisherman went, but his heart was very heavy: and when he came to the sea, it looked blue and gloomy, though it was very calm; and he went close to the edge of the waves, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 30
-fisherman: UNKNOWN
-quote’s sentence = ‘Well, what does she want now?’ 
-currentSentenceIdx = 33
+currentSentenceIdx = 7
 her: UNKNOWN
-quote’s sentence = ‘Ah!’ 
+quote’s sentence = One day, as they were riding along by a brook, the princess began to feel very thirsty: and she said to her maid, ‘Pray get down, and fetch me some water in my golden cup out of yonder brook, for I want to drink.’ 
+
+currentSentenceIdx = 9
+she: FEMALE
+quote’s sentence = ‘Nay,’ said the maid, ‘if you are thirsty, get off yourself, and stoop down by the water and drink; I shall not be your waiting-maid any longer.’ 
+
+currentSentenceIdx = 10
+maid: UNKNOWN
+quote’s sentence = ‘Nay,’ said the maid, ‘if you are thirsty, get off yourself, and stoop down by the water and drink; I shall not be your waiting-maid any longer.’ 
+
+currentSentenceIdx = 10
+maid: UNKNOWN
+endingSentence = ‘Nay,’ said the maid, ‘if you are thirsty, get off yourself, and stoop down by the water and drink; I shall not be your waiting-maid any longer.’
+quote’s sentence = Then she was so thirsty that she got down, and knelt over the little brook, and drank; for she was frightened, and dared not bring out her golden cup; and she wept and said, ‘Alas! what will become of me?’ 
+
+currentSentenceIdx = 11
+her: FEMALE
+quote’s sentence = And the lock answered her, and said:
+
+ ‘Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+
+currentSentenceIdx = 13
+her: UNKNOWN
+quote’s sentence = Then all rode farther on their journey, till the day grew so warm, and the sun so scorching, that the bride began to feel very thirsty again; and at last, when they came to a river, she forgot her maid’s rude speech, and said, ‘Pray get down, and fetch me some water to drink in my golden cup.’ 
+
+currentSentenceIdx = 17
+her: UNKNOWN
+quote’s sentence = But the maid answered her, and even spoke more haughtily than before: ‘Drink if you will, but I shall not be your waiting-maid.’ 
+
+currentSentenceIdx = 18
+maid: UNKNOWN
+quote’s sentence = Then the princess was so thirsty that she got off her horse, and lay down, and held her head over the running stream, and cried and said, ‘What will become of me?’ 
+
+currentSentenceIdx = 19
+her: UNKNOWN
+quote’s sentence = And the lock of hair answered her again:
+
+ ‘Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+
+currentSentenceIdx = 20
+her: UNKNOWN
+quote’s sentence = So when the bride had done drinking, and would have got upon Falada again, the maid said, ‘I shall ride upon Falada, and you may have my horse instead’; so she was forced to give up her horse, and soon afterwards to take off her royal clothes and put on her maid’s shabby ones. 
+
+currentSentenceIdx = 25
+maid: UNKNOWN
+quote’s sentence = ‘I brought her with me for the sake of her company on the road,’ said she; ‘pray give the girl some work to do, that she may not be idle.’ 
+
+currentSentenceIdx = 32
+her: FEMALE
+quote’s sentence = ‘I brought her with me for the sake of her company on the road,’ said she; ‘pray give the girl some work to do, that she may not be idle.’ 
+
+currentSentenceIdx = 32
+her: FEMALE
+endingSentence = ‘I brought her with me for the sake of her company on the road,’ said she; ‘pray give the girl some work to do, that she may not be idle.’
+quote’s sentence = The old king could not for some time think of any work for her to do; but at last he said, ‘I have a lad who takes care of my geese; she may go and help him.’ 
+
+currentSentenceIdx = 33
+Curdken: MALE
+quote’s sentence = But the false bride said to the prince, ‘Dear husband, pray do me one piece of kindness.’ 
+
 currentSentenceIdx = 35
 narrator: UNKNOWN
-quote’s sentence = said the man, dolefully, ‘my wife wants to live in a stone castle.’ 
+quote’s sentence = ‘That I will,’ said the prince. 
+
 currentSentenceIdx = 36
-narrator: UNKNOWN
-quote’s sentence = ‘Go home, then,’ said the fish; ‘she is standing at the gate of it already.’ 
-currentSentenceIdx = 37
-narrator: UNKNOWN
-quote’s sentence = ‘Go home, then,’ said the fish; ‘she is standing at the gate of it already.’ 
-currentSentenceIdx = 37
-his: UNKNOWN
-endingSentence = ‘Go home, then,’ said the fish; ‘she is standing at the gate of it already.’
-quote’s sentence = ‘See,’ said she, ‘is not this grand?’ 
-currentSentenceIdx = 39
-her: FEMALE
-quote’s sentence = ‘See,’ said she, ‘is not this grand?’ 
-currentSentenceIdx = 39
-Dame Ilsabill: FEMALE
-endingSentence = ‘See,’ said she, ‘is not this grand?’
-quote’s sentence = ‘Well,’ said the man, ‘now we will live cheerful and happy in this beautiful castle for the rest of our lives.’ 
-currentSentenceIdx = 41
-Dame Ilsabill: UNKNOWN
-quote’s sentence = ‘Well,’ said the man, ‘now we will live cheerful and happy in this beautiful castle for the rest of our lives.’ 
-currentSentenceIdx = 41
-Dame Ilsabill: UNKNOWN
-endingSentence = ‘Well,’ said the man, ‘now we will live cheerful and happy in this beautiful castle for the rest of our lives.’
-quote’s sentence = ‘Perhaps we may,’ said the wife; ‘but let us sleep upon it, before we make up our minds to that.’ 
-currentSentenceIdx = 42
-Dame Ilsabill: UNKNOWN
-quote’s sentence = ‘Perhaps we may,’ said the wife; ‘but let us sleep upon it, before we make up our minds to that.’ 
-currentSentenceIdx = 42
-Dame Ilsabill: UNKNOWN
-endingSentence = ‘Perhaps we may,’ said the wife; ‘but let us sleep upon it, before we make up our minds to that.’
-quote’s sentence = The next morning when Dame Ilsabill awoke it was broad daylight, and she jogged the fisherman with her elbow, and said, ‘Get up, husband, and bestir yourself, for we must be king of all the land.’ 
-currentSentenceIdx = 44
-her: UNKNOWN
-quote’s sentence = ‘Wife, wife,’ said the man, ‘why should we wish to be the king? 
-currentSentenceIdx = 45
-narrator: UNKNOWN
-quote’s sentence = ‘Wife, wife,’ said the man, ‘why should we wish to be the king? I will not be king.’ 
-currentSentenceIdx = 45
-narrator: UNKNOWN
-endingSentence = ‘Wife, wife,’ said the man, ‘why should we wish to be the king?
-quote’s sentence = ‘Then I will,’ said she. 
-currentSentenceIdx = 47
-her: FEMALE
-quote’s sentence = ‘But, wife,’ said the fisherman, ‘how can you be king—the fish cannot make you a king?’ 
-currentSentenceIdx = 48
-her: FEMALE
-quote’s sentence = ‘But, wife,’ said the fisherman, ‘how can you be king—the fish cannot make you a king?’ 
-currentSentenceIdx = 48
-fisherman: UNKNOWN
-endingSentence = ‘But, wife,’ said the fisherman, ‘how can you be king—the fish cannot make you a king?’
-quote’s sentence = ‘Husband,’ said she, ‘say no more about it, but go and try! 
-currentSentenceIdx = 49
-her: FEMALE
-quote’s sentence = ‘Husband,’ said she, ‘say no more about it, but go and try! I will be king.’ 
-currentSentenceIdx = 49
-his: FEMALE
-endingSentence = ‘Husband,’ said she, ‘say no more about it, but go and try!
-quote’s sentence = This time the sea looked a dark grey colour, and was overspread with curling waves and the ridges of foam as he cried out:
+prince: UNKNOWN
+quote’s sentence = ‘Then tell one of your slaughterers to cut off the head of the horse I rode upon, for it was very unruly, and plagued me sadly on the road’; but the truth was, she was very much afraid lest Falada should some day or other speak, and tell all she had done to the princess. 
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 52
-his: MALE
-quote’s sentence = ‘Well, what would she have now?’ 
-currentSentenceIdx = 55
-her: UNKNOWN
-quote’s sentence = ‘Alas!’ 
-currentSentenceIdx = 57
-narrator: UNKNOWN
-quote’s sentence = said the poor man, ‘my wife wants to be king.’ 
-currentSentenceIdx = 58
-narrator: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is king already.’ 
-currentSentenceIdx = 59
-narrator: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is king already.’ 
-currentSentenceIdx = 59
-narrator: UNKNOWN
-endingSentence = ‘Go home,’ said the fish; ‘she is king already.’
-quote’s sentence = ‘Well, wife,’ said the fisherman, ‘are you king?’ 
-currentSentenceIdx = 62
-fisherman: UNKNOWN
-quote’s sentence = ‘Well, wife,’ said the fisherman, ‘are you king?’ 
-currentSentenceIdx = 62
-fisherman: UNKNOWN
-endingSentence = ‘Well, wife,’ said the fisherman, ‘are you king?’
-quote’s sentence = ‘Yes,’ said she, ‘I am king.’ 
-currentSentenceIdx = 63
+currentSentenceIdx = 37
+prince: UNKNOWN
+quote’s sentence = Early the next morning, as she and Curdken went out through the gate, she said sorrowfully:
+
+ ‘Falada, Falada, there thou hangest!’ 
+
+currentSentenceIdx = 40
 her: FEMALE
-quote’s sentence = ‘Yes,’ said she, ‘I am king.’ 
-currentSentenceIdx = 63
-her: FEMALE
-endingSentence = ‘Yes,’ said she, ‘I am king.’
-quote’s sentence = And when he had looked at her for a long time, he said, ‘Ah, wife! what a fine thing it is to be king! Now we shall never have anything more to wish for as long as we live.’ 
-currentSentenceIdx = 64
-his: MALE
-quote’s sentence = ‘I don’t know how that may be,’ said she; ‘never is a long time. 
+quote’s sentence = and the head answered:
+
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+
+currentSentenceIdx = 41
+Falada: UNKNOWN
+quote’s sentence = The next morning, as they were going through the dark gate, the poor girl looked up at Falada’s head, and cried:
+
+ ‘Falada, Falada, there thou hangest!’ 
+
+currentSentenceIdx = 53
+narrator: UNKNOWN
+quote’s sentence = and the head answered:
+
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+
+currentSentenceIdx = 54
+Falada: UNKNOWN
+quote’s sentence = In the evening, after they came home, Curdken went to the old king, and said, ‘I cannot have that strange girl to help me to keep the geese any longer.’ 
+
+currentSentenceIdx = 65
+Curdken: UNKNOWN
+quote’s sentence = ‘Why’ said the king. 
+
+currentSentenceIdx = 66
+king: UNKNOWN
+quote’s sentence = ‘Because, instead of doing any good, she does nothing but tease me all day long.’ 
+
 currentSentenceIdx = 67
-her: FEMALE
-quote’s sentence = ‘I don’t know how that may be,’ said she; ‘never is a long time. I am king, it is true; but I begin to be tired of that, and I think I should like to be emperor.’ 
-currentSentenceIdx = 67
-her: FEMALE
-endingSentence = ‘I don’t know how that may be,’ said she; ‘never is a long time.
-quote’s sentence = ‘Alas, wife! why should you wish to be emperor?’ 
+Curdken: UNKNOWN
+quote’s sentence = And Curdken said, ‘When we go in the morning through the dark gate with our flock of geese, she cries and talks with the head of a horse that hangs upon the wall, and says:
+
+ ‘Falada, Falada, there thou hangest!’ 
+
 currentSentenceIdx = 69
-fisherman: UNKNOWN
-quote’s sentence = ‘Husband,’ said she, ‘go to the fish! 
-currentSentenceIdx = 72
-her: FEMALE
-quote’s sentence = ‘Husband,’ said she, ‘go to the fish! I say I will be emperor.’ 
-currentSentenceIdx = 72
-Ilsabill: FEMALE
-endingSentence = ‘Husband,’ said she, ‘go to the fish!
-quote’s sentence = ‘Ah, wife!’ 
-currentSentenceIdx = 74
-Ilsabill: UNKNOWN
-quote’s sentence = replied the fisherman, ‘the fish cannot make an emperor, I am sure, and I should not like to ask him for such a thing.’ 
-currentSentenceIdx = 75
-Ilsabill: UNKNOWN
-quote’s sentence = ‘I am king,’ said Ilsabill, ‘and you are my slave; so go at once!’ 
-currentSentenceIdx = 76
-Ilsabill: UNKNOWN
-quote’s sentence = ‘I am king,’ said Ilsabill, ‘and you are my slave; so go at once!’ 
-currentSentenceIdx = 76
-Ilsabill: UNKNOWN
-endingSentence = ‘I am king,’ said Ilsabill, ‘and you are my slave; so go at once!’
-quote’s sentence = So the fisherman was forced to go; and he muttered as he went along, ‘This will come to no good, it is too much to ask; the fish will be tired at last, and then we shall be sorry for what we have done.’ 
-currentSentenceIdx = 77
-narrator: UNKNOWN
-quote’s sentence = He soon came to the seashore; and the water was quite black and muddy, and a mighty whirlwind blew over the waves and rolled them about, but he went as near as he could to the water’s brink, and said:
+his: FEMALE
+quote’s sentence = and the head answers:
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 78
-his: MALE
-quote’s sentence = ‘What would she have now?’ 
-currentSentenceIdx = 81
-her: UNKNOWN
-quote’s sentence = ‘Ah!’ 
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+
+currentSentenceIdx = 70
+Falada: UNKNOWN
+quote’s sentence = All this the old king saw: so he went home without being seen; and when the little goose-girl came back in the evening he called her aside, and asked her why she did so: but she burst into tears, and said, ‘That I must not tell you or any man, or I shall lose my life.’ 
+
 currentSentenceIdx = 83
-narrator: UNKNOWN
-quote’s sentence = said the fisherman, ‘she wants to be emperor.’ 
-currentSentenceIdx = 84
-fisherman: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is emperor already.’ 
-currentSentenceIdx = 85
-narrator: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is emperor already.’ 
-currentSentenceIdx = 85
-narrator: UNKNOWN
-endingSentence = ‘Go home,’ said the fish; ‘she is emperor already.’
-quote’s sentence = And before her stood princes, and dukes, and earls: and the fisherman went up to her and said, ‘Wife, are you emperor?’ 
-currentSentenceIdx = 87
-fisherman: UNKNOWN
-quote’s sentence = ‘Yes,’ said she, ‘I am emperor.’ 
-currentSentenceIdx = 88
-his: FEMALE
-quote’s sentence = ‘Yes,’ said she, ‘I am emperor.’ 
-currentSentenceIdx = 88
-his: FEMALE
-endingSentence = ‘Yes,’ said she, ‘I am emperor.’
-quote’s sentence = ‘Ah!’ 
-currentSentenceIdx = 89
-narrator: UNKNOWN
-quote’s sentence = said the man, as he gazed upon her, ‘what a fine thing it is to be emperor!’ 
-currentSentenceIdx = 90
-narrator: UNKNOWN
-quote’s sentence = ‘Husband,’ said she, ‘why should we stop at being emperor? 
+his: MALE
+quote’s sentence = ‘Nothing better,’ said this false bride, ‘than that she should be thrown into a cask stuck round with sharp nails, and that two white horses should be put to it, and should drag it from street to street till she was dead.’ 
+
 currentSentenceIdx = 91
-his: FEMALE
-quote’s sentence = ‘Husband,’ said she, ‘why should we stop at being emperor? I will be pope next.’ 
+her: FEMALE
+quote’s sentence = ‘Nothing better,’ said this false bride, ‘than that she should be thrown into a cask stuck round with sharp nails, and that two white horses should be put to it, and should drag it from street to street till she was dead.’ 
+
 currentSentenceIdx = 91
-his: FEMALE
-endingSentence = ‘Husband,’ said she, ‘why should we stop at being emperor?
-quote’s sentence = ‘O wife, wife!’ 
-currentSentenceIdx = 93
-him: MALE
-quote’s sentence = said he, ‘how can you be pope? there is but one pope at a time in Christendom.’ 
-currentSentenceIdx = 94
-him: MALE
-quote’s sentence = ‘Husband,’ said she, ‘I will be pope this very day.’ 
-currentSentenceIdx = 96
-his: FEMALE
-quote’s sentence = ‘Husband,’ said she, ‘I will be pope this very day.’ 
-currentSentenceIdx = 96
-his: FEMALE
-endingSentence = ‘Husband,’ said she, ‘I will be pope this very day.’
-quote’s sentence = ‘But,’ replied the husband, ‘the fish cannot make you pope.’ 
-currentSentenceIdx = 97
 narrator: UNKNOWN
-quote’s sentence = ‘But,’ replied the husband, ‘the fish cannot make you pope.’ 
-currentSentenceIdx = 97
-narrator: UNKNOWN
-endingSentence = ‘But,’ replied the husband, ‘the fish cannot make you pope.’
-quote’s sentence = ‘What nonsense!’ 
-currentSentenceIdx = 98
-his: FEMALE
-quote’s sentence = said she; ‘if he can make an emperor, he can make a pope: go and try him.’ 
-currentSentenceIdx = 99
-his: FEMALE
-quote’s sentence = At this sight the fisherman was dreadfully frightened, and he trembled so that his knees knocked together: but still he went down near to the shore, and said:
+endingSentence = ‘Nothing better,’ said this false bride, ‘than that she should be thrown into a cask stuck round with sharp nails, and that two white horses should be put to it, and should drag it from street to street till she was dead.’
+quote’s sentence = ‘Thou art she’ said the old king; ‘and as thou has judged thyself, so shall it be done to thee.’ 
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 103
-him: MALE
-quote’s sentence = ‘What does she want now?’ 
-currentSentenceIdx = 106
-her: UNKNOWN
-quote’s sentence = ‘Ah!’ 
-currentSentenceIdx = 108
-narrator: UNKNOWN
-quote’s sentence = said the fisherman, ‘my wife wants to be pope.’ 
-currentSentenceIdx = 109
-fisherman: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is pope already.’ 
-currentSentenceIdx = 110
-narrator: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish; ‘she is pope already.’ 
-currentSentenceIdx = 110
-Ilsabill: UNKNOWN
-endingSentence = ‘Go home,’ said the fish; ‘she is pope already.’
-quote’s sentence = ‘Wife,’ said the fisherman, as he looked at all this greatness, ‘are you pope?’ 
-currentSentenceIdx = 114
-fisherman: UNKNOWN
-quote’s sentence = ‘Wife,’ said the fisherman, as he looked at all this greatness, ‘are you pope?’ 
-currentSentenceIdx = 114
-fisherman: UNKNOWN
-endingSentence = ‘Wife,’ said the fisherman, as he looked at all this greatness, ‘are you pope?’
-quote’s sentence = ‘Yes,’ said she, ‘I am pope.’ 
-currentSentenceIdx = 115
-her: FEMALE
-quote’s sentence = ‘Yes,’ said she, ‘I am pope.’ 
-currentSentenceIdx = 115
-her: FEMALE
-endingSentence = ‘Yes,’ said she, ‘I am pope.’
-quote’s sentence = ‘Well, wife,’ replied he, ‘it is a grand thing to be pope; and now you must be easy, for you can be nothing greater.’ 
-currentSentenceIdx = 116
-he: MALE
-quote’s sentence = ‘Well, wife,’ replied he, ‘it is a grand thing to be pope; and now you must be easy, for you can be nothing greater.’ 
-currentSentenceIdx = 116
-Dame Ilsabill: MALE
-endingSentence = ‘Well, wife,’ replied he, ‘it is a grand thing to be pope; and now you must be easy, for you can be nothing greater.’
-quote’s sentence = ‘I will think about that,’ said the wife. 
-currentSentenceIdx = 117
-Dame Ilsabill: UNKNOWN
-quote’s sentence = ‘Ha!’ 
-currentSentenceIdx = 120
-her: FEMALE
-quote’s sentence = thought she, as she woke up and looked at it through the window, ‘after all I cannot prevent the sun rising.’ 
-currentSentenceIdx = 121
-narrator: UNKNOWN
-quote’s sentence = At this thought she was very angry, and wakened her husband, and said, ‘Husband, go to the fish and tell him I must be lord of the sun and moon.’ 
-currentSentenceIdx = 122
-her: UNKNOWN
-quote’s sentence = ‘Alas, wife!’ 
-currentSentenceIdx = 124
-his: MALE
-quote’s sentence = said he, ‘cannot you be easy with being pope?’ 
-currentSentenceIdx = 125
-his: MALE
-quote’s sentence = ‘No,’ said she, ‘I am very uneasy as long as the sun and moon rise without my leave. 
-currentSentenceIdx = 126
-her: FEMALE
-quote’s sentence = ‘No,’ said she, ‘I am very uneasy as long as the sun and moon rise without my leave. Go to the fish at once!’ 
-currentSentenceIdx = 126
-her: FEMALE
-endingSentence = ‘No,’ said she, ‘I am very uneasy as long as the sun and moon rise without my leave.
-quote’s sentence = And the fisherman crept towards the sea, and cried out, as well as he could:
+currentSentenceIdx = 92
+Falada: UNKNOWN
+quote’s sentence = ‘Thou art she’ said the old king; ‘and as thou has judged thyself, so shall it be done to thee.’ 
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-currentSentenceIdx = 130
-fisherman: UNKNOWN
-quote’s sentence = ‘What does she want now?’ 
-currentSentenceIdx = 133
-her: UNKNOWN
-quote’s sentence = ‘Ah!’ 
-currentSentenceIdx = 135
-narrator: UNKNOWN
-quote’s sentence = said he, ‘she wants to be lord of the sun and moon.’ 
-currentSentenceIdx = 136
-his: MALE
-quote’s sentence = ‘Go home,’ said the fish, ‘to your pigsty again.’ 
-currentSentenceIdx = 137
-narrator: UNKNOWN
-quote’s sentence = ‘Go home,’ said the fish, ‘to your pigsty again.’ 
-currentSentenceIdx = 137
-narrator: UNKNOWN
-endingSentence = ‘Go home,’ said the fish, ‘to your pigsty again.’
-Quote: There was once a fisherman who lived with his wife in a pigsty, close by the seaside
+currentSentenceIdx = 92
+Falada: UNKNOWN
+endingSentence = ‘Thou art she’ said the old king; ‘and as thou has judged thyself, so shall it be done to thee.’
+totaltags = 4
+falsetags = 0
+tagsbeforequote0
+tagsafterquote4
+
+
+Quote: The king of a great land died, and left his queen to take care of their only child
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  The fisherman used to go out all day long a-fishing; and one day, as he sat on the shore with his rod, looking at the sparkling waves and watching his line, all on a sudden his float was dragged away deep into the water: and in drawing it up he pulled out a great fish
+Quote:  This child was a daughter, who was very beautiful; and her mother loved her dearly, and was very kind to her
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  But the fish said, 
+Quote:  And there was a good fairy too, who was fond of the princess, and helped her mother to watch over her
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Pray let me live! I am not a real fish; I am an enchanted prince: put me in the water again, and let me go!’ 
+Quote:  When she grew up, she was betrothed to a prince who lived a great way off; and as the time drew near for her to be married, she got ready to set off on her journey to his country
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Oh, ho!’
+Quote:  Then the queen her mother, packed up a great many costly things; jewels, and gold, and silver; trinkets, fine dresses, and in short everything that became a royal bride
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the man, 
+Quote:  And she gave her a waiting-maid to ride with her, and give her into the bridegroom’s hands; and each had a horse for the journey
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘you need not make so many words about the matter; I will have nothing to do with a fish that can talk: so swim away, sir, as soon as you please!’
-Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  Then he put him back into the water, and the fish darted straight down to the bottom, and left a long streak of blood behind him on the wave
+Quote:  Now the princess’s horse was the fairy’s gift, and it was called Falada, and could speak
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  When the fisherman went home to his wife in the pigsty, he told her how he had caught a great fish, and how it had told him it was an enchanted prince, and how, on hearing it speak, he had let it go again
+Quote:  When the time came for them to set out, the fairy went into her bed-chamber, and took a little knife, and cut off a lock of her hair, and gave it to the princess, and said, 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Did not you ask it for anything?’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the wife, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘we live very wretchedly here, in this nasty dirty pigsty; do go back and tell the fish we want a snug little cottage.’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  The fisherman did not much like the business: however, he went to the seashore; and when he came back there the water looked all yellow and green
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: And he stood at the water’s edge, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
+Quote: ‘Take care of it, dear child; for it is a charm that may be of use to you on the road.’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:   And hath sent me to beg a boon of thee!’ Then the fish came swimming to him, and said, 
+Quote:  Then they all took a sorrowful leave of the princess; and she put the lock of hair into her bosom, got upon her horse, and set off on her journey to her bridegroom’s kingdom
 Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  One day, as they were riding along by a brook, the princess began to feel very thirsty: and she said to her maid, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Pray get down, and fetch me some water in my golden cup out of yonder brook, for I want to drink.’
+Speaker: she
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Nay,’
+Speaker: maid
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Well, what is her will? What does your wife want?’ 
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Ah!’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fisherman, 
-Speaker: him
+Quote:  said the maid, 
+Speaker: maid
 Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘she says that when I had caught you, I ought to have asked you for something before I let you go; she does not like living any longer in the pigsty, and wants a snug little cottage.’
-Speaker: fisherman
+Quote: ‘if you are thirsty, get off yourself, and stoop down by the water and drink; I shall not be your waiting-maid any longer.’
+Speaker: maid
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Go home, then,’
+Quote:  Then she was so thirsty that she got down, and knelt over the little brook, and drank; for she was frightened, and dared not bring out her golden cup; and she wept and said, 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish; 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘she is in the cottage already!’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So the man went home, and saw his wife standing at the door of a nice trim little cottage
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Come in, come in!’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she; 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘is not this much better than the filthy pigsty we had?’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  And there was a parlour, and a bedchamber, and a kitchen; and behind the cottage there was a little garden, planted with all sorts of flowers and fruits; and there was a courtyard behind, full of ducks and chickens
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Ah!’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fisherman, 
-Speaker: him
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘how happily we shall live now!’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘We will try to do so, at least,’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said his wife
-Speaker: him
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote:  Everything went right for a week or two, and then Dame Ilsabill said, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Husband, there is not near room enough for us in this cottage; the courtyard and the garden are a great deal too small; I should like to have a large stone castle to live in: go to the fish again and tell him to give us a castle.’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Wife,’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fisherman, 
-Speaker: him
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I don’t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in.’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Nonsense!’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the wife; 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘he will do it very willingly, I know; go along and try!’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: The fisherman went, but his heart was very heavy: and when he came to the sea, it looked blue and gloomy, though it was very calm; and he went close to the edge of the waves, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: y calm; and he went close to the edge of the waves, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Well, what does she want now?’
+Quote: ‘Alas! what will become of me?’ 
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
+Quote:  And the lock answered her, and said:
 
-Quote: ‘Ah!’
+ 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the man, dolefully, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘my wife wants to live in a stone castle.’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Go home, then,’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fish; 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘she is standing at the gate of it already.’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So away went the fisherman, and found his wife standing before the gate of a great castle
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘See,’
+Quote: ‘Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said she, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘is not this grand?’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  With that they went into the castle together, and found a great many servants there, and the rooms all richly furnished, and full of golden chairs and tables; and behind the castle was a garden, and around it was a park half a mile long, full of sheep, and goats, and hares, and deer; and in the courtyard were stables and cow-houses
+Quote:  But the princess was very gentle and meek, so she said nothing to her maid’s ill behaviour, but got upon her horse again
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Well,’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the man, 
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘now we will live cheerful and happy in this beautiful castle for the rest of our lives.’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Perhaps we may,’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the wife; 
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘but let us sleep upon it, before we make up our minds to that.’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So they went to bed
+Quote:  Then all rode farther on their journey, till the day grew so warm, and the sun so scorching, that the bride began to feel very thirsty again; and at last, when they came to a river, she forgot her maid’s rude speech, and said, 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  The next morning when Dame Ilsabill awoke it was broad daylight, and she jogged the fisherman with her elbow, and said, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Get up, husband, and bestir yourself, for we must be king of all the land.’
+Quote: ‘Pray get down, and fetch me some water to drink in my golden cup.’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Wife, wife,’
+Quote:  But the maid answered her, and even spoke more haughtily than before: 
 Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Drink if you will, but I shall not be your waiting-maid.’
+Speaker: maid
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the man, 
+Quote:  Then the princess was so thirsty that she got off her horse, and lay down, and held her head over the running stream, and cried and said, 
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘why should we wish to be the king? I will not be king.’ 
-Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Then I will,’
+Quote: ‘What will become of me?’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said she
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
+Quote:  And the lock of hair answered her again:
 
-Quote: ‘But, wife,’
-Speaker: her
-Improvised Gender: MALE
+ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fisherman, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘how can you be king—the fish cannot make you a king?’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Husband,’
+Quote: ‘Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said she, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘say no more about it, but go and try! I will be king.’ 
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So the man went away quite sorrowful to think that his wife should want to be king
+Quote:  And as she leaned down to drink, the lock of hair fell from her bosom, and floated away with the water
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: This time the sea looked a dark grey colour, and was overspread with curling waves and the ridges of foam as he cried out:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
+Quote:  Now she was so frightened that she did not see it; but her maid saw it, and was very glad, for she knew the charm; and she saw that the poor bride would be in her power, now that she had lost the hair
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Well, what would she have now?’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fish
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘Alas!’
+Quote:  So when the bride had done drinking, and would have got upon Falada again, the maid said, 
 Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I shall ride upon Falada, and you may have my horse instead’
+Speaker: maid
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the poor man, 
+Quote: ; so she was forced to give up her horse, and soon afterwards to take off her royal clothes and put on her maid’s shabby ones
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘my wife wants to be king.’
+Quote:  At last, as they drew near the end of their journey, this treacherous servant threatened to kill her mistress if she ever told anyone what had happened
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Go home,’
+Quote:  But Falada saw it all, and marked it well
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish; 
+Quote:  Then the waiting-maid got upon Falada, and the real bride rode upon the other horse, and they went on in this way till at last they came to the royal court
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
+Improvised Gender: UNKNOWN
+IsTag: false
 Emotion: Neutral
 
-Quote: ‘she is king already.’
+Quote:  There was great joy at their coming, and the prince flew to meet them, and lifted the maid from her horse, thinking she was the one who was to be his wife; and she was led upstairs to the royal chamber; but the true princess was told to stay in the court below
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  Then the fisherman went home; and as he came close to the palace he saw a troop of soldiers, and heard the sound of drums and trumpets
+Quote:  Now the old king happened just then to have nothing else to do; so he amused himself by sitting at his kitchen window, looking at what was going on; and he saw her in the courtyard
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  And when he went in he saw his wife sitting on a throne of gold and diamonds, with a golden crown upon her head; and on each side of her stood six fair maidens, each a head taller than the other
+Quote:  As she looked very pretty, and too delicate for a waiting-maid, he went up into the royal chamber to ask the bride who it was she had brought with her, that was thus left standing in the court below
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Well, wife,’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fisherman, 
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘are you king?’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Yes,’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I am king.’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  And when he had looked at her for a long time, he said, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Ah, wife! what a fine thing it is to be king! Now we shall never have anything more to wish for as long as we live.’ 
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘I don’t know how that may be,’
+Quote: ‘I brought her with me for the sake of her company on the road,’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
@@ -1003,700 +426,451 @@ Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘never is a long time. I am king, it is true; but I begin to be tired of that, and I think I should like to be emperor.’ 
+Quote: ‘pray give the girl some work to do, that she may not be idle.’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Alas, wife! why should you wish to be emperor?’ 
-Speaker: fisherman
+Quote:  The old king could not for some time think of any work for her to do; but at last he said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I have a lad who takes care of my geese; she may go and help him.’
+Speaker: Curdken
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Now the name of this lad, that the real bride was to help in watching the king’s geese, was Curdken
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  But the false bride said to the prince, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Dear husband, pray do me one piece of kindness.’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘That I will,’
+Speaker: prince
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fisherman
-Speaker: fisherman
+Quote:  said the prince
+Speaker: prince
 Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘Husband,’
+Quote: ‘Then tell one of your slaughterers to cut off the head of the horse I rode upon, for it was very unruly, and plagued me sadly on the road’
+Speaker: prince
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote: ; but the truth was, she was very much afraid lest Falada should some day or other speak, and tell all she had done to the princess
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  She carried her point, and the faithful Falada was killed; but when the true princess heard of it, she wept, and begged the man to nail up Falada’s head against a large dark gate of the city, through which she had to pass every morning and evening, that there she might still see him sometimes
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then the slaughterer said he would do as she wished; and cut off the head, and nailed it up under the dark gate
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Early the next morning, as she and Curdken went out through the gate, she said sorrowfully:
+
+ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Falada, Falada, there thou hangest!’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said she, 
-Speaker: her
+Quote: and the head answered:
+
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+Speaker: Falada
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: dly, would she rue it
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ’ Then they went out of the city, and drove the geese on
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  And when she came to the meadow, she sat down upon a bank there, and let down her waving locks of hair, which were all of pure silver; and when Curdken saw it glitter in the sun, he ran up, and would have pulled some of the locks out, but she cried:
+
+ ‘Blow, breezes, blow! Let Curdken’s hat go! Blow, breezes, blow! Let him after it go! O’er hills, dales, and rocks,
+  Away be it whirl’d
+  Till the silvery locks
+  Are all comb’d and curl’d! Then there came a wind, so strong that it blew off Curdken’s hat; and away it flew over the hills: and he was forced to turn and run after it; till, by the time he came back, she had done combing and curling her hair, and had put it up again safe
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  Then he was very angry and sulky, and would not speak to her at all; but they watched the geese until it grew dark in the evening, and then drove them homewards
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  The next morning, as they were going through the dark gate, the poor girl looked up at Falada’s head, and cried:
+
+ 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Falada, Falada, there thou hangest!’
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: and the head answered:
+
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+Speaker: Falada
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: dly, would she rue it
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ’ Then she drove on the geese, and sat down again in the meadow, and began to comb out her hair as before; and Curdken ran up to her, and wanted to take hold of it; but she cried out quickly:
+
+ ‘Blow, breezes, blow! Let Curdken’s hat go! Blow, breezes, blow! Let him after it go! O’er hills, dales, and rocks,
+  Away be it whirl’d
+  Till the silvery locks
+  Are all comb’d and curl’d! Then the wind came and blew away his hat; and off it flew a great way, over the hills and far away, so that he had to run after it; and when he came back she had bound up her hair again, and all was safe
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  So they watched the geese till it grew dark
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  In the evening, after they came home, Curdken went to the old king, and said, 
+Speaker: narrator
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘I cannot have that strange girl to help me to keep the geese any longer.’
+Speaker: Curdken
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ‘Why’
+Speaker: king
+Improvised Gender: MALE
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the king
+Speaker: king
 Improvised Gender: MALE
 IsTag: true
 Emotion: Neutral
 
-Quote: ‘go to the fish! I say I will be emperor.’ 
-Speaker: Ilsabill
-Improvised Gender: MALE
+Quote: ‘Because, instead of doing any good, she does nothing but tease me all day long.’
+Speaker: Curdken
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Ah, wife!’
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  replied the fisherman, 
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘the fish cannot make an emperor, I am sure, and I should not like to ask him for such a thing.’
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘I am king,’
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said Ilsabill, 
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘and you are my slave; so go at once!’
-Speaker: Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So the fisherman was forced to go; and he muttered as he went along, 
+Quote:  Then the king made him tell him what had happened
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘This will come to no good, it is too much to ask; the fish will be tired at last, and then we shall be sorry for what we have done.’
+Quote:  And Curdken said, ‘When we go in the morning through the dark gate with our flock of geese, she cries and talks with the head of a horse that hangs upon the wall, and says:
+
+ 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: He soon came to the seashore; and the water was quite black and muddy, and a mighty whirlwind blew over the waves and rolled them about, but he went as near as he could to the water’s brink, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
+Quote: ‘Falada, Falada, there thou hangest!’
 Speaker: his
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: d them about, but he went as near as he could to the water’s brink, and said:
+Quote: and the head answers:
 
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
+ ‘Bride, bride, there thou gangest! Alas! alas! if thy mother knew it,
+  Sadly, sadly, would she rue it.’ 
+Speaker: Falada
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote: ly, would she rue it
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What would she have now?’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fish
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘Ah!’
+Quote: ’ And Curdken went on telling the king what had happened upon the meadow where the geese fed; how his hat was blown away; and how he was forced to run after it, and to leave his flock of geese to themselves
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fisherman, 
+Quote:  But the old king told the boy to go out again the next day: and when morning came, he placed himself behind the dark gate, and heard how she spoke to Falada, and how Falada answered
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘she wants to be emperor.’
-Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Go home,’
+Quote:  Then he went into the field, and hid himself in a bush by the meadow’s side; and he soon saw with his own eyes how they drove the flock of geese; and how, after a little time, she let down her hair that glittered in the sun
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish; 
+Quote:  And then he heard her say:
+
+ ‘Blow, breezes, blow! Let Curdken’s hat go! Blow, breezes, blow! Let him after it go! O’er hills, dales, and rocks,
+  Away be it whirl’d
+  Till the silvery locks
+  Are all comb’d and curl’d! And soon came a gale of wind, and carried away Curdken’s hat, and away went Curdken after it, while the girl went on combing and curling her hair
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
+Improvised Gender: UNKNOWN
+IsTag: false
 Emotion: Neutral
 
-Quote: ‘she is emperor already.’
+Quote:  All this the old king saw: so he went home without being seen; and when the little goose-girl came back in the evening he called her aside, and asked her why she did so: but she burst into tears, and said, 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  So he went home again; and as he came near he saw his wife Ilsabill sitting on a very lofty throne made of solid gold, with a great crown on her head full two yards high; and on each side of her stood her guards and attendants in a row, each one smaller than the other, from the tallest giant down to a little dwarf no bigger than my finger
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  And before her stood princes, and dukes, and earls: and the fisherman went up to her and said, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Wife, are you emperor?’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Yes,’
+Quote: ‘That I must not tell you or any man, or I shall lose my life.’
 Speaker: his
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said she, 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I am emperor.’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Ah!’
+Quote:  But the old king begged so hard, that she had no peace till she had told him all the tale, from beginning to end, word for word
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the man, as he gazed upon her, 
+Quote:  And it was very lucky for her that she did so, for when she had done the king ordered royal clothes to be put upon her, and gazed on her with wonder, she was so beautiful
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘what a fine thing it is to be emperor!’
+Quote:  Then he called his son and told him that he had only a false bride; for that she was merely a waiting-maid, while the true bride stood by
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Husband,’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she, 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘why should we stop at being emperor? I will be pope next.’ 
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘O wife, wife!’
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said he, 
-Speaker: him
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘how can you be pope? there is but one pope at a time in Christendom.’ 
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Husband,’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she, 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I will be pope this very day.’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘But,’
+Quote:  And the young king rejoiced when he saw her beauty, and heard how meek and patient she had been; and without saying anything to the false bride, the king ordered a great feast to be got ready for all his court
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  replied the husband, 
+Quote:  The bridegroom sat at the top, with the false princess on one side, and the true one on the other; but nobody knew her again, for her beauty was quite dazzling to their eyes; and she did not seem at all like the little goose-girl, now that she had her brilliant dress on
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
+Improvised Gender: UNKNOWN
+IsTag: false
 Emotion: Neutral
 
-Quote: ‘the fish cannot make you pope.’
+Quote:  When they had eaten and drank, and were very merry, the old king said he would tell them a tale
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘What nonsense!’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she; 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘if he can make an emperor, he can make a pope: go and try him.’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  So the fisherman went
+Quote:  So he began, and told all the story of the princess, as if it was one that he had once heard; and he asked the true waiting-maid what she thought ought to be done to anyone who would behave thus
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  But when he came to the shore the wind was raging and the sea was tossed up and down in boiling waves, and the ships were in trouble, and rolled fearfully upon the tops of the billows
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  In the middle of the heavens there was a little piece of blue sky, but towards the south all was red, as if a dreadful storm was rising
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: At this sight the fisherman was dreadfully frightened, and he trembled so that his knees knocked together: but still he went down near to the shore, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: him
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: t down near to the shore, and said:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘What does she want now?’
+Quote: ‘Nothing better,’
 Speaker: her
 Improvised Gender: MALE
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘Ah!’
+Quote:  said this false bride, 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fisherman, 
+Quote: ‘than that she should be thrown into a cask stuck round with sharp nails, and that two white horses should be put to it, and should drag it from street to street till she was dead.’
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘my wife wants to be pope.’
-Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: ‘Go home,’
+Quote: ‘Thou art she’
+Speaker: Falada
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  said the old king; 
 Speaker: narrator
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  said the fish; 
+Quote: ‘and as thou has judged thyself, so shall it be done to thee.’
+Speaker: Falada
+Improvised Gender: UNKNOWN
+IsTag: false
+Emotion: Neutral
+
+Quote:  And the young king was then married to his true wife, and they reigned over the kingdom in peace and happiness all their lives; and the good fairy came to see them, and restored the faithful Falada to life again
 Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘she is pope already.’
-Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote:  Then the fisherman went home, and found Ilsabill sitting on a throne that was two miles high
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
+she
+QuoteCount = 1
+UnknownGenderCount = 1
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
 
-Quote:  And she had three great crowns on her head, and around her stood all the pomp and power of the Church
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
+Falada
+QuoteCount = 5
+UnknownGenderCount = 5
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
 
-Quote:  And on each side of her were two rows of burning lights, of all sizes, the greatest as large as the highest and biggest tower in the world, and the least no larger than a small rushlight
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
+narrator
+QuoteCount = 3
+UnknownGenderCount = 3
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
 
-Quote: ‘Wife,’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
+his
+QuoteCount = 2
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
 
-Quote:  said the fisherman, as he looked at all this greatness, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘are you pope?’
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Yes,’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I am pope.’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Well, wife,’
-Speaker: he
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  replied he, 
-Speaker: he
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘it is a grand thing to be pope; and now you must be easy, for you can be nothing greater.’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘I will think about that,’
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the wife
-Speaker: Dame Ilsabill
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote:  Then they went to bed: but Dame Ilsabill could not sleep all night for thinking what she should be next
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  At last, as she was dropping asleep, morning broke, and the sun rose
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Ha!’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  thought she, as she woke up and looked at it through the window, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘after all I cannot prevent the sun rising.’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  At this thought she was very angry, and wakened her husband, and said, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Husband, go to the fish and tell him I must be lord of the sun and moon.’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  The fisherman was half asleep, but the thought frightened him so much that he started and fell out of bed
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Alas, wife!’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said he, 
-Speaker: his
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘cannot you be easy with being pope?’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘No,’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said she, 
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘I am very uneasy as long as the sun and moon rise without my leave. Go to the fish at once!’ 
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  Then the man went shivering with fear; and as he was going down to the shore a dreadful storm arose, so that the trees and the very rocks shook
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  And all the heavens became black with stormy clouds, and the lightnings played, and the thunders rolled; and you might have seen in the sea great black waves, swelling up like mountains with crowns of white foam upon their heads
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: And the fisherman crept towards the sea, and cried out, as well as he could:
-
- ‘O man of the sea! Hearken to me! My wife Ilsabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: fisherman
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: sabill
-  Will have her own will,
-  And hath sent me to beg a boon of thee!’ 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘What does she want now?’
-Speaker: her
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fish
-Speaker: her
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘Ah!’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said he, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘she wants to be lord of the sun and moon.’
-Speaker: his
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote: ‘Go home,’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  said the fish, 
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: true
-Emotion: Neutral
-
-Quote: ‘to your pigsty again.’
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Quote:  And there they live to this very day
-Speaker: narrator
-Improvised Gender: MALE
-IsTag: false
-Emotion: Neutral
-
-Ilsabill
-UnknownGenderCount = 6
+her
+QuoteCount = 10
+UnknownGenderCount = 10
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 1
 improvisedGender = MALE
-narrator
-UnknownGenderCount = 30
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 14
-improvisedGender = MALE
-his
-UnknownGenderCount = 18
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 6
-improvisedGender = MALE
-her
-UnknownGenderCount = 22
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 14
-improvisedGender = MALE
-him
-UnknownGenderCount = 11
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 4
-improvisedGender = MALE
-fisherman
-UnknownGenderCount = 13
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 2
-improvisedGender = MALE
-Dame Ilsabill
-UnknownGenderCount = 8
-FemaleGenderCount = 0
-MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 3
-improvisedGender = MALE
-he
+
+king
+QuoteCount = 1
 UnknownGenderCount = 1
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 1
 improvisedGender = MALE
+
+maid
+QuoteCount = 4
+UnknownGenderCount = 4
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 1
+improvisedGender = MALE
+
+Curdken
+QuoteCount = 3
+UnknownGenderCount = 3
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 0
+improvisedGender = UNKNOWN
+
+prince
+QuoteCount = 2
+UnknownGenderCount = 2
+FemaleGenderCount = 0
+MaleGenderCount = 0
+FemalePronounCount = 0
+MalePronounCount = 1
+improvisedGender = MALE
+
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:59 min
-[INFO] Finished at: 2020-02-21T16:18:52+00:00
-[INFO] Final Memory: 4162M/15304M
+[INFO] Total time: 02:39 min
+[INFO] Finished at: 2020-02-22T14:08:35+00:00
+[INFO] Final Memory: 4155M/12830M
 [INFO] ------------------------------------------------------------------------

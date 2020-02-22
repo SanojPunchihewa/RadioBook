@@ -24,7 +24,7 @@ public class BasicPipelineExample {
         // reading from a file 
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader("story_books/HANS_IN_LUCK_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            reader = new BufferedReader(new FileReader("story_books/Volcano_Adventure_ Willard_Price_Chapter1.txt"));
             StringBuilder sb = new StringBuilder();
             String line = reader.readLine();
             while (line != null) {

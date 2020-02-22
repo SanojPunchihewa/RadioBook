@@ -17,83 +17,112 @@
 [INFO] 
 [INFO] --- exec-maven-plugin:1.6.0:java (default-cli) @ RadioBook ---
 Number of Sentences
-60
+57
 
 quote’s sentence = Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought Alice, "without pictures or conversations?" 
+
 currentSentenceIdx = 1
 Alice: UNKNOWN
 quote’s sentence = Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought Alice, "without pictures or conversations?" 
+
 currentSentenceIdx = 1
 Alice: UNKNOWN
 endingSentence = Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, "and what is the use of a book," thought Alice, "without pictures or conversations?"
 quote’s sentence = There was nothing so very remarkable in that, nor did Alice think it so very much out of the way to hear the Rabbit say to itself, "Oh dear! Oh dear! I shall be too late!" 
+
 currentSentenceIdx = 3
 Alice: UNKNOWN
 quote’s sentence = It was labeled "ORANGE MARMALADE," but, to her great disappointment, it was empty; she did not like to drop the jar, so managed to put it into one of the cupboards as she fell past it. 
+
 currentSentenceIdx = 12
 her: UNKNOWN
 quote’s sentence = "Dinah'll miss me very much to-night, I should think!" 
+
 currentSentenceIdx = 16
 Alice: UNKNOWN
 quote’s sentence = "I hope they'll remember her saucer of milk at tea-time. Dinah, my dear, I wish you were down here with me!" 
+
 currentSentenceIdx = 18
 Alice: UNKNOWN
 quote’s sentence = Away went Alice like the wind and was just in time to hear it say, as it turned a corner, "Oh, my ears and whiskers, how late it's getting!" 
+
 currentSentenceIdx = 26
 She: FEMALE
 quote’s sentence = "Oh," said Alice, "how I wish I could shut up like a telescope! 
+
 currentSentenceIdx = 37
 Alice: UNKNOWN
 quote’s sentence = "Oh," said Alice, "how I wish I could shut up like a telescope! I think I could, if I only knew how to begin." 
+
 currentSentenceIdx = 37
 Alice: UNKNOWN
 endingSentence = "Oh," said Alice, "how I wish I could shut up like a telescope!
 quote’s sentence = This time she found a little bottle on it ("which certainly was not here before," said Alice), and tied 'round the neck of the bottle was a paper label, with the words "DRINK ME" beautifully printed on it in large letters. 
+
 currentSentenceIdx = 40
 Alice: UNKNOWN
 quote’s sentence = This time she found a little bottle on it ("which certainly was not here before," said Alice), and tied 'round the neck of the bottle was a paper label, with the words "DRINK ME" beautifully printed on it in large letters. 
+
 currentSentenceIdx = 40
 Alice: UNKNOWN
 endingSentence = This time she found a little bottle on it ("which certainly was not here before," said Alice), and tied 'round the neck of the bottle was a paper label, with the words "DRINK ME" beautifully printed on it in large letters.
 quote’s sentence = "No, I'll look first," she said, "and see whether it's marked '_poison_' or not," for she had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later. 
+
 currentSentenceIdx = 41
 Alice: FEMALE
 quote’s sentence = "No, I'll look first," she said, "and see whether it's marked '_poison_' or not," for she had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later. 
+
 currentSentenceIdx = 41
 Alice: FEMALE
 endingSentence = "No, I'll look first," she said, "and see whether it's marked '_poison_' or not," for she had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later.
 quote’s sentence = "No, I'll look first," she said, "and see whether it's marked '_poison_' or not," for she had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later. 
+
 currentSentenceIdx = 41
 Alice: FEMALE
 endingSentence = "No, I'll look first," she said, "and see whether it's marked '_poison_' or not," for she had never forgotten that, if you drink from a bottle marked "poison," it is almost certain to disagree with you, sooner or later.
 quote’s sentence = However, this bottle was _not_ marked "poison," so Alice ventured to taste it, and, finding it very nice (it had a sort of mixed flavor of cherry-tart, custard, pineapple, roast turkey, toffy and hot buttered toast), she very soon finished it off. 
+
 currentSentenceIdx = 42
 Alice: UNKNOWN
-quote’s sentence = "What a curious feeling!" 
+quote’s sentence = "What a curious feeling" said Alice. 
+
 currentSentenceIdx = 43
 Alice: UNKNOWN
 quote’s sentence = "I must be shutting up like a telescope!" 
-currentSentenceIdx = 45
+
+currentSentenceIdx = 44
 Alice: UNKNOWN
-quote’s sentence = "Come, there's no use in crying like that!" 
-currentSentenceIdx = 50
+quote’s sentence = "Come, there's no use in crying like that" said Alice to herself rather sharply. 
+
+currentSentenceIdx = 49
 Alice: UNKNOWN
 quote’s sentence = "I advise you to leave off this minute!" 
-currentSentenceIdx = 52
+
+currentSentenceIdx = 50
 Alice: UNKNOWN
 quote’s sentence = Soon her eye fell on a little glass box that was lying under the table: she opened it and found in it a very small cake, on which the words "EAT ME" were beautifully marked in currants. 
-currentSentenceIdx = 54
+
+currentSentenceIdx = 52
 Alice: UNKNOWN
 quote’s sentence = "Well, I'll eat it," said Alice, "and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I'll get into the garden, and I don't care which happens!" 
-currentSentenceIdx = 55
+
+currentSentenceIdx = 53
 Alice: UNKNOWN
 quote’s sentence = "Well, I'll eat it," said Alice, "and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I'll get into the garden, and I don't care which happens!" 
-currentSentenceIdx = 55
+
+currentSentenceIdx = 53
 Alice: UNKNOWN
 endingSentence = "Well, I'll eat it," said Alice, "and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I'll get into the garden, and I don't care which happens!"
-quote’s sentence = She ate a little bit and said anxiously to herself, "Which way? Which way?" 
-currentSentenceIdx = 56
+quote’s sentence = She ate a little bit and said anxiously to herself, "Which way? Which way" holding her hand on the top of her head to feel which way she was growing; and she was quite surprised to find that she remained the same size. 
+
+currentSentenceIdx = 54
 her: FEMALE
+totaltags = 6
+falsetags = 0
+tagsbeforequote1
+tagsafterquote5
+
+
 Quote: Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do
 Speaker: narrator
 Improvised Gender: UNKNOWN
@@ -173,7 +202,7 @@ IsTag: false
 Emotion: Neutral
 
 Quote:  It was labeled 
-Speaker: narrator
+Speaker: her
 Improvised Gender: UNKNOWN
 IsTag: true
 Emotion: Neutral
@@ -412,7 +441,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: "What a curious feeling!"
+Quote: "What a curious feeling"
 Speaker: Alice
 Improvised Gender: MALE
 IsTag: false
@@ -442,7 +471,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: "Come, there's no use in crying like that!"
+Quote: "Come, there's no use in crying like that"
 Speaker: Alice
 Improvised Gender: MALE
 IsTag: false
@@ -508,7 +537,7 @@ Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
-Quote: "Which way? Which way?" 
+Quote: "Which way? Which way" holding her hand on the top of her head to feel which way she was growing; and she was quite surprised to find that she remained the same size. 
 Speaker: her
 Improvised Gender: UNKNOWN
 IsTag: false
@@ -527,37 +556,45 @@ IsTag: false
 Emotion: Neutral
 
 She
+QuoteCount = 1
 UnknownGenderCount = 1
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 0
 improvisedGender = UNKNOWN
+
 narrator
+QuoteCount = 0
 UnknownGenderCount = 0
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 0
 improvisedGender = UNKNOWN
+
 her
+QuoteCount = 2
 UnknownGenderCount = 2
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 0
 improvisedGender = UNKNOWN
+
 Alice
+QuoteCount = 20
 UnknownGenderCount = 20
 FemaleGenderCount = 0
 MaleGenderCount = 0
 FemalePronounCount = 0
 MalePronounCount = 1
 improvisedGender = MALE
+
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:39 min
-[INFO] Finished at: 2020-02-21T16:53:29+00:00
-[INFO] Final Memory: 4166M/14021M
+[INFO] Total time: 01:35 min
+[INFO] Finished at: 2020-02-22T13:43:27+00:00
+[INFO] Final Memory: 4146M/12307M
 [INFO] ------------------------------------------------------------------------

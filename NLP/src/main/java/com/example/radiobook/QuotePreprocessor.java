@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
-
+import java.util.Collections;
 import static com.example.radiobook.Speaker.Gender.*;
 
 public class QuotePreprocessor {
@@ -287,20 +287,28 @@ public class QuotePreprocessor {
 
     public void polishIsTagSpeaker() {
         Quote prevQuote = null, currentQuote, nextQuote = null;
+        int totaltags=0; int falsetags=0; int tagsbeforequote=0; int tagsafterquote=0;
         for (int i = 0; i < quoteList.size(); i++) {
             prevQuote = (i > 0) ? quoteList.get(i - 1) : null;
             currentQuote = quoteList.get(i);
             nextQuote = (i < (quoteList.size()-1)) ? quoteList.get(i + 1) : null;
             if (currentQuote.isQuoteAttributionTag()) {
+                totaltags++;
                 if (prevQuote != null && (prevQuote.getOriginalQuoteSentence() != null) && prevQuote.getOriginalQuoteSentence().contains(StringUtils.strip(currentQuote.getQuote()))) {
                     currentQuote.setSpeaker(prevQuote.getSpeaker());
                     prevQuote.setQATEmotion(currentQuote.getQATEmotion());
+                    tagsafterquote++;
                 } else if (nextQuote != null && (nextQuote.getOriginalQuoteSentence() != null) && nextQuote.getOriginalQuoteSentence().contains(StringUtils.strip(currentQuote.getQuote()))) {
                     currentQuote.setSpeaker(nextQuote.getSpeaker());
                     nextQuote.setQATEmotion(currentQuote.getQATEmotion());
+                    tagsbeforequote++;
+                } else{
+                    currentQuote.setQuoteAttributionTag(false);
+                    falsetags++;
                 }
             }
         }
+        System.out.println("totaltags = "+totaltags+"\nfalsetags = "+falsetags+"\ntagsbeforequote"+tagsbeforequote+"\ntagsafterquote"+tagsafterquote+"\n\n");
     }
 
     // Returns the starting index of a quote in a sentence
@@ -334,15 +342,18 @@ public class QuotePreprocessor {
 
     public void printSpeakerGenders() {
         String gender;
-//        Collections.sort(speakerMap.values(), new Comparator<Speaker>() {
-//            @Override
-//            public int compare(Speaker t, Speaker t1) {
-//                if(t.getSpeakerCount() > t1.getSpeakerCount())
-//                    return 0;
-//                else
-//                    return 1;
-//            }
-//        });
+        // Collections.sort(speakerMap.values(), new Comparator<Speaker>() {
+        //    @Override
+        //    public int compare(Speaker t, Speaker t1) {
+        //        if(t.getSpeakerCount() > t1.getSpeakerCount())
+        //            return 0;
+        //        else
+        //            return 1;
+        //    }
+        // });
+    
+
+        // Collections.sort(speakerMap);
 
         for (HashMap.Entry<String, Speaker> speakerEntry : speakerMap.entrySet()) {
             String speakerName = speakerEntry.getKey();
@@ -355,8 +366,8 @@ public class QuotePreprocessor {
                 gender = FEMALE.name();
             }
             //System.out.println(speakerName + ": " + gender);
-            System.out.print(speakerName + "\nUnknownGenderCount = " + speaker.getUnknownGenderCount() + "\nFemaleGenderCount = " + speaker.getFemaleGenderCount() + "\nMaleGenderCount = " + speaker.getMaleGenderCount() + "\nFemalePronounCount = " + speaker.getFemalePronounCount() + "\nMalePronounCount = " + speaker.getMalePronounCount() + "\nimprovisedGender = " + getGender(speakerName).name());
-            System.out.println();
+            System.out.print(speakerName + "\nQuoteCount = " + speaker.getSpeakerCount() +"\nUnknownGenderCount = " + speaker.getUnknownGenderCount() + "\nFemaleGenderCount = " + speaker.getFemaleGenderCount() + "\nMaleGenderCount = " + speaker.getMaleGenderCount() + "\nFemalePronounCount = " + speaker.getFemalePronounCount() + "\nMalePronounCount = " + speaker.getMalePronounCount() + "\nimprovisedGender = " + getGender(speakerName).name());
+            System.out.println("\n");
         }
     }
 
