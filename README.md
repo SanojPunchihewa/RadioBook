@@ -22,7 +22,11 @@ mvn clean compile  exec:java -Dexec.mainClass="TTS"
 ------------
 ## Preprocessing
 
-**1. Escaping exclamation marks !’ [a-z]**
+### Regex Commands to find
+**1. Exclamation marks which are end of sentence identifiers !’ [a-z]**
+**2. Exclamation marks which are end of sentence identifiers \?’ [a-z]**
+**3. Quotes inside double qoutation marks (to escape quotes inside quotes) (["'])(?:(?=(\\?))\2.)*?\1**
+**4. Quotes inside single qoutation marks (to escape quotes inside quotes) (['])(?:(?=(\\?))\2.)*?\1**
 
 
 ## Gender Classifier
