@@ -137,19 +137,19 @@ Emotion: Neutral
 
 Quote: "and what is the use of a book,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  thought Alice, 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: "without pictures or conversations?"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -167,7 +167,7 @@ Emotion: Neutral
 
 Quote: "Oh dear! Oh dear! I shall be too late!" 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -227,7 +227,7 @@ Emotion: Neutral
 
 Quote: "Dinah'll miss me very much to-night, I should think!"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -245,7 +245,7 @@ Emotion: Neutral
 
 Quote: "I hope they'll remember her saucer of milk at tea-time. Dinah, my dear, I wish you were down here with me!" 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -335,19 +335,19 @@ Emotion: Neutral
 
 Quote: "Oh,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said Alice, 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: "how I wish I could shut up like a telescope! I think I could, if I only knew how to begin." 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -365,7 +365,7 @@ Emotion: Neutral
 
 Quote: "which certainly was not here before,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -377,7 +377,7 @@ Emotion: Neutral
 
 Quote: "DRINK ME"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -389,19 +389,19 @@ Emotion: Neutral
 
 Quote: "No, I'll look first,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  she said, 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: "and see whether it's marked '_poison_' or not,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -413,7 +413,7 @@ Emotion: Neutral
 
 Quote: "poison,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -431,7 +431,7 @@ Emotion: Neutral
 
 Quote: "poison,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -443,19 +443,19 @@ Emotion: Neutral
 
 Quote: "What a curious feeling"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said Alice
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: "I must be shutting up like a telescope!"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -473,7 +473,7 @@ Emotion: Neutral
 
 Quote: "Come, there's no use in crying like that"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -485,7 +485,7 @@ Emotion: Neutral
 
 Quote: "I advise you to leave off this minute!"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -503,7 +503,7 @@ Emotion: Neutral
 
 Quote: "EAT ME"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -515,19 +515,19 @@ Emotion: Neutral
 
 Quote: "Well, I'll eat it,"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said Alice, 
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: "and if it makes me grow larger, I can reach the key; and if it makes me grow smaller, I can creep under the door: so either way I'll get into the garden, and I don't care which happens!"
 Speaker: Alice
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -587,14 +587,14 @@ QuoteCount = 20
 UnknownGenderCount = 20
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 1
-improvisedGender = MALE
+FemalePronounCount = 1
+MalePronounCount = 0
+improvisedGender = FEMALE
 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 01:35 min
-[INFO] Finished at: 2020-02-22T13:43:27+00:00
-[INFO] Final Memory: 4146M/12307M
+[INFO] Total time: 01:56 min
+[INFO] Finished at: 2020-02-22T14:43:33+00:00
+[INFO] Final Memory: 4172M/14254M
 [INFO] ------------------------------------------------------------------------

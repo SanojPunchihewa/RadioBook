@@ -525,13 +525,13 @@ Emotion: Neutral
 
 Quote: ‘Well,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the shepherd, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: true
 Emotion: Neutral
 
@@ -693,19 +693,19 @@ Emotion: Neutral
 
 Quote: ‘Well,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the butcher, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I don’t like to say no, when one is asked to do a kind, neighbourly thing. To please you I will change, and give you my fine fat pig for the cow.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
@@ -759,7 +759,7 @@ Emotion: Neutral
 
 Quote: ‘how heavy it is, and yet it is only eight weeks old. Whoever roasts and eats it will find plenty of fat upon it, it has lived so well!’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
@@ -801,7 +801,7 @@ Emotion: Neutral
 
 Quote: ‘my worthy friend, you seem a good sort of fellow, so I can’t help doing you a kind turn. Your pig may get you into a scrape. In the village I just came from, the squire has had a pig stolen out of his sty. I was dreadfully afraid when I saw you that you had got the squire’s pig. If you have, and they catch you, it will be a bad job for you. The least they will do will be to throw you into the horse-pond. Can you swim?’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: UNKNOWN
 IsTag: false
 Emotion: Neutral
 
@@ -1134,9 +1134,9 @@ QuoteCount = 5
 UnknownGenderCount = 5
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 2
-improvisedGender = MALE
+FemalePronounCount = 1
+MalePronounCount = 1
+improvisedGender = UNKNOWN
 
 Hans
 QuoteCount = 39
@@ -1159,7 +1159,7 @@ improvisedGender = MALE
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:10 min
-[INFO] Finished at: 2020-02-22T13:46:41+00:00
-[INFO] Final Memory: 4158M/13142M
+[INFO] Total time: 02:46 min
+[INFO] Finished at: 2020-02-22T14:48:23+00:00
+[INFO] Final Memory: 4156M/12736M
 [INFO] ------------------------------------------------------------------------

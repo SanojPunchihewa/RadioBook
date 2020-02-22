@@ -612,7 +612,7 @@ Quote: And he stood at the water’s edge, and said:
   Will have her own will,
   And hath sent me to beg a boon of thee!’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -624,25 +624,25 @@ Emotion: Neutral
 
 Quote: ‘Well, what is her will? What does your wife want?’ 
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Ah’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘she says that when I had caught you, I ought to have asked you for something before I let you go; she does not like living any longer in the pigsty, and wants a snug little cottage.’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -684,7 +684,7 @@ Emotion: Neutral
 
 Quote: ‘is not this much better than the filthy pigsty we had?’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -696,31 +696,31 @@ Emotion: Neutral
 
 Quote: ‘Ah’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘how happily we shall live now!’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘We will try to do so, at least,’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said his wife
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -738,19 +738,19 @@ Emotion: Neutral
 
 Quote: ‘Wife,’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I don’t like to go to him again, for perhaps he will be angry; we ought to be easy with this pretty cottage to live in.’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -778,7 +778,7 @@ Quote: The fisherman went, but his heart was very heavy: and when he came to the
   Will have her own will,
   And hath sent me to beg a boon of thee!’ 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -794,13 +794,13 @@ Emotion: Neutral
 
 Quote: ‘Well, what does she want now’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fish
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -836,7 +836,7 @@ Emotion: Neutral
 
 Quote: ‘she is standing at the gate of it already.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -848,13 +848,13 @@ Emotion: Neutral
 
 Quote: ‘See,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -920,7 +920,7 @@ Emotion: Neutral
 
 Quote: ‘Get up, husband, and bestir yourself, for we must be king of all the land.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -944,43 +944,43 @@ Emotion: Neutral
 
 Quote: ‘Then I will,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘But, wife,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘how can you be king—the fish cannot make you a king?’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Husband,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -1017,13 +1017,13 @@ Emotion: Neutral
 
 Quote: ‘Well, what would she have now’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fish
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -1077,37 +1077,37 @@ Emotion: Neutral
 
 Quote: ‘Well, wife,’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘are you king?’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Yes,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I am king.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1125,85 +1125,85 @@ Emotion: Neutral
 
 Quote: ‘I don’t know how that may be,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she; 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘never is a long time. I am king, it is true; but I begin to be tired of that, and I think I should like to be emperor.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Alas, wife! why should you wish to be emperor’ said the fisherman. 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘Husband,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘go to the fish! I say I will be emperor.’ 
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Ah, wife’
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  replied the fisherman, 
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘the fish cannot make an emperor, I am sure, and I should not like to ask him for such a thing.’
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘I am king,’
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said Ilsabill, 
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘and you are my slave; so go at once!’
 Speaker: Ilsabill
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1241,31 +1241,31 @@ Emotion: Neutral
 
 Quote: ‘What would she have now’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fish
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘Ah’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘she wants to be emperor.’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1301,25 +1301,25 @@ Emotion: Neutral
 
 Quote: ‘Wife, are you emperor?’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Yes,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I am emperor.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1343,55 +1343,55 @@ Emotion: Neutral
 
 Quote: ‘Husband,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘why should we stop at being emperor? I will be pope next.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘O wife, wife’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said he, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘how can you be pope? there is but one pope at a time in Christendom.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Husband,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I will be pope this very day.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1415,19 +1415,19 @@ Emotion: Neutral
 
 Quote: ‘What nonsense’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she; 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘if he can make an emperor, he can make a pope: go and try him.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1455,7 +1455,7 @@ Quote: At this sight the fisherman was dreadfully frightened, and he trembled so
   Will have her own will,
   And hath sent me to beg a boon of thee!’ 
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1471,31 +1471,31 @@ Emotion: Neutral
 
 Quote: ‘What does she want now’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fish
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘Ah’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fisherman, 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘my wife wants to be pope.’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1513,7 +1513,7 @@ Emotion: Neutral
 
 Quote: ‘she is pope already.’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1537,7 +1537,7 @@ Emotion: Neutral
 
 Quote: ‘Wife,’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1549,25 +1549,25 @@ Emotion: Neutral
 
 Quote: ‘are you pope?’
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote: ‘Yes,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I am pope.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1615,7 +1615,7 @@ Emotion: Neutral
 
 Quote: ‘Ha’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1627,7 +1627,7 @@ Emotion: Neutral
 
 Quote: ‘after all I cannot prevent the sun rising.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1639,7 +1639,7 @@ Emotion: Neutral
 
 Quote: ‘Husband, go to the fish and tell him I must be lord of the sun and moon.’
 Speaker: him
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1669,19 +1669,19 @@ Emotion: Neutral
 
 Quote: ‘No,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she, 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘I am very uneasy as long as the sun and moon rise without my leave. Go to the fish at once!’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1703,7 +1703,7 @@ Quote: And the fisherman crept towards the sea, and cried out, as well as he cou
   Will have her own will,
   And hath sent me to beg a boon of thee!’ 
 Speaker: fisherman
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -1717,13 +1717,13 @@ Emotion: Neutral
 
 Quote: ‘What does she want now’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said the fish
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
@@ -1774,9 +1774,9 @@ QuoteCount = 5
 UnknownGenderCount = 5
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 1
-improvisedGender = MALE
+FemalePronounCount = 1
+MalePronounCount = 0
+improvisedGender = FEMALE
 
 narrator
 QuoteCount = 26
@@ -1792,8 +1792,8 @@ QuoteCount = 11
 UnknownGenderCount = 11
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 3
+FemalePronounCount = 1
+MalePronounCount = 2
 improvisedGender = MALE
 
 her
@@ -1801,27 +1801,27 @@ QuoteCount = 33
 UnknownGenderCount = 33
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 19
-improvisedGender = MALE
+FemalePronounCount = 13
+MalePronounCount = 6
+improvisedGender = FEMALE
 
 him
 QuoteCount = 9
 UnknownGenderCount = 9
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 2
-improvisedGender = MALE
+FemalePronounCount = 2
+MalePronounCount = 0
+improvisedGender = FEMALE
 
 fisherman
 QuoteCount = 16
 UnknownGenderCount = 16
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 5
-improvisedGender = MALE
+FemalePronounCount = 5
+MalePronounCount = 0
+improvisedGender = FEMALE
 
 Dame Ilsabill
 QuoteCount = 8
@@ -1844,7 +1844,7 @@ improvisedGender = MALE
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:41 min
-[INFO] Finished at: 2020-02-22T14:00:46+00:00
-[INFO] Final Memory: 4179M/12771M
+[INFO] Total time: 02:02 min
+[INFO] Finished at: 2020-02-22T15:01:26+00:00
+[INFO] Final Memory: 4176M/12522M
 [INFO] ------------------------------------------------------------------------

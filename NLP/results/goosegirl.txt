@@ -224,7 +224,7 @@ Emotion: Neutral
 
 Quote: ‘Take care of it, dear child; for it is a charm that may be of use to you on the road.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -272,7 +272,7 @@ Emotion: Neutral
 
 Quote: ‘Alas! what will become of me?’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -287,7 +287,7 @@ Emotion: Neutral
 Quote: ‘Alas! alas! if thy mother knew it,
   Sadly, sadly, would she rue it.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -305,7 +305,7 @@ Emotion: Neutral
 
 Quote: ‘Pray get down, and fetch me some water to drink in my golden cup.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -329,7 +329,7 @@ Emotion: Neutral
 
 Quote: ‘What will become of me?’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -344,7 +344,7 @@ Emotion: Neutral
 Quote: ‘Alas! alas! if thy mother knew it,
   Sadly, sadly, would she rue it.’ 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -416,19 +416,19 @@ Emotion: Neutral
 
 Quote: ‘I brought her with me for the sake of her company on the road,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
 Quote:  said she; 
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: true
 Emotion: Neutral
 
 Quote: ‘pray give the girl some work to do, that she may not be idle.’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -508,7 +508,7 @@ Emotion: Neutral
 
 Quote: ‘Falada, Falada, there thou hangest!’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -746,7 +746,7 @@ Emotion: Neutral
 
 Quote: ‘Nothing better,’
 Speaker: her
-Improvised Gender: MALE
+Improvised Gender: FEMALE
 IsTag: false
 Emotion: Neutral
 
@@ -827,9 +827,9 @@ QuoteCount = 10
 UnknownGenderCount = 10
 FemaleGenderCount = 0
 MaleGenderCount = 0
-FemalePronounCount = 0
-MalePronounCount = 1
-improvisedGender = MALE
+FemalePronounCount = 1
+MalePronounCount = 0
+improvisedGender = FEMALE
 
 king
 QuoteCount = 1
@@ -870,7 +870,7 @@ improvisedGender = MALE
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 02:39 min
-[INFO] Finished at: 2020-02-22T14:08:35+00:00
-[INFO] Final Memory: 4155M/12830M
+[INFO] Total time: 02:01 min
+[INFO] Finished at: 2020-02-22T15:07:39+00:00
+[INFO] Final Memory: 4178M/12906M
 [INFO] ------------------------------------------------------------------------

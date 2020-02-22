@@ -204,10 +204,10 @@ public class QuotePreprocessor {
                 tempSpeaker = new Speaker();
             }
 
-            if (StringUtils.lowerCase(sentence).contains("he")) {
-                tempSpeaker.incrementMalePronounCount();
-            } else if (StringUtils.lowerCase(sentence).contains("she")) {
+            if (StringUtils.lowerCase(sentence).contains("she")) {
                 tempSpeaker.incrementFemalePronounCount();
+            } else if (StringUtils.lowerCase(sentence).contains("he")) {
+                tempSpeaker.incrementMalePronounCount();
             }
             speakerMap.put(speaker, tempSpeaker);
         }

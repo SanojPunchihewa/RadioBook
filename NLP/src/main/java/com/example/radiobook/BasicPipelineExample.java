@@ -24,7 +24,16 @@ public class BasicPipelineExample {
         // reading from a file 
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader("story_books/Volcano_Adventure_ Willard_Price_Chapter1.txt"));
+//            reader = new BufferedReader(new FileReader("story_books/ALICE_ADVENTURES_IN_WONDERLAND.txt"));
+            //reader = new BufferedReader(new FileReader("story_books/HANS_IN_LUCK_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+             //reader = new BufferedReader(new FileReader("story_books/JORINDA_AND_JORINDEL_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            //reader = new BufferedReader(new FileReader("story_books/OLD_SULTAN_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            // reader = new BufferedReader(new FileReader("story_books/THE_ADVENTURES_OF_TOM_SAWYER.txt"));
+            // reader = new BufferedReader(new FileReader("story_books/THE_FISHERMAN_AND_HIS_WIFE_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            // reader = new BufferedReader(new FileReader("story_books/THE_GOLDEN_BIRD_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            // reader = new BufferedReader(new FileReader("story_books/THE_GOOSE_GIRL_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+            // reader = new BufferedReader(new FileReader("story_books/THE_TRAVELLING_MUSICIANS_THE_BROTHERS_GRIMM_FAIRY_TALES.txt"));
+             reader = new BufferedReader(new FileReader("story_books/Volcano_Adventure_ Willard_Price_Chapter1.txt"));
             StringBuilder sb = new StringBuilder();
             String line = reader.readLine();
             while (line != null) {
